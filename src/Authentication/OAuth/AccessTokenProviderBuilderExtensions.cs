@@ -107,6 +107,34 @@ public static class AccessTokenProviderBuilderExtensions
     }
 
     /// <summary>
+    /// Adds a custom implementation of <see cref="IAccessTokenProvider" /> to the service collection.
+    /// </summary>
+    /// <param name="builder">The <see cref="IAccessTokenProviderBuilder" /> to use.</param>
+    /// <returns>The <see cref="IAccessTokenProviderBuilder" /> instance.</returns>
+    public static IAccessTokenProviderBuilder UseCustomProvider<TProvider>(this IAccessTokenProviderBuilder builder)
+        where TProvider : class, IAccessTokenProvider
+    {
+        builder.Services.AddTransient<IAccessTokenProvider, TProvider>();
+
+        return builder;
+    }
+
+    /// <summary>
+    /// Adds a custom implementation of <see cref="IAccessTokenProvider" /> to the service collection.
+    /// </summary>
+    /// <param name="builder">The <see cref="IAccessTokenProviderBuilder" /> to use.</param>
+    /// <param name="implementationFactory">The <typeparamref name="TProvider"/> factory.</param>
+    /// <returns>The <see cref="IAccessTokenProviderBuilder" /> instance.</returns>
+    public static IAccessTokenProviderBuilder UseCustomProvider<TProvider>(this IAccessTokenProviderBuilder builder,
+        Func<IServiceProvider, TProvider> implementationFactory)
+        where TProvider : class, IAccessTokenProvider
+    {
+        builder.Services.AddTransient<IAccessTokenProvider>(implementationFactory);
+
+        return builder;
+    }
+
+    /// <summary>
     /// Adds an <see cref="IAccessTokenProvider" /> and related services to the <see cref="IServiceCollection" /> that
     /// caches access token responses using an <see cref="IDistributedCache" />.
     /// </summary>
