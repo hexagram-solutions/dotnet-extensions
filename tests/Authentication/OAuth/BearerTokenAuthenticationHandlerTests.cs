@@ -27,7 +27,6 @@ public class BearerTokenAuthenticationHandlerTests
     [Fact]
     public async Task Access_tokens_are_added_in_authentication_header_of_request()
     {
-        // Arrange
         var actualRequest = new HttpRequestMessage();
 
         const string accessTokenValue = "access_token";
