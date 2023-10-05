@@ -1,11 +1,11 @@
 using System.Net;
 using System.Net.Http.Json;
+using FakeItEasy;
 using Hexagrams.Extensions.Authentication.OAuth;
 using Hexagrams.Extensions.Authentication.OAuth.Internal;
 using Hexagrams.Extensions.Common.Serialization;
 using Hexagrams.Extensions.Testing;
 using Hexagrams.Extensions.Testing.Http;
-using Moq;
 
 namespace Hexagrams.Extensions.Authentication.Tests.OAuth;
 
@@ -22,10 +22,10 @@ public class ResourceOwnerPasswordAccessTokenProviderTests
             TokenType = "bearer"
         };
 
-        var handlerMock = GetMockHttpMessageHandler(response);
+        var handlerFake = GetFakeHttpMessageHandler(response);
 
         await ServiceTestHarness<ResourceOwnerPasswordAccessTokenProvider>.Create(TestAction)
-            .WithDependency(new HttpClient(handlerMock.Object))
+            .WithDependency(new HttpClient(handlerFake))
             .WithServices(sp =>
             {
                 sp.AddAccessTokenProvider(builder =>
@@ -71,7 +71,7 @@ public class ResourceOwnerPasswordAccessTokenProviderTests
 
         var actualRequest = new HttpRequestMessage();
 
-        var handlerMock = HttpTestUtilities.GetMockHttpMessageHandler(httpResponse, (req, _) => actualRequest = req);
+        var handlerFake = HttpTestUtilities.GetFakeHttpMessageHandler(httpResponse, (req, _) => actualRequest = req);
 
         var providerOptions = new ResourceOwnerPasswordProviderOptions
         {
@@ -84,7 +84,7 @@ public class ResourceOwnerPasswordAccessTokenProviderTests
         };
 
         await ServiceTestHarness<ResourceOwnerPasswordAccessTokenProvider>.Create(TestAction)
-            .WithDependency(new HttpClient(handlerMock.Object))
+            .WithDependency(new HttpClient(handlerFake))
             .WithServices(sp =>
             {
                 sp.AddAccessTokenProvider(builder =>
@@ -129,7 +129,7 @@ public class ResourceOwnerPasswordAccessTokenProviderTests
     public async Task Throws_exception_for_unsuccessful_request()
     {
         // Arrange
-        var handlerMock = HttpTestUtilities.GetMockHttpMessageHandler(
+        var handlerFake = HttpTestUtilities.GetFakeHttpMessageHandler(
             new HttpResponseMessage { StatusCode = HttpStatusCode.BadRequest });
 
         var providerOptions = new ResourceOwnerPasswordProviderOptions
@@ -143,7 +143,7 @@ public class ResourceOwnerPasswordAccessTokenProviderTests
         };
 
         await ServiceTestHarness<ResourceOwnerPasswordAccessTokenProvider>.Create(TestAction)
-            .WithDependency(new HttpClient(handlerMock.Object))
+            .WithDependency(new HttpClient(handlerFake))
             .WithServices(sp =>
             {
                 sp.AddAccessTokenProvider(builder =>
@@ -163,9 +163,9 @@ public class ResourceOwnerPasswordAccessTokenProviderTests
         }
     }
 
-    private static Mock<HttpMessageHandler> GetMockHttpMessageHandler(AccessTokenResponse response)
+    private static HttpMessageHandler GetFakeHttpMessageHandler(AccessTokenResponse response)
     {
-        return HttpTestUtilities.GetMockHttpMessageHandler(new HttpResponseMessage
+        return HttpTestUtilities.GetFakeHttpMessageHandler(new HttpResponseMessage
         {
             StatusCode = HttpStatusCode.OK,
             Content = new StringContent(response.ToJson())

@@ -1,6 +1,6 @@
+using FakeItEasy;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Moq;
 
 namespace Hexagrams.Extensions.Testing;
 
@@ -51,15 +51,15 @@ public class ServiceTestHarness<TService>
     }
 
     /// <summary>
-    /// Configures a mock dependency with the underlying service provider.
+    /// Configures a fake dependency with the underlying service provider.
     /// </summary>
     /// <typeparam name="TDependency">The dependency type.</typeparam>
-    /// <param name="mock">The mocked dependency to add.</param>
+    /// <param name="fake">The faked dependency to add.</param>
     /// <returns>The <see cref="ServiceTestHarness{TService}"/> instance.</returns>
-    public ServiceTestHarness<TService> WithDependency<TDependency>(Mock<TDependency> mock)
+    public ServiceTestHarness<TService> WithDependency<TDependency>(Fake<TDependency> fake)
         where TDependency : class
     {
-        return WithDependency(mock.Object);
+        return WithDependency(fake.FakedObject);
     }
 
     /// <summary>
@@ -93,7 +93,7 @@ public class ServiceTestHarness<TService>
     }
 
     /// <summary>
-    /// Execute the test action, automatically creating mocks for any missing dependencies.
+    /// Execute the test action, automatically creating fakes for any missing dependencies.
     /// </summary>
     /// <returns>A <see cref="Task"/> that represents the test action execution.</returns>
     public async Task TestAsync()
@@ -103,7 +103,7 @@ public class ServiceTestHarness<TService>
         if (_serviceCollection.All(x => x.ServiceType != typeof(TService)))
             _serviceCollection.AddTransient<TService>();
 
-        var factory = new AutoMockingServiceProviderFactory();
+        var factory = new AutoFakingServiceProviderFactory();
 
         var serviceProvider = factory.CreateServiceProvider(_serviceCollection);
 

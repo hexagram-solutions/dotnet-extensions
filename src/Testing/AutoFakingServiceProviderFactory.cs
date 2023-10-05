@@ -1,29 +1,21 @@
+using FakeItEasy.Sdk;
 using Microsoft.Extensions.DependencyInjection;
-using Moq;
-using Moq.AutoMock;
 
 namespace Hexagrams.Extensions.Testing;
 
-internal class AutoMockingServiceProviderFactory : IServiceProviderFactory<IServiceCollection>
+internal class AutoFakingServiceProviderFactory : IServiceProviderFactory<IServiceCollection>
 {
-    private readonly AutoMocker _mocker;
-
-    public AutoMockingServiceProviderFactory(MockBehavior mockBehavior = MockBehavior.Loose)
-    {
-        _mocker = new AutoMocker(mockBehavior);
-    }
-
     public IServiceCollection CreateBuilder(IServiceCollection services)
     {
         return services;
     }
 
     /// <summary>
-    ///     Creates an <see cref="IServiceProvider" /> instance that registers a <see cref="Mock" /> instance of any
-    ///     missing dependencies for requested services.
+    /// Creates an <see cref="IServiceProvider" /> instance that registers a fake instance of any
+    /// missing dependencies for requested services.
     /// </summary>
     /// <param name="serviceCollection">The <see cref="IServiceCollection" /> to use.</param>
-    /// <returns>An <see cref="IServiceProvider" /> with missing registrations registered as mocks.</returns>
+    /// <returns>An <see cref="IServiceProvider" /> with missing registrations registered as fakes.</returns>
     public IServiceProvider CreateServiceProvider(IServiceCollection serviceCollection)
     {
         var implicitlyConstructedServicesDescriptors =
@@ -50,27 +42,22 @@ internal class AutoMockingServiceProviderFactory : IServiceProviderFactory<IServ
 
             var ctorParameterTypes = bestConstructor.GetParameters().Select(p => p.ParameterType);
 
-            // Don't mock framework constructs
+            // Don't fake framework constructs
             var filteredCtorParameterTypes = ctorParameterTypes.Where(pt =>
-                    !pt.Namespace!.StartsWith("System", StringComparison.InvariantCulture) &&
-                    !pt.Namespace!.StartsWith("Microsoft.Extensions", StringComparison.InvariantCulture));
+                !pt.Namespace!.StartsWith("System", StringComparison.InvariantCulture) &&
+                !pt.Namespace!.StartsWith("Microsoft.Extensions", StringComparison.InvariantCulture));
 
             foreach (var parameterType in filteredCtorParameterTypes)
             {
                 // If there's already a type registered for this constructor parameter, move on, otherwise register a
-                // mock of it.
+                // fake of it.
                 if (serviceCollection.Any(sd => sd.ServiceType == parameterType))
                     continue;
 
-                var mockType = typeof(Mock<>);
-                mockType = mockType.MakeGenericType(parameterType);
-
-                var mockInstance = Activator.CreateInstance(mockType) as Mock;
-
-                serviceCollection.Add(new ServiceDescriptor(parameterType, mockInstance!.Object));
+                serviceCollection.Add(new ServiceDescriptor(parameterType, Create.Fake(parameterType)));
             }
         }
 
-        return new AutoMockingServiceProvider(serviceCollection.BuildServiceProvider(), _mocker);
+        return new AutoFakingServiceProvider(serviceCollection.BuildServiceProvider());
     }
 }
