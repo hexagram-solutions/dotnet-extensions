@@ -1,9 +1,9 @@
 using System.Net;
+using FakeItEasy;
 using Hexagrams.Extensions.Authentication.OAuth;
 using Hexagrams.Extensions.Testing;
 using Hexagrams.Extensions.Testing.Http;
 using Microsoft.Extensions.DependencyInjection;
-using Moq;
 
 namespace Hexagrams.Extensions.Authentication.Tests.OAuth;
 
@@ -31,10 +31,10 @@ public class BearerTokenAuthenticationHandlerTests
 
         const string accessTokenValue = "access_token";
 
-        var mockAccessTokenProvider = new Mock<IAccessTokenProvider>();
-        mockAccessTokenProvider
-            .Setup(x => x.GetAccessTokenAsync(It.IsAny<string[]>()))
-            .ReturnsAsync(new AccessTokenResponse { AccessToken = accessTokenValue });
+        var fakeAccessTokenProvider = A.Fake<IAccessTokenProvider>();
+
+        A.CallTo(() => fakeAccessTokenProvider.GetAccessTokenAsync(A<string[]>._))
+            .Returns(Task.FromResult(new AccessTokenResponse { AccessToken = accessTokenValue }));
 
         async Task TestAction(DummyHttpService service)
         {
@@ -50,7 +50,7 @@ public class BearerTokenAuthenticationHandlerTests
             .WithServices(services =>
             {
                 services.AddAccessTokenProvider(
-                    configure => configure.UseCustomProvider(mockAccessTokenProvider.Object));
+                    configure => configure.UseCustomProvider(fakeAccessTokenProvider));
 
                 services.AddTransient(_ => new HttpTestUtilities.DelegatingHandlerStub((request, _) =>
                 {

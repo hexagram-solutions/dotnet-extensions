@@ -1,36 +1,32 @@
-using Moq;
-using Moq.Protected;
+using FakeItEasy;
 
 namespace Hexagrams.Extensions.Testing.Http;
 
 /// <summary>
-/// Utility methods and classes for mocking and capturing HTTP responses.
+/// Utility methods and classes for faking and capturing HTTP responses.
 /// </summary>
 public static class HttpTestUtilities
 {
     /// <summary>
-    /// Creates a mock <see cref="HttpMessageHandler"/> that returns a supplied <see cref="HttpResponseMessage"/>.
+    /// Creates a fake <see cref="HttpMessageHandler"/> that returns a supplied <see cref="HttpResponseMessage"/>.
     /// </summary>
-    /// <param name="mockResponse">The expected result of any HTTP request that passes through this handler.</param>
+    /// <param name="fakeResponse">The expected result of any HTTP request that passes through this handler.</param>
     /// <param name="requestCallback">
     /// A callback to invoke when the <see cref="HttpMessageHandler"/> handles a request.
     /// </param>
-    /// <returns>The <see cref="HttpMessageHandler"/> mock.</returns>
-    public static Mock<HttpMessageHandler> GetMockHttpMessageHandler(HttpResponseMessage mockResponse,
+    /// <returns>The <see cref="HttpMessageHandler"/> fake.</returns>
+    public static HttpMessageHandler GetFakeHttpMessageHandler(HttpResponseMessage fakeResponse,
         Action<HttpRequestMessage, CancellationToken>? requestCallback = null)
     {
-        var handlerMock = new Mock<HttpMessageHandler>(MockBehavior.Strict);
-        handlerMock
-            .Protected()
-            .Setup<Task<HttpResponseMessage>>(
-                nameof(HttpClient.SendAsync),
-                ItExpr.IsAny<HttpRequestMessage>(),
-                ItExpr.IsAny<CancellationToken>())
-            .Callback(requestCallback ?? ((_, _) => { /* no-op */ }))
-            .ReturnsAsync(mockResponse)
-            .Verifiable();
+        var handler = A.Fake<HttpMessageHandler>();
 
-        return handlerMock;
+        A.CallTo(handler)
+            .WithReturnType<Task<HttpResponseMessage>>()
+            .Where(call => call.Method.Name == nameof(HttpClient.SendAsync))
+            .Invokes(requestCallback ?? ((_, _) => { /* no-op */ }))
+            .Returns(fakeResponse);
+
+        return handler;
     }
 
     /// <summary>

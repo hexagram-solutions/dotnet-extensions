@@ -1,11 +1,11 @@
 using System.Net;
 using System.Net.Http.Json;
+using FakeItEasy;
 using Hexagrams.Extensions.Authentication.OAuth;
 using Hexagrams.Extensions.Authentication.OAuth.Internal;
 using Hexagrams.Extensions.Common.Serialization;
 using Hexagrams.Extensions.Testing;
 using Hexagrams.Extensions.Testing.Http;
-using Moq;
 
 namespace Hexagrams.Extensions.Authentication.Tests.OAuth;
 
@@ -22,10 +22,10 @@ public class ClientCredentialsAccessTokenProviderTests
             TokenType = "bearer"
         };
 
-        var handlerMock = GetMockHttpMessageHandlerWithResponse(response);
+        var handlerFake = GetFakeHttpMessageHandlerWithResponse(response);
 
         await ServiceTestHarness<ClientCredentialsAccessTokenProvider>.Create(TestAction)
-            .WithDependency(new HttpClient(handlerMock.Object))
+            .WithDependency(new HttpClient(handlerFake))
             .WithServices(sp =>
             {
                 sp.AddAccessTokenProvider(builder =>
@@ -69,7 +69,7 @@ public class ClientCredentialsAccessTokenProviderTests
 
         var actualRequest = new HttpRequestMessage();
 
-        var handlerMock = HttpTestUtilities.GetMockHttpMessageHandler(httpResponse, (req, _) => actualRequest = req);
+        var handlerFake = HttpTestUtilities.GetFakeHttpMessageHandler(httpResponse, (req, _) => actualRequest = req);
 
         var providerOptions = new ClientCredentialsProviderOptions
         {
@@ -80,7 +80,7 @@ public class ClientCredentialsAccessTokenProviderTests
         };
 
         await ServiceTestHarness<ClientCredentialsAccessTokenProvider>.Create(TestAction)
-            .WithDependency(new HttpClient(handlerMock.Object))
+            .WithDependency(new HttpClient(handlerFake))
             .WithServices(sp =>
             {
                 sp.AddAccessTokenProvider(builder =>
@@ -123,7 +123,7 @@ public class ClientCredentialsAccessTokenProviderTests
     public async Task Throws_exception_for_unsuccessful_request()
     {
         // Arrange
-        var handlerMock = HttpTestUtilities.GetMockHttpMessageHandler(
+        var handlerFake = HttpTestUtilities.GetFakeHttpMessageHandler(
             new HttpResponseMessage { StatusCode = HttpStatusCode.BadRequest });
 
         var providerOptions = new ClientCredentialsProviderOptions
@@ -135,7 +135,7 @@ public class ClientCredentialsAccessTokenProviderTests
         };
 
         await ServiceTestHarness<ClientCredentialsAccessTokenProvider>.Create(TestAction)
-            .WithDependency(new HttpClient(handlerMock.Object))
+            .WithDependency(new HttpClient(handlerFake))
             .WithServices(sp =>
             {
                 sp.AddAccessTokenProvider(builder =>
@@ -155,9 +155,9 @@ public class ClientCredentialsAccessTokenProviderTests
         }
     }
 
-    private static Mock<HttpMessageHandler> GetMockHttpMessageHandlerWithResponse(AccessTokenResponse response)
+    private static HttpMessageHandler GetFakeHttpMessageHandlerWithResponse(AccessTokenResponse response)
     {
-        return HttpTestUtilities.GetMockHttpMessageHandler(new HttpResponseMessage
+        return HttpTestUtilities.GetFakeHttpMessageHandler(new HttpResponseMessage
         {
             StatusCode = HttpStatusCode.OK,
             Content = new StringContent(response.ToJson())
