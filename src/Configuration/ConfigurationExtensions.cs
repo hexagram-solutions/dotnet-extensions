@@ -8,7 +8,7 @@ namespace Hexagrams.Extensions.Configuration;
 public static class ConfigurationExtensions
 {
     /// <summary>
-    /// Get a configuration value, throwing an exception if the key is not found the value is whitespace.
+    /// Get a configuration value, throwing an exception if the key is not found the or the value is whitespace.
     /// </summary>
     /// <param name="config">The configuration.</param>
     /// <param name="key">The configuration key.</param>
@@ -22,6 +22,27 @@ public static class ConfigurationExtensions
             throw new ConfigurationException($"No value found for configuration key {key}");
 
         return value;
+    }
+
+    /// <summary>
+    /// Get a configuration value with the specified key and converts it to an instance of
+    /// <typeparamref name="TValue"/>, throwing an exception if the key is not found or the value can't be converted.
+    /// </summary>
+    /// <typeparam name="TValue">The type to convert the value to.</typeparam>
+    /// <param name="config">The configuration.</param>
+    /// <param name="key">The configuration key.</param>
+    /// <returns>The configuration value.</returns>
+    /// <exception cref="ConfigurationException">
+    /// The configuration value is not found or is not convertible to <typeparamref name="TValue"/>.
+    /// </exception>
+    public static TValue Require<TValue>(this IConfiguration config, string key)
+    {
+        var value = config.GetValue(typeof(TValue), key, null);
+
+        if (value is not TValue typedValue)
+            throw new ConfigurationException($"No value found for configuration key {key}");
+
+        return typedValue;
     }
 
     /// <summary>
