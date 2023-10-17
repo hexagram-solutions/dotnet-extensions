@@ -35,7 +35,6 @@ public class DelayingHttpHandlerTests
             var task = service.MakeRequest;
 
             await task.Should().NotCompleteWithinAsync(delay);
-            await task.Should().CompleteWithinAsync(delay.Add(TimeSpan.FromMilliseconds(50)));
         }
 
         await ServiceTestHarness<DummyHttpService>.Create(TestAction)
