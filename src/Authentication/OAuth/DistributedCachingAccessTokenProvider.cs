@@ -5,8 +5,8 @@ using Microsoft.Extensions.Options;
 namespace Hexagrams.Extensions.Authentication.OAuth;
 
 /// <summary>
-/// An <see cref="IAccessTokenProvider" /> decorator that caches access token responses in an
-/// <see cref="IDistributedCache" />.
+/// A decorator for <see cref="IAccessTokenProvider" /> decorator that caches access token responses using an instance
+/// of <see cref="IDistributedCache" />.
 /// </summary>
 public class DistributedCachingAccessTokenProvider : IAccessTokenProvider
 {

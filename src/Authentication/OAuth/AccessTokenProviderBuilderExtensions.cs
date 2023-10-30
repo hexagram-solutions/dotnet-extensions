@@ -101,7 +101,7 @@ public static class AccessTokenProviderBuilderExtensions
     public static IAccessTokenProviderBuilder UseCustomProvider(this IAccessTokenProviderBuilder builder,
         IAccessTokenProvider provider)
     {
-        builder.Services.AddTransient(_ => provider);
+        builder.Services.AddScoped(_ => provider);
 
         return builder;
     }
@@ -114,7 +114,7 @@ public static class AccessTokenProviderBuilderExtensions
     public static IAccessTokenProviderBuilder UseCustomProvider<TProvider>(this IAccessTokenProviderBuilder builder)
         where TProvider : class, IAccessTokenProvider
     {
-        builder.Services.AddTransient<IAccessTokenProvider, TProvider>();
+        builder.Services.AddScoped<IAccessTokenProvider, TProvider>();
 
         return builder;
     }
@@ -129,7 +129,7 @@ public static class AccessTokenProviderBuilderExtensions
         Func<IServiceProvider, TProvider> implementationFactory)
         where TProvider : class, IAccessTokenProvider
     {
-        builder.Services.AddTransient<IAccessTokenProvider>(implementationFactory);
+        builder.Services.AddScoped<IAccessTokenProvider>(implementationFactory);
 
         return builder;
     }
