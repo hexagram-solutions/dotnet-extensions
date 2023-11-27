@@ -7,25 +7,18 @@ namespace Hexagrams.Extensions.BackgroundTasks;
 /// <summary>
 /// A <see cref="BackgroundService"/> that processes a queue of work items.
 /// </summary>
-public class BackgroundTaskQueueProcessor : BackgroundService
+/// <remarks>
+/// Create a new instance of <see cref="BackgroundTaskQueueProcessor"/>.
+/// </remarks>
+/// <param name="taskQueue">The task queue to process.</param>
+/// <param name="options">The task processing options.</param>
+/// <param name="logger">The logger to log messages to.</param>
+public class BackgroundTaskQueueProcessor(IBackgroundTaskQueue taskQueue, IOptions<BackgroundTaskQueueOptions> options,
+    ILogger<BackgroundTaskQueueProcessor> logger) : BackgroundService
 {
-    private readonly IBackgroundTaskQueue _taskQueue;
-    private readonly BackgroundTaskQueueOptions _options;
-    private readonly ILogger<BackgroundTaskQueueProcessor> _logger;
-
-    /// <summary>
-    /// Create a new instance of <see cref="BackgroundTaskQueueProcessor"/>.
-    /// </summary>
-    /// <param name="taskQueue">The task queue to process.</param>
-    /// <param name="options">The task processing options.</param>
-    /// <param name="logger">The logger to log messages to.</param>
-    public BackgroundTaskQueueProcessor(IBackgroundTaskQueue taskQueue, IOptions<BackgroundTaskQueueOptions> options,
-        ILogger<BackgroundTaskQueueProcessor> logger)
-    {
-        _taskQueue = taskQueue;
-        _options = options.Value;
-        _logger = logger;
-    }
+    private readonly IBackgroundTaskQueue _taskQueue = taskQueue;
+    private readonly BackgroundTaskQueueOptions _options = options.Value;
+    private readonly ILogger<BackgroundTaskQueueProcessor> _logger = logger;
 
     /// <inheritdoc />
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
