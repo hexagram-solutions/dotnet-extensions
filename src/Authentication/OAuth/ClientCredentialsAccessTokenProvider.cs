@@ -25,23 +25,12 @@ public record ClientCredentialsProviderOptions : AccessTokenProviderOptions, IOp
 /// Acquires an OAuth 2.0 access token using the
 /// <see href="https://datatracker.ietf.org/doc/html/rfc6749#section-1.3.4">client credentials</see> flow.
 /// </summary>
-public class ClientCredentialsAccessTokenProvider : IAccessTokenProvider
-{
-    private readonly HttpClient _httpClient;
-    private readonly ClientCredentialsProviderOptions _options;
-
-    /// <summary>
-    /// Create a new instance of <see cref="ClientCredentialsAccessTokenProvider" />.
-    /// </summary>
-    /// <param name="httpClient">The <see cref="HttpClient" /> to use.</param>
-    /// <param name="options">The configuration options for the access token request.</param>
-    public ClientCredentialsAccessTokenProvider(HttpClient httpClient,
+/// <param name="httpClient">The <see cref="HttpClient" /> to use.</param>
+/// <param name="options">The configuration options for the access token request.</param>
+public class ClientCredentialsAccessTokenProvider(HttpClient httpClient,
         IOptions<ClientCredentialsProviderOptions> options)
-    {
-        _httpClient = httpClient;
-        _options = options.Value;
-    }
-
+    : IAccessTokenProvider
+{
     /// <inheritdoc />
     public async Task<AccessTokenResponse> GetAccessTokenAsync(params string[] scopes)
     {
@@ -49,13 +38,15 @@ public class ClientCredentialsAccessTokenProvider : IAccessTokenProvider
 
         var request = new ClientCredentialsAccessTokenRequest
         {
-            ClientId = _options.ClientId,
-            ClientSecret = _options.ClientSecret,
+            ClientId = options.Value.ClientId,
+            ClientSecret = options.Value.ClientSecret,
             Scope = scopesValue,
-            AdditionalProperties = _options.AdditionalProperties?.ToDictionary(k => k.Key, v => (object) v.Value)
+            AdditionalProperties =
+                options.Value.AdditionalProperties?.ToDictionary(k => k.Key, v => (object) v.Value)
         };
 
-        using var response = await _httpClient.PostAsJsonAsync(_options.TokenEndpoint, request).ConfigureAwait(false);
+        using var response = await httpClient.PostAsJsonAsync(options.Value.TokenEndpoint, request)
+            .ConfigureAwait(false);
 
         try
         {
@@ -63,8 +54,8 @@ public class ClientCredentialsAccessTokenProvider : IAccessTokenProvider
         }
         catch (HttpRequestException ex)
         {
-            throw new HttpRequestException($"Failed to retrieve access token from {_options.TokenEndpoint} " +
-                $"for client {_options.ClientId} using grant type {request.GrantType}", ex);
+            throw new HttpRequestException($"Failed to retrieve access token from {options.Value.TokenEndpoint} " +
+                $"for client {options.Value.ClientId} using grant type {request.GrantType}", ex);
         }
 
         var accessTokenResponse = await response.Content.ReadFromJsonAsync<AccessTokenResponse>().ConfigureAwait(false);

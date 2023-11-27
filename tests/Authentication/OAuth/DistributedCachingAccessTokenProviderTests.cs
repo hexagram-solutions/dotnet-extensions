@@ -32,7 +32,7 @@ public class DistributedCachingAccessTokenProviderTests
             })
             .TestAsync();
 
-        async Task TestAction(IAccessTokenProvider provider)
+        static async Task TestAction(IAccessTokenProvider provider)
         {
             // Act
             var firstResponse = await provider.GetAccessTokenAsync();

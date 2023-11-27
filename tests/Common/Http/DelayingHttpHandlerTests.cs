@@ -8,21 +8,6 @@ namespace Hexagrams.Extensions.Common.Tests.Http;
 
 public class DelayingHttpHandlerTests
 {
-    public class DummyHttpService
-    {
-        private readonly HttpClient _client;
-
-        public DummyHttpService(HttpClient client)
-        {
-            _client = client;
-        }
-
-        public Task MakeRequest()
-        {
-            return _client.GetAsync("http://example.com");
-        }
-    }
-
     [Fact]
     public async Task Requests_are_delayed_by_the_configured_amount_of_time()
     {
@@ -51,5 +36,13 @@ public class DelayingHttpHandlerTests
                     .AddHttpMessageHandler<HttpTestUtilities.DelegatingHandlerStub>();
             })
             .TestAsync();
+    }
+
+    public class DummyHttpService(HttpClient client)
+    {
+        public Task MakeRequest()
+        {
+            return client.GetAsync("http://example.com");
+        }
     }
 }
