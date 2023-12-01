@@ -20,7 +20,7 @@ public static class JsonExtensions
     /// Get a JSON representation of this object.
     /// </summary>
     /// <param name="obj">The object to serialize.</param>
-    /// <param name="indented">Whether or not JSON should use pretty printing.</param>
+    /// <param name="indented">Whether JSON should use pretty printing.</param>
     /// <returns>The JSON string representing this object.</returns>
     public static string ToJson(this object obj, bool indented = false)
     {

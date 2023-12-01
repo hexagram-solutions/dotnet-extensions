@@ -5,7 +5,7 @@ using Microsoft.Extensions.Logging;
 namespace Hexagrams.Extensions.Testing;
 
 /// <summary>
-/// A harness for executing tests against an instance of <typeparamref name="TService"/> and configuring it's
+/// A harness for executing tests against an instance of <typeparamref name="TService"/> and configuring its
 /// dependencies.
 /// </summary>
 /// <typeparam name="TService">The type of the service under test.</typeparam>

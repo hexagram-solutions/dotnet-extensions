@@ -39,7 +39,7 @@ public static class StringExtensions
         if (string.IsNullOrEmpty(s))
             return s;
 
-        // This splits letters with diacritics into separate characters so we can strip them away
+        // Split letters with diacritics into separate characters so that we can strip them away
         s = s.Normalize(NormalizationForm.FormD);
 
         int i = 0, j = 0;
@@ -96,7 +96,7 @@ public static class StringExtensions
     }
 
     /// <summary>
-    /// Replace the diacritic characters in in a string with their ASCII equivalents when possible. For example:
+    /// Replace the diacritic characters in a string with their ASCII equivalents when possible. For example:
     /// <example>
     ///     <code>"Hafþór Júlíus Björnsson".StripDiacritics() == "Hafthor Julius Bjornsson"</code>
     /// </example>

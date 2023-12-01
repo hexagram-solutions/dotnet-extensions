@@ -5,7 +5,7 @@ using Microsoft.Extensions.Options;
 namespace Hexagrams.Extensions.Authentication.OAuth;
 
 /// <summary>
-/// The options values for acquiring access tokens using the
+/// The options for acquiring access tokens using the
 /// <see href="https://datatracker.ietf.org/doc/html/rfc6749#section-1.3.3">resource owner password credentials</see>
 /// flow.
 /// </summary>
