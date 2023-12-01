@@ -1,20 +1,18 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 
   <PropertyGroup>
-    <LangVersion>preview</LangVersion>
     <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
-    <NoWarn>NU5129;NU5118</NoWarn>
     <DefineConstants>$(DefineConstants);JETBRAINS_ANNOTATIONS</DefineConstants>
     <DebugType>embedded</DebugType>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
-    <AnalysisLevel>6.0-recommended</AnalysisLevel>
+    <AnalysisLevel>latest-Recommended</AnalysisLevel>
   </PropertyGroup>
 
   <PropertyGroup>
     <Description>Common extensions and helper methods for .NET</Description>
-    <Authors>Hexagrams Inc.</Authors>
-    <Copyright>Copyright $([System.DateTime]::Now.Year) Hexagrams Inc.</Copyright>
+    <Authors>Hexagrams Solutions</Authors>
+    <Copyright>Copyright $([System.DateTime]::Now.Year) Hexagrams Solutions</Copyright>
     <PackageTags>extensions</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/Hexagrams/dotnet-extensions</PackageProjectUrl>

@@ -40,7 +40,7 @@ partial class Build : NukeBuild,
 
     public bool RunFormatAnalyzers => true;
 
-    Target ICompile.Compile => _ => _
+    Target ICompile.Compile => t => t
         .Inherit<ICompile>()
         .DependsOn<IFormat>(x => x.VerifyFormat);
 
@@ -48,13 +48,13 @@ partial class Build : NukeBuild,
 
     IEnumerable<Project> ITest.TestProjects => Partition.GetCurrent(Solution.GetAllProjects("*.Tests"));
 
-    Configure<DotNetPublishSettings> ICompile.PublishSettings => _ => _
-        .When(!ScheduledTargets.Contains(((IPush) this).Push), _ => _
+    Configure<DotNetPublishSettings> ICompile.PublishSettings => t => t
+        .When(!ScheduledTargets.Contains(((IPush) this).Push), s => s
             .ClearProperties());
 
-    Target IPush.Push => _ => _
+    Target IPush.Push => t => t
         .Inherit<IPush>()
         .Consumes(this.FromComponent<IPush>().Pack)
-        .Requires(() => this.FromComponent<IHasGitRepository>().GitRepository.Tags.Any())
+        .Requires(() => this.FromComponent<IHasGitRepository>().GitRepository.Tags.Count != 0)
         .WhenSkipped(DependencyBehavior.Execute);
 }
