@@ -38,7 +38,7 @@ public class InMemoryCachingAccessTokenProvider(IAccessTokenProvider innerProvid
             {
                 throw new InvalidOperationException(
                     $"The calculated relative expiration value of the cache entry must not be negative (current " +
-                    $"value: {absoluteExpirationRelativeToNow}). Either decrease the expiration buffer or increase" +
+                    $"value: {absoluteExpirationRelativeToNow}). Either decrease the expiration buffer or increase " +
                     "the expiry time of the access token provided by the authorization server.");
             }
 

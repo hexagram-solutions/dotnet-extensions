@@ -16,14 +16,12 @@ namespace Hexagrams.Extensions.BackgroundTasks;
 public class BackgroundTaskQueueProcessor(IBackgroundTaskQueue taskQueue, IOptions<BackgroundTaskQueueOptions> options,
     ILogger<BackgroundTaskQueueProcessor> logger) : BackgroundService
 {
-    private readonly IBackgroundTaskQueue _taskQueue = taskQueue;
     private readonly BackgroundTaskQueueOptions _options = options.Value;
-    private readonly ILogger<BackgroundTaskQueueProcessor> _logger = logger;
 
     /// <inheritdoc />
     protected override Task ExecuteAsync(CancellationToken stoppingToken)
     {
-        _logger.LogInformation("Background task processor is running");
+        logger.LogInformation("Background task processor is running");
 
         return BackgroundProcessing(stoppingToken);
     }
@@ -32,7 +30,7 @@ public class BackgroundTaskQueueProcessor(IBackgroundTaskQueue taskQueue, IOptio
     {
         async Task DoWorkAsync(CancellationToken cancellationToken)
         {
-            var workItem = await _taskQueue.DequeueAsync(cancellationToken).ConfigureAwait(false);
+            var workItem = await taskQueue.DequeueAsync(cancellationToken).ConfigureAwait(false);
 
             await workItem(stoppingToken).ConfigureAwait(false);
         }
@@ -48,7 +46,7 @@ public class BackgroundTaskQueueProcessor(IBackgroundTaskQueue taskQueue, IOptio
     /// <inheritdoc />
     public override Task StopAsync(CancellationToken cancellationToken)
     {
-        _logger.LogInformation("Background task processor is stopping");
+        logger.LogInformation("Background task processor is stopping");
 
         return base.StopAsync(cancellationToken);
     }
