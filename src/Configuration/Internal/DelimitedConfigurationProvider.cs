@@ -2,7 +2,7 @@ using Microsoft.Extensions.Configuration;
 
 namespace Hexagrams.Extensions.Configuration.Internal;
 
-internal class DelimitedConfigurationProvider(IEnumerable<string> keyDelimiters, IConfiguration config)
+internal sealed class DelimitedConfigurationProvider(IEnumerable<string> keyDelimiters, IConfiguration config)
     : ConfigurationProvider
 {
     public override void Load()
@@ -11,15 +11,11 @@ internal class DelimitedConfigurationProvider(IEnumerable<string> keyDelimiters,
 
         foreach (var setting in existingItems)
         {
-            var normalizedKeys = NormalizeKey(setting.Key);
+            var normalizedKeysWithValues = NormalizeKey(setting.Key)
+                .Where(normalizedKey => !Data.ContainsKey(normalizedKey));
 
-            foreach (var normalizedKey in normalizedKeys)
-            {
-                if (Data.ContainsKey(normalizedKey))
-                    continue;
-
+            foreach (var normalizedKey in normalizedKeysWithValues)
                 Data.Add(normalizedKey, setting.Value);
-            }
         }
     }
 
@@ -30,6 +26,6 @@ internal class DelimitedConfigurationProvider(IEnumerable<string> keyDelimiters,
         foreach (var delimiter in keyDelimiters)
             newKeys.AddRange(keyDelimiters.Select(d => key.Replace(delimiter, d)).Distinct());
 
-        return newKeys;
+        return newKeys.AsEnumerable();
     }
 }

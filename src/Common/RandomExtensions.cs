@@ -1,3 +1,5 @@
+using System.Globalization;
+
 namespace Hexagrams.Extensions.Common;
 
 /// <summary>
@@ -55,7 +57,7 @@ public static class RandomExtensions
             // Hack to handle case where the decimal ends with a 0 and the scale is not preserved. For example, if
             // a decimal value of 1.1 is generated, but the scale is 2, this ensures that we return a decimal value
             // of 1.10.
-            var zeroScalingValue = decimal.Parse($"0.{new string('0', scale)}");
+            var zeroScalingValue = decimal.Parse($"0.{new string('0', scale)}", CultureInfo.InvariantCulture);
 
             randomDecimal += zeroScalingValue;
         }
