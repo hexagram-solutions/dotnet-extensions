@@ -24,11 +24,11 @@ internal class AutoFakingServiceProviderFactory : IServiceProviderFactory<IServi
         foreach (var descriptor in implicitlyConstructedServicesDescriptors.ToArray())
         {
             var definedServiceConstructors = descriptor.ServiceType.GetConstructors()
-                .Where(c => c.GetParameters().Any())
+                .Where(c => c.GetParameters().Length != 0)
                 .ToArray();
 
             // No defined (non-default) constructors here, move on
-            if (!definedServiceConstructors.Any())
+            if (definedServiceConstructors.Length == 0)
                 continue;
 
             // Find the least specific non-default constructor for the service type, i.e.: the one with the fewest

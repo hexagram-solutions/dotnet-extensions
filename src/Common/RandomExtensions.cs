@@ -17,7 +17,7 @@ public static class RandomExtensions
     {
         var enumerated = items as T[] ?? items.ToArray();
 
-        if (!enumerated.Any())
+        if (enumerated.Length == 0)
             throw new ArgumentException("The collection contains no elements", nameof(items));
 
         return enumerated.ElementAt(random.Next(0, enumerated.Length));
