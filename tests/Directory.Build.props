@@ -2,7 +2,6 @@
 
   <PropertyGroup>
     <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
-    <NoWarn>CS1591;NU5129;NU5118</NoWarn>
     <DefineConstants>$(DefineConstants);JETBRAINS_ANNOTATIONS</DefineConstants>
     <DebugType>embedded</DebugType>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
