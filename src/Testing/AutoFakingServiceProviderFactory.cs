@@ -3,7 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace Hexagrams.Extensions.Testing;
 
-internal class AutoFakingServiceProviderFactory : IServiceProviderFactory<IServiceCollection>
+internal sealed class AutoFakingServiceProviderFactory : IServiceProviderFactory<IServiceCollection>
 {
     public IServiceCollection CreateBuilder(IServiceCollection services)
     {

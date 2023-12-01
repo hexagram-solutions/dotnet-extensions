@@ -2,7 +2,7 @@ using FakeItEasy.Sdk;
 
 namespace Hexagrams.Extensions.Testing;
 
-internal class AutoFakingServiceProvider(IServiceProvider serviceProvider) : IServiceProvider
+internal sealed class AutoFakingServiceProvider(IServiceProvider serviceProvider) : IServiceProvider
 {
     public object GetService(Type serviceType)
     {
