@@ -62,4 +62,14 @@ public class HttpExtensionsTests
 
         queryString.Should().Be($"?Bar=Qux&Baz=erple&Qux=foo&Garply=1&Plugh={foo.Plugh}");
     }
+
+    [Fact]
+    public void ToQueryString_throws_argument_null_exception_when_object_is_null()
+    {
+        var foo = (Foo) null!;
+
+        var action = () => foo.ToQueryString();
+
+        action.Should().Throw<ArgumentNullException>();
+    }
 }

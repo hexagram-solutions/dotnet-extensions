@@ -35,6 +35,8 @@ public static class ObjectExtensions
     /// </remarks>
     public static TMember? ValueOrDefault<T, TMember>(this T? item, Func<T?, TMember?> selector)
     {
+        ArgumentNullException.ThrowIfNull(selector);
+
         return item is null ? default : selector(item);
     }
 }

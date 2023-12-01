@@ -1,3 +1,5 @@
+using FluentAssertions.Equivalency;
+
 namespace Hexagrams.Extensions.Common.Tests;
 
 public class ObjectExtensionsTests
@@ -60,5 +62,15 @@ public class ObjectExtensionsTests
         var value = foo.ValueOrDefault(x => x?.Count);
 
         value.Should().BeNull();
+    }
+
+    [Fact]
+    public void ValueOrDefault_throws_argument_null_exception_when_selector_is_null()
+    {
+        var foo = (List<string>) null!;
+
+        var action = () => foo.ValueOrDefault<List<string>?, int>(null!);
+
+        action.Should().Throw<ArgumentNullException>();
     }
 }

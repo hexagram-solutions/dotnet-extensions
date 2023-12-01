@@ -1,6 +1,5 @@
 using System.Net;
 using System.Net.Http.Json;
-using FakeItEasy;
 using Hexagrams.Extensions.Authentication.OAuth;
 using Hexagrams.Extensions.Authentication.OAuth.Internal;
 using Hexagrams.Extensions.Common.Serialization;
