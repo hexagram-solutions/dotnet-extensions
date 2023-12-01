@@ -57,8 +57,8 @@ public class HttpClientExtensionsTests
         var httpClient = new HttpClient(handlerFake);
 
         // Act
-        var action = () =>
-            httpClient.PostAsJsonAsync<RequestType, ResponseType>("http://example.com", new RequestType("foo"));
+        var action = async () =>
+            await httpClient.PostAsJsonAsync<RequestType, ResponseType>("http://example.com", new RequestType("foo"));
 
         // Assert
         await action.Should().ThrowAsync<HttpRequestException>();
@@ -108,8 +108,8 @@ public class HttpClientExtensionsTests
         var httpClient = new HttpClient(handlerFake);
 
         // Act
-        var action = () =>
-            httpClient.PutAsJsonAsync<RequestType, ResponseType>("http://example.com", new RequestType("foo"));
+        var action = async () =>
+            await httpClient.PutAsJsonAsync<RequestType, ResponseType>("http://example.com", new RequestType("foo"));
 
         // Assert
         await action.Should().ThrowAsync<HttpRequestException>();
@@ -123,23 +123,19 @@ public class HttpClientExtensionsTests
 
         var httpResponse = new HttpResponseMessage { StatusCode = HttpStatusCode.NoContent };
 
-        var actualRequestContent = string.Empty;
+        var actualRequest = new HttpRequestMessage();
 
-#pragma warning disable xUnit1031 // Do not use blocking task operations in test method
-        var handlerFake = HttpTestUtilities.GetFakeHttpMessageHandler(httpResponse,
-            (req, ct) => actualRequestContent = req.Content!.ReadAsStringAsync(ct).Result);
-#pragma warning restore xUnit1031 // Do not use blocking task operations in test method
+        var handlerFake = HttpTestUtilities.GetFakeHttpMessageHandler(httpResponse, (req, _) => actualRequest = req);
 
         var httpClient = new HttpClient(handlerFake);
 
         // Act
-        var response = await httpClient.DeleteAsJsonAsync("http://example.com", requestValue);
+        await httpClient.DeleteAsJsonAsync("http://example.com", requestValue);
 
         // Assert
-        var actualRequest = response!.RequestMessage;
-        actualRequest!.Method.Should().Be(HttpMethod.Delete);
+        actualRequest.Method.Should().Be(HttpMethod.Delete);
 
-        var actualRequestValue = actualRequestContent.FromJson<RequestType>();
+        var actualRequestValue = await actualRequest.Content!.ReadFromJsonAsync<RequestType>();
         actualRequestValue.Should().BeEquivalentTo(requestValue);
     }
 
@@ -153,7 +149,7 @@ public class HttpClientExtensionsTests
         var httpClient = new HttpClient(handlerFake);
 
         // Act
-        var action = () => httpClient.DeleteAsJsonAsync("http://example.com", new RequestType("foo"));
+        var action = async () => await httpClient.DeleteAsJsonAsync("http://example.com", new RequestType("foo"));
 
         // Assert
         await action.Should().ThrowAsync<HttpRequestException>();
