@@ -3,7 +3,7 @@ namespace Hexagrams.Extensions.Testing.Tests;
 public class AutoFakingServiceProviderTests
 {
     [Fact]
-    public async Task Missing_services_are_faked()
+    public Task Missing_services_are_faked()
     {
         static Task TestAction(MyService service)
         {
@@ -14,12 +14,12 @@ public class AutoFakingServiceProviderTests
             return Task.CompletedTask;
         }
 
-        await ServiceTestHarness<MyService>.Create(TestAction)
+        return ServiceTestHarness<MyService>.Create(TestAction)
             .TestAsync();
     }
 
     [Fact]
-    public async Task Supplied_services_are_used()
+    public Task Supplied_services_are_used()
     {
         var suppliedDependency = new MyBologna();
 
@@ -32,7 +32,7 @@ public class AutoFakingServiceProviderTests
             return Task.CompletedTask;
         }
 
-        await ServiceTestHarness<MyService>.Create(TestAction)
+        return ServiceTestHarness<MyService>.Create(TestAction)
             .WithDependency<IMySharona>(suppliedDependency)
             .TestAsync();
     }

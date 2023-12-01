@@ -7,7 +7,7 @@ namespace Hexagrams.Extensions.Authentication.Tests.OAuth;
 public class InMemoryCachingAccessTokenProviderTests
 {
     [Fact]
-    public async Task Unexpired_access_token_responses_are_retrieved_from_cache()
+    public Task Unexpired_access_token_responses_are_retrieved_from_cache()
     {
         // Arrange
         var fakeAccessTokenProvider = A.Fake<IAccessTokenProvider>();
@@ -21,7 +21,7 @@ public class InMemoryCachingAccessTokenProviderTests
                 Scope = "dummy_scope"
             }));
 
-        await ServiceTestHarness<InMemoryCachingAccessTokenProvider>.Create(TestAction)
+        return ServiceTestHarness<InMemoryCachingAccessTokenProvider>.Create(TestAction)
             .WithServices(sp =>
             {
                 sp.AddAccessTokenProvider(builder =>
@@ -45,7 +45,7 @@ public class InMemoryCachingAccessTokenProviderTests
     }
 
     [Fact]
-    public async Task Expired_access_token_responses_are_refreshed()
+    public Task Expired_access_token_responses_are_refreshed()
     {
         // Arrange
         var fakeAccessTokenProvider = A.Fake<IAccessTokenProvider>();
@@ -61,7 +61,7 @@ public class InMemoryCachingAccessTokenProviderTests
                 Scope = "dummy_scope"
             }));
 
-        await ServiceTestHarness<InMemoryCachingAccessTokenProvider>.Create(TestAction)
+        return ServiceTestHarness<InMemoryCachingAccessTokenProvider>.Create(TestAction)
             .WithServices(sp =>
             {
                 sp.AddAccessTokenProvider(builder =>
@@ -90,7 +90,7 @@ public class InMemoryCachingAccessTokenProviderTests
     }
 
     [Fact]
-    public async Task Throws_exception_if_expiration_buffer_is_greater_than_token_expiry()
+    public Task Throws_exception_if_expiration_buffer_is_greater_than_token_expiry()
     {
         // Arrange
         var fakeAccessTokenProvider = A.Fake<IAccessTokenProvider>();
@@ -100,7 +100,7 @@ public class InMemoryCachingAccessTokenProviderTests
         A.CallTo(() => fakeAccessTokenProvider.GetAccessTokenAsync(A<string[]>._))
             .Returns(Task.FromResult(new AccessTokenResponse { ExpiresIn = (int) tokenExpiryWindow.TotalSeconds }));
 
-        await ServiceTestHarness<InMemoryCachingAccessTokenProvider>.Create(TestAction)
+        return ServiceTestHarness<InMemoryCachingAccessTokenProvider>.Create(TestAction)
             .WithServices(sp =>
             {
                 sp.AddAccessTokenProvider(builder =>
@@ -117,7 +117,7 @@ public class InMemoryCachingAccessTokenProviderTests
         async Task TestAction(IAccessTokenProvider provider)
         {
             // Act
-            var action = async () => await provider.GetAccessTokenAsync();
+            var action = () => provider.GetAccessTokenAsync();
 
             // Assert
             await action.Should().ThrowAsync<InvalidOperationException>();

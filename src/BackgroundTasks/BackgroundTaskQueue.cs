@@ -21,15 +21,15 @@ public class BackgroundTaskQueue : IBackgroundTaskQueue
     }
 
     /// <inheritdoc />
-    public async ValueTask QueueBackgroundWorkItemAsync(Func<CancellationToken, ValueTask> workItem)
+    public ValueTask QueueBackgroundWorkItemAsync(Func<CancellationToken, ValueTask> workItem)
     {
-        await _queue.Writer.WriteAsync(workItem).ConfigureAwait(false);
+        return _queue.Writer.WriteAsync(workItem);
     }
 
     /// <inheritdoc />
-    public async ValueTask QueueBackgroundWorkItemAsync(IBackgroundTask backgroundTask)
+    public ValueTask QueueBackgroundWorkItemAsync(IBackgroundTask backgroundTask)
     {
-        await _queue.Writer.WriteAsync(backgroundTask.DoWorkAsync).ConfigureAwait(false);
+        return _queue.Writer.WriteAsync(backgroundTask.DoWorkAsync);
     }
 
     /// <inheritdoc />

@@ -21,11 +21,11 @@ public class BackgroundTaskQueueProcessor(IBackgroundTaskQueue taskQueue, IOptio
     private readonly ILogger<BackgroundTaskQueueProcessor> _logger = logger;
 
     /// <inheritdoc />
-    protected override async Task ExecuteAsync(CancellationToken stoppingToken)
+    protected override Task ExecuteAsync(CancellationToken stoppingToken)
     {
         _logger.LogInformation("Background task processor is running");
 
-        await BackgroundProcessing(stoppingToken).ConfigureAwait(false);
+        return BackgroundProcessing(stoppingToken);
     }
 
     private async Task BackgroundProcessing(CancellationToken stoppingToken)
@@ -46,10 +46,10 @@ public class BackgroundTaskQueueProcessor(IBackgroundTaskQueue taskQueue, IOptio
     }
 
     /// <inheritdoc />
-    public override async Task StopAsync(CancellationToken cancellationToken)
+    public override Task StopAsync(CancellationToken cancellationToken)
     {
         _logger.LogInformation("Background task processor is stopping");
 
-        await base.StopAsync(cancellationToken).ConfigureAwait(false);
+        return base.StopAsync(cancellationToken);
     }
 }

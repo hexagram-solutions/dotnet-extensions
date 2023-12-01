@@ -18,7 +18,7 @@ public class DummyHttpService(HttpClient client)
 public class BearerTokenAuthenticationHandlerTests
 {
     [Fact]
-    public async Task Access_tokens_are_added_in_authentication_header_of_request()
+    public Task Access_tokens_are_added_in_authentication_header_of_request()
     {
         var actualRequest = new HttpRequestMessage();
 
@@ -39,7 +39,7 @@ public class BearerTokenAuthenticationHandlerTests
             authorizationHeader.Parameter.Should().Be(accessTokenValue);
         }
 
-        await ServiceTestHarness<DummyHttpService>.Create(TestAction)
+        return ServiceTestHarness<DummyHttpService>.Create(TestAction)
             .WithServices(services =>
             {
                 services.AddAccessTokenProvider(

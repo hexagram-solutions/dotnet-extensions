@@ -12,7 +12,7 @@ namespace Hexagrams.Extensions.Authentication.Tests.OAuth;
 public class ClientCredentialsAccessTokenProviderTests
 {
     [Fact]
-    public async Task Returns_expected_access_token()
+    public Task Returns_expected_access_token()
     {
         // Arrange
         var response = new AccessTokenResponse
@@ -24,7 +24,7 @@ public class ClientCredentialsAccessTokenProviderTests
 
         var handlerFake = GetFakeHttpMessageHandlerWithResponse(response);
 
-        await ServiceTestHarness<ClientCredentialsAccessTokenProvider>.Create(TestAction)
+        return ServiceTestHarness<ClientCredentialsAccessTokenProvider>.Create(TestAction)
             .WithDependency(new HttpClient(handlerFake))
             .WithServices(sp =>
             {
@@ -51,7 +51,7 @@ public class ClientCredentialsAccessTokenProviderTests
     }
 
     [Fact]
-    public async Task Inner_client_posts_request_as_configured()
+    public Task Inner_client_posts_request_as_configured()
     {
         // Arrange
         var response = new AccessTokenResponse
@@ -79,7 +79,7 @@ public class ClientCredentialsAccessTokenProviderTests
             AdditionalProperties = new Dictionary<string, string> { { "foo", "bar" } }
         };
 
-        await ServiceTestHarness<ClientCredentialsAccessTokenProvider>.Create(TestAction)
+        return ServiceTestHarness<ClientCredentialsAccessTokenProvider>.Create(TestAction)
             .WithDependency(new HttpClient(handlerFake))
             .WithServices(sp =>
             {
@@ -120,7 +120,7 @@ public class ClientCredentialsAccessTokenProviderTests
     }
 
     [Fact]
-    public async Task Throws_exception_for_unsuccessful_request()
+    public Task Throws_exception_for_unsuccessful_request()
     {
         // Arrange
         var handlerFake = HttpTestUtilities.GetFakeHttpMessageHandler(
@@ -134,7 +134,7 @@ public class ClientCredentialsAccessTokenProviderTests
             AdditionalProperties = new Dictionary<string, string> { { "foo", "bar" } }
         };
 
-        await ServiceTestHarness<ClientCredentialsAccessTokenProvider>.Create(TestAction)
+        return ServiceTestHarness<ClientCredentialsAccessTokenProvider>.Create(TestAction)
             .WithDependency(new HttpClient(handlerFake))
             .WithServices(sp =>
             {
@@ -148,7 +148,7 @@ public class ClientCredentialsAccessTokenProviderTests
         async Task TestAction(IAccessTokenProvider provider)
         {
             // Act
-            var action = async () => await provider.GetAccessTokenAsync();
+            var action = () => provider.GetAccessTokenAsync();
 
             // Assert
             await action.Should().ThrowAsync<HttpRequestException>();

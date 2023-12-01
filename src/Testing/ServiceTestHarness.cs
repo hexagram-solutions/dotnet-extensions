@@ -96,7 +96,7 @@ public class ServiceTestHarness<TService>
     /// Execute the test action, automatically creating fakes for any missing dependencies.
     /// </summary>
     /// <returns>A <see cref="Task"/> that represents the test action execution.</returns>
-    public async Task TestAsync()
+    public Task TestAsync()
     {
         _serviceCollection.AddLogging(logging => logging.AddConsole());
 
@@ -109,6 +109,6 @@ public class ServiceTestHarness<TService>
 
         var serviceUnderTest = serviceProvider.GetRequiredService<TService>();
 
-        await _testAction(serviceUnderTest).ConfigureAwait(false);
+        return _testAction(serviceUnderTest);
     }
 }

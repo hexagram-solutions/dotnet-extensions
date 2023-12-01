@@ -12,7 +12,7 @@ namespace Hexagrams.Extensions.Authentication.Tests.OAuth;
 public class ResourceOwnerPasswordAccessTokenProviderTests
 {
     [Fact]
-    public async Task Returns_expected_access_token()
+    public Task Returns_expected_access_token()
     {
         // Arrange
         var response = new AccessTokenResponse
@@ -24,7 +24,7 @@ public class ResourceOwnerPasswordAccessTokenProviderTests
 
         var handlerFake = GetFakeHttpMessageHandler(response);
 
-        await ServiceTestHarness<ResourceOwnerPasswordAccessTokenProvider>.Create(TestAction)
+        return ServiceTestHarness<ResourceOwnerPasswordAccessTokenProvider>.Create(TestAction)
             .WithDependency(new HttpClient(handlerFake))
             .WithServices(sp =>
             {
@@ -53,7 +53,7 @@ public class ResourceOwnerPasswordAccessTokenProviderTests
     }
 
     [Fact]
-    public async Task Inner_client_posts_request_as_configured()
+    public Task Inner_client_posts_request_as_configured()
     {
         // Arrange
         var response = new AccessTokenResponse
@@ -83,7 +83,7 @@ public class ResourceOwnerPasswordAccessTokenProviderTests
             AdditionalProperties = new Dictionary<string, string> { { "foo", "bar" } }
         };
 
-        await ServiceTestHarness<ResourceOwnerPasswordAccessTokenProvider>.Create(TestAction)
+        return ServiceTestHarness<ResourceOwnerPasswordAccessTokenProvider>.Create(TestAction)
             .WithDependency(new HttpClient(handlerFake))
             .WithServices(sp =>
             {
@@ -126,7 +126,7 @@ public class ResourceOwnerPasswordAccessTokenProviderTests
     }
 
     [Fact]
-    public async Task Throws_exception_for_unsuccessful_request()
+    public Task Throws_exception_for_unsuccessful_request()
     {
         // Arrange
         var handlerFake = HttpTestUtilities.GetFakeHttpMessageHandler(
@@ -142,7 +142,7 @@ public class ResourceOwnerPasswordAccessTokenProviderTests
             AdditionalProperties = new Dictionary<string, string> { { "foo", "bar" } }
         };
 
-        await ServiceTestHarness<ResourceOwnerPasswordAccessTokenProvider>.Create(TestAction)
+        return ServiceTestHarness<ResourceOwnerPasswordAccessTokenProvider>.Create(TestAction)
             .WithDependency(new HttpClient(handlerFake))
             .WithServices(sp =>
             {
@@ -156,7 +156,7 @@ public class ResourceOwnerPasswordAccessTokenProviderTests
         async Task TestAction(IAccessTokenProvider provider)
         {
             // Act
-            var action = async () => await provider.GetAccessTokenAsync();
+            var action = () => provider.GetAccessTokenAsync();
 
             // Assert
             await action.Should().ThrowAsync<HttpRequestException>();
