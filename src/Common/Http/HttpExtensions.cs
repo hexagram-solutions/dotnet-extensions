@@ -16,8 +16,6 @@ public static class HttpExtensions
     public static string ToQueryString<T>(this T obj)
         where T : class
     {
-        ArgumentNullException.ThrowIfNull(obj);
-
         var properties = obj.GetType().GetProperties(BindingFlags.Public | BindingFlags.Instance);
 
         var valuesByPropertyName = properties.ToDictionary(k => k.Name, v => v.GetValue(obj));

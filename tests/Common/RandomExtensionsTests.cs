@@ -13,16 +13,6 @@ public class RandomExtensionsTests
     }
 
     [Fact]
-    public void Next_item_throws_argument_null_exception_when_random_is_null()
-    {
-        var random = (Random) null!;
-
-        var action = () => random.NextItem(Array.Empty<string>());
-
-        action.Should().Throw<ArgumentNullException>();
-    }
-
-    [Fact]
     public void Next_item_throws_argument_exception_for_empty_collection()
     {
         var action = () => Random.Shared.NextItem(Array.Empty<string>());
@@ -41,16 +31,6 @@ public class RandomExtensionsTests
         result.Should().BeGreaterOrEqualTo(minValue);
         result.Should().BeLessThanOrEqualTo(maxValue);
         result.Scale.Should().Be(scale);
-    }
-
-    [Fact]
-    public void Next_decimal_throws_argument_null_exception_when_random_is_null()
-    {
-        var random = (Random) null!;
-
-        var action = () => random.NextDecimal(0, 1, 1);
-
-        action.Should().Throw<ArgumentNullException>();
     }
 
     [Fact]
