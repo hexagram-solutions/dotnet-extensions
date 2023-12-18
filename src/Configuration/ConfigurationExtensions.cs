@@ -12,16 +12,19 @@ public static class ConfigurationExtensions
     /// </summary>
     /// <param name="config">The configuration.</param>
     /// <param name="key">The configuration key.</param>
+    /// <param name="exceptionMessage">A custom message for when no value is found for the configuration key.</param>
     /// <returns>The configuration value.</returns>
     /// <exception cref="ConfigurationException">The configuration value is not found or is whitespace.</exception>
-    public static string Require(this IConfiguration config, string key)
+    public static string Require(this IConfiguration config, string key, string? exceptionMessage = null)
     {
         var value = config[key];
 
-        if (string.IsNullOrWhiteSpace(value))
-            throw new ConfigurationException($"No value found for configuration key {key}");
+        if (!string.IsNullOrWhiteSpace(value))
+            return value;
 
-        return value;
+        var message = exceptionMessage ?? $"No value found for configuration key {key}";
+
+        throw new ConfigurationException(message);
     }
 
     /// <summary>
@@ -31,18 +34,21 @@ public static class ConfigurationExtensions
     /// <typeparam name="TValue">The type to convert the value to.</typeparam>
     /// <param name="config">The configuration.</param>
     /// <param name="key">The configuration key.</param>
+    /// <param name="exceptionMessage">A custom message for when no value is found for the configuration key.</param>
     /// <returns>The configuration value.</returns>
     /// <exception cref="ConfigurationException">
     /// The configuration value is not found or is not convertible to <typeparamref name="TValue"/>.
     /// </exception>
-    public static TValue Require<TValue>(this IConfiguration config, string key)
+    public static TValue Require<TValue>(this IConfiguration config, string key, string? exceptionMessage = null)
     {
         var value = config.GetValue(typeof(TValue), key, null);
 
-        if (value is not TValue typedValue)
-            throw new ConfigurationException($"No value found for configuration key {key}");
+        if (value is TValue typedValue)
+            return typedValue;
 
-        return typedValue;
+        var message = exceptionMessage ?? $"No value found for configuration key {key}";
+
+        throw new ConfigurationException(message);
     }
 
     /// <summary>

@@ -33,6 +33,23 @@ public class ConfigurationExtensionsTests
         test.Should().Throw<ConfigurationException>().WithMessage($"*{key}*");
     }
 
+    [Fact]
+    public void Require_throws_configuration_exception_with_supplied_message_when_key_is_not_found()
+    {
+        const string key = "foo";
+
+        var config = new ConfigurationBuilder()
+            .AddInMemoryCollection(new Dictionary<string, string?> { { "bar", "baz" } })
+            .Build();
+
+        const string expectedMessage = "Oopsie woopsie!";
+
+        var test = () => config.Require(key, expectedMessage);
+
+        test.Should().Throw<ConfigurationException>()
+            .WithMessage(expectedMessage);
+    }
+
     [Theory]
     [InlineData((string?) null)]
     [InlineData("")]
@@ -97,6 +114,21 @@ public class ConfigurationExtensionsTests
         var test = () => config.Require<Guid>(key);
 
         test.Should().Throw<ConfigurationException>().WithMessage($"*{key}*");
+    }
+    [Fact]
+    public void Require_T_throws_exception_with_supplied_message_when_key_is_not_found()
+    {
+        const string key = "foo";
+
+        var config = new ConfigurationBuilder()
+            .Build();
+
+        const string expectedMessage = "Oopsie woopsie!";
+
+        var test = () => config.Require(key, expectedMessage);
+
+        test.Should().Throw<ConfigurationException>()
+            .WithMessage(expectedMessage);
     }
 
     [Fact]
