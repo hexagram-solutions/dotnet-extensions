@@ -7,6 +7,18 @@
       "commands": [
         "docfx"
       ]
+    },
+    "husky": {
+      "version": "0.6.4",
+      "commands": [
+        "husky"
+      ]
+    },
+    "nuke.globaltool": {
+      "version": "8.0.0",
+      "commands": [
+        "nuke"
+      ]
     }
   }
 }
