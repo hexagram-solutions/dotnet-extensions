@@ -1,0 +1,1784 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Hexagrams.Extensions.Authentication.OAuth
+  name: Hexagrams.Extensions.Authentication.OAuth
+  href: api/Hexagrams.Extensions.Authentication.OAuth.html
+  commentId: N:Hexagrams.Extensions.Authentication.OAuth
+  fullName: Hexagrams.Extensions.Authentication.OAuth
+  nameWithType: Hexagrams.Extensions.Authentication.OAuth
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions
+  name: AccessTokenCachingOptions
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions.html
+  commentId: T:Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions
+  nameWithType: AccessTokenCachingOptions
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions.ExpirationBuffer
+  name: ExpirationBuffer
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions.html#Hexagrams_Extensions_Authentication_OAuth_AccessTokenCachingOptions_ExpirationBuffer
+  commentId: P:Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions.ExpirationBuffer
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions.ExpirationBuffer
+  nameWithType: AccessTokenCachingOptions.ExpirationBuffer
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions.ExpirationBuffer*
+  name: ExpirationBuffer
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions.html#Hexagrams_Extensions_Authentication_OAuth_AccessTokenCachingOptions_ExpirationBuffer_
+  commentId: Overload:Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions.ExpirationBuffer
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions.ExpirationBuffer
+  nameWithType: AccessTokenCachingOptions.ExpirationBuffer
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions.Value
+  name: Value
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions.html#Hexagrams_Extensions_Authentication_OAuth_AccessTokenCachingOptions_Value
+  commentId: P:Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions.Value
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions.Value
+  nameWithType: AccessTokenCachingOptions.Value
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions.Value*
+  name: Value
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions.html#Hexagrams_Extensions_Authentication_OAuth_AccessTokenCachingOptions_Value_
+  commentId: Overload:Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions.Value
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions.Value
+  nameWithType: AccessTokenCachingOptions.Value
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions
+  name: AccessTokenProviderBuilderExtensions
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.html
+  commentId: T:Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions
+  nameWithType: AccessTokenProviderBuilderExtensions
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.UseClientCredentialsFlow(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder,Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsProviderOptions)
+  name: UseClientCredentialsFlow(IAccessTokenProviderBuilder, ClientCredentialsProviderOptions)
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.html#Hexagrams_Extensions_Authentication_OAuth_AccessTokenProviderBuilderExtensions_UseClientCredentialsFlow_Hexagrams_Extensions_Authentication_OAuth_IAccessTokenProviderBuilder_Hexagrams_Extensions_Authentication_OAuth_ClientCredentialsProviderOptions_
+  commentId: M:Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.UseClientCredentialsFlow(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder,Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsProviderOptions)
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.UseClientCredentialsFlow(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder, Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsProviderOptions)
+  nameWithType: AccessTokenProviderBuilderExtensions.UseClientCredentialsFlow(IAccessTokenProviderBuilder, ClientCredentialsProviderOptions)
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.UseClientCredentialsFlow(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder,System.Action{Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsProviderOptions})
+  name: UseClientCredentialsFlow(IAccessTokenProviderBuilder, Action<ClientCredentialsProviderOptions>)
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.html#Hexagrams_Extensions_Authentication_OAuth_AccessTokenProviderBuilderExtensions_UseClientCredentialsFlow_Hexagrams_Extensions_Authentication_OAuth_IAccessTokenProviderBuilder_System_Action_Hexagrams_Extensions_Authentication_OAuth_ClientCredentialsProviderOptions__
+  commentId: M:Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.UseClientCredentialsFlow(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder,System.Action{Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsProviderOptions})
+  name.vb: UseClientCredentialsFlow(IAccessTokenProviderBuilder, Action(Of ClientCredentialsProviderOptions))
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.UseClientCredentialsFlow(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder, System.Action<Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsProviderOptions>)
+  fullName.vb: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.UseClientCredentialsFlow(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder, System.Action(Of Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsProviderOptions))
+  nameWithType: AccessTokenProviderBuilderExtensions.UseClientCredentialsFlow(IAccessTokenProviderBuilder, Action<ClientCredentialsProviderOptions>)
+  nameWithType.vb: AccessTokenProviderBuilderExtensions.UseClientCredentialsFlow(IAccessTokenProviderBuilder, Action(Of ClientCredentialsProviderOptions))
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.UseClientCredentialsFlow*
+  name: UseClientCredentialsFlow
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.html#Hexagrams_Extensions_Authentication_OAuth_AccessTokenProviderBuilderExtensions_UseClientCredentialsFlow_
+  commentId: Overload:Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.UseClientCredentialsFlow
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.UseClientCredentialsFlow
+  nameWithType: AccessTokenProviderBuilderExtensions.UseClientCredentialsFlow
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.UseCustomProvider(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder,Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProvider)
+  name: UseCustomProvider(IAccessTokenProviderBuilder, IAccessTokenProvider)
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.html#Hexagrams_Extensions_Authentication_OAuth_AccessTokenProviderBuilderExtensions_UseCustomProvider_Hexagrams_Extensions_Authentication_OAuth_IAccessTokenProviderBuilder_Hexagrams_Extensions_Authentication_OAuth_IAccessTokenProvider_
+  commentId: M:Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.UseCustomProvider(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder,Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProvider)
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.UseCustomProvider(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder, Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProvider)
+  nameWithType: AccessTokenProviderBuilderExtensions.UseCustomProvider(IAccessTokenProviderBuilder, IAccessTokenProvider)
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.UseCustomProvider*
+  name: UseCustomProvider
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.html#Hexagrams_Extensions_Authentication_OAuth_AccessTokenProviderBuilderExtensions_UseCustomProvider_
+  commentId: Overload:Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.UseCustomProvider
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.UseCustomProvider
+  nameWithType: AccessTokenProviderBuilderExtensions.UseCustomProvider
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.UseCustomProvider``1(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder)
+  name: UseCustomProvider<TProvider>(IAccessTokenProviderBuilder)
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.html#Hexagrams_Extensions_Authentication_OAuth_AccessTokenProviderBuilderExtensions_UseCustomProvider__1_Hexagrams_Extensions_Authentication_OAuth_IAccessTokenProviderBuilder_
+  commentId: M:Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.UseCustomProvider``1(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder)
+  name.vb: UseCustomProvider(Of TProvider)(IAccessTokenProviderBuilder)
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.UseCustomProvider<TProvider>(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder)
+  fullName.vb: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.UseCustomProvider(Of TProvider)(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder)
+  nameWithType: AccessTokenProviderBuilderExtensions.UseCustomProvider<TProvider>(IAccessTokenProviderBuilder)
+  nameWithType.vb: AccessTokenProviderBuilderExtensions.UseCustomProvider(Of TProvider)(IAccessTokenProviderBuilder)
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.UseCustomProvider``1(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder,System.Func{System.IServiceProvider,``0})
+  name: UseCustomProvider<TProvider>(IAccessTokenProviderBuilder, Func<IServiceProvider, TProvider>)
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.html#Hexagrams_Extensions_Authentication_OAuth_AccessTokenProviderBuilderExtensions_UseCustomProvider__1_Hexagrams_Extensions_Authentication_OAuth_IAccessTokenProviderBuilder_System_Func_System_IServiceProvider___0__
+  commentId: M:Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.UseCustomProvider``1(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder,System.Func{System.IServiceProvider,``0})
+  name.vb: UseCustomProvider(Of TProvider)(IAccessTokenProviderBuilder, Func(Of IServiceProvider, TProvider))
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.UseCustomProvider<TProvider>(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder, System.Func<System.IServiceProvider, TProvider>)
+  fullName.vb: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.UseCustomProvider(Of TProvider)(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder, System.Func(Of System.IServiceProvider, TProvider))
+  nameWithType: AccessTokenProviderBuilderExtensions.UseCustomProvider<TProvider>(IAccessTokenProviderBuilder, Func<IServiceProvider, TProvider>)
+  nameWithType.vb: AccessTokenProviderBuilderExtensions.UseCustomProvider(Of TProvider)(IAccessTokenProviderBuilder, Func(Of IServiceProvider, TProvider))
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.UseResourceOwnerPasswordFlow(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder,Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions)
+  name: UseResourceOwnerPasswordFlow(IAccessTokenProviderBuilder, ResourceOwnerPasswordProviderOptions)
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.html#Hexagrams_Extensions_Authentication_OAuth_AccessTokenProviderBuilderExtensions_UseResourceOwnerPasswordFlow_Hexagrams_Extensions_Authentication_OAuth_IAccessTokenProviderBuilder_Hexagrams_Extensions_Authentication_OAuth_ResourceOwnerPasswordProviderOptions_
+  commentId: M:Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.UseResourceOwnerPasswordFlow(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder,Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions)
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.UseResourceOwnerPasswordFlow(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder, Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions)
+  nameWithType: AccessTokenProviderBuilderExtensions.UseResourceOwnerPasswordFlow(IAccessTokenProviderBuilder, ResourceOwnerPasswordProviderOptions)
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.UseResourceOwnerPasswordFlow(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder,System.Action{Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions})
+  name: UseResourceOwnerPasswordFlow(IAccessTokenProviderBuilder, Action<ResourceOwnerPasswordProviderOptions>)
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.html#Hexagrams_Extensions_Authentication_OAuth_AccessTokenProviderBuilderExtensions_UseResourceOwnerPasswordFlow_Hexagrams_Extensions_Authentication_OAuth_IAccessTokenProviderBuilder_System_Action_Hexagrams_Extensions_Authentication_OAuth_ResourceOwnerPasswordProviderOptions__
+  commentId: M:Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.UseResourceOwnerPasswordFlow(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder,System.Action{Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions})
+  name.vb: UseResourceOwnerPasswordFlow(IAccessTokenProviderBuilder, Action(Of ResourceOwnerPasswordProviderOptions))
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.UseResourceOwnerPasswordFlow(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder, System.Action<Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions>)
+  fullName.vb: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.UseResourceOwnerPasswordFlow(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder, System.Action(Of Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions))
+  nameWithType: AccessTokenProviderBuilderExtensions.UseResourceOwnerPasswordFlow(IAccessTokenProviderBuilder, Action<ResourceOwnerPasswordProviderOptions>)
+  nameWithType.vb: AccessTokenProviderBuilderExtensions.UseResourceOwnerPasswordFlow(IAccessTokenProviderBuilder, Action(Of ResourceOwnerPasswordProviderOptions))
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.UseResourceOwnerPasswordFlow*
+  name: UseResourceOwnerPasswordFlow
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.html#Hexagrams_Extensions_Authentication_OAuth_AccessTokenProviderBuilderExtensions_UseResourceOwnerPasswordFlow_
+  commentId: Overload:Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.UseResourceOwnerPasswordFlow
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.UseResourceOwnerPasswordFlow
+  nameWithType: AccessTokenProviderBuilderExtensions.UseResourceOwnerPasswordFlow
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.WithDistributedCaching(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder,System.Action{Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions})
+  name: WithDistributedCaching(IAccessTokenProviderBuilder, Action<AccessTokenCachingOptions>?)
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.html#Hexagrams_Extensions_Authentication_OAuth_AccessTokenProviderBuilderExtensions_WithDistributedCaching_Hexagrams_Extensions_Authentication_OAuth_IAccessTokenProviderBuilder_System_Action_Hexagrams_Extensions_Authentication_OAuth_AccessTokenCachingOptions__
+  commentId: M:Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.WithDistributedCaching(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder,System.Action{Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions})
+  name.vb: WithDistributedCaching(IAccessTokenProviderBuilder, Action(Of AccessTokenCachingOptions))
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.WithDistributedCaching(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder, System.Action<Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions>?)
+  fullName.vb: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.WithDistributedCaching(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder, System.Action(Of Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions))
+  nameWithType: AccessTokenProviderBuilderExtensions.WithDistributedCaching(IAccessTokenProviderBuilder, Action<AccessTokenCachingOptions>?)
+  nameWithType.vb: AccessTokenProviderBuilderExtensions.WithDistributedCaching(IAccessTokenProviderBuilder, Action(Of AccessTokenCachingOptions))
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.WithDistributedCaching*
+  name: WithDistributedCaching
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.html#Hexagrams_Extensions_Authentication_OAuth_AccessTokenProviderBuilderExtensions_WithDistributedCaching_
+  commentId: Overload:Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.WithDistributedCaching
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.WithDistributedCaching
+  nameWithType: AccessTokenProviderBuilderExtensions.WithDistributedCaching
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.WithInMemoryCaching(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder,System.Action{Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions},System.Action{Microsoft.Extensions.Caching.Memory.MemoryCacheOptions})
+  name: WithInMemoryCaching(IAccessTokenProviderBuilder, Action<AccessTokenCachingOptions>?, Action<MemoryCacheOptions>?)
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.html#Hexagrams_Extensions_Authentication_OAuth_AccessTokenProviderBuilderExtensions_WithInMemoryCaching_Hexagrams_Extensions_Authentication_OAuth_IAccessTokenProviderBuilder_System_Action_Hexagrams_Extensions_Authentication_OAuth_AccessTokenCachingOptions__System_Action_Microsoft_Extensions_Caching_Memory_MemoryCacheOptions__
+  commentId: M:Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.WithInMemoryCaching(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder,System.Action{Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions},System.Action{Microsoft.Extensions.Caching.Memory.MemoryCacheOptions})
+  name.vb: WithInMemoryCaching(IAccessTokenProviderBuilder, Action(Of AccessTokenCachingOptions), Action(Of MemoryCacheOptions))
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.WithInMemoryCaching(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder, System.Action<Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions>?, System.Action<Microsoft.Extensions.Caching.Memory.MemoryCacheOptions>?)
+  fullName.vb: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.WithInMemoryCaching(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder, System.Action(Of Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions), System.Action(Of Microsoft.Extensions.Caching.Memory.MemoryCacheOptions))
+  nameWithType: AccessTokenProviderBuilderExtensions.WithInMemoryCaching(IAccessTokenProviderBuilder, Action<AccessTokenCachingOptions>?, Action<MemoryCacheOptions>?)
+  nameWithType.vb: AccessTokenProviderBuilderExtensions.WithInMemoryCaching(IAccessTokenProviderBuilder, Action(Of AccessTokenCachingOptions), Action(Of MemoryCacheOptions))
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.WithInMemoryCaching*
+  name: WithInMemoryCaching
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.html#Hexagrams_Extensions_Authentication_OAuth_AccessTokenProviderBuilderExtensions_WithInMemoryCaching_
+  commentId: Overload:Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.WithInMemoryCaching
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.WithInMemoryCaching
+  nameWithType: AccessTokenProviderBuilderExtensions.WithInMemoryCaching
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderOptions
+  name: AccessTokenProviderOptions
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderOptions.html
+  commentId: T:Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderOptions
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderOptions
+  nameWithType: AccessTokenProviderOptions
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderOptions.AdditionalProperties
+  name: AdditionalProperties
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderOptions.html#Hexagrams_Extensions_Authentication_OAuth_AccessTokenProviderOptions_AdditionalProperties
+  commentId: P:Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderOptions.AdditionalProperties
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderOptions.AdditionalProperties
+  nameWithType: AccessTokenProviderOptions.AdditionalProperties
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderOptions.AdditionalProperties*
+  name: AdditionalProperties
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderOptions.html#Hexagrams_Extensions_Authentication_OAuth_AccessTokenProviderOptions_AdditionalProperties_
+  commentId: Overload:Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderOptions.AdditionalProperties
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderOptions.AdditionalProperties
+  nameWithType: AccessTokenProviderOptions.AdditionalProperties
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderOptions.ClientId
+  name: ClientId
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderOptions.html#Hexagrams_Extensions_Authentication_OAuth_AccessTokenProviderOptions_ClientId
+  commentId: P:Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderOptions.ClientId
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderOptions.ClientId
+  nameWithType: AccessTokenProviderOptions.ClientId
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderOptions.ClientId*
+  name: ClientId
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderOptions.html#Hexagrams_Extensions_Authentication_OAuth_AccessTokenProviderOptions_ClientId_
+  commentId: Overload:Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderOptions.ClientId
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderOptions.ClientId
+  nameWithType: AccessTokenProviderOptions.ClientId
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderOptions.TokenEndpoint
+  name: TokenEndpoint
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderOptions.html#Hexagrams_Extensions_Authentication_OAuth_AccessTokenProviderOptions_TokenEndpoint
+  commentId: P:Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderOptions.TokenEndpoint
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderOptions.TokenEndpoint
+  nameWithType: AccessTokenProviderOptions.TokenEndpoint
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderOptions.TokenEndpoint*
+  name: TokenEndpoint
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderOptions.html#Hexagrams_Extensions_Authentication_OAuth_AccessTokenProviderOptions_TokenEndpoint_
+  commentId: Overload:Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderOptions.TokenEndpoint
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderOptions.TokenEndpoint
+  nameWithType: AccessTokenProviderOptions.TokenEndpoint
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderServiceCollectionExtensions
+  name: AccessTokenProviderServiceCollectionExtensions
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderServiceCollectionExtensions.html
+  commentId: T:Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderServiceCollectionExtensions
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderServiceCollectionExtensions
+  nameWithType: AccessTokenProviderServiceCollectionExtensions
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderServiceCollectionExtensions.AddAccessTokenProvider(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder})
+  name: AddAccessTokenProvider(IServiceCollection, Action<IAccessTokenProviderBuilder>)
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderServiceCollectionExtensions.html#Hexagrams_Extensions_Authentication_OAuth_AccessTokenProviderServiceCollectionExtensions_AddAccessTokenProvider_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_Hexagrams_Extensions_Authentication_OAuth_IAccessTokenProviderBuilder__
+  commentId: M:Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderServiceCollectionExtensions.AddAccessTokenProvider(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder})
+  name.vb: AddAccessTokenProvider(IServiceCollection, Action(Of IAccessTokenProviderBuilder))
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderServiceCollectionExtensions.AddAccessTokenProvider(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder>)
+  fullName.vb: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderServiceCollectionExtensions.AddAccessTokenProvider(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder))
+  nameWithType: AccessTokenProviderServiceCollectionExtensions.AddAccessTokenProvider(IServiceCollection, Action<IAccessTokenProviderBuilder>)
+  nameWithType.vb: AccessTokenProviderServiceCollectionExtensions.AddAccessTokenProvider(IServiceCollection, Action(Of IAccessTokenProviderBuilder))
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderServiceCollectionExtensions.AddAccessTokenProvider*
+  name: AddAccessTokenProvider
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderServiceCollectionExtensions.html#Hexagrams_Extensions_Authentication_OAuth_AccessTokenProviderServiceCollectionExtensions_AddAccessTokenProvider_
+  commentId: Overload:Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderServiceCollectionExtensions.AddAccessTokenProvider
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderServiceCollectionExtensions.AddAccessTokenProvider
+  nameWithType: AccessTokenProviderServiceCollectionExtensions.AddAccessTokenProvider
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse
+  name: AccessTokenResponse
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.html
+  commentId: T:Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse
+  nameWithType: AccessTokenResponse
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.AccessToken
+  name: AccessToken
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.html#Hexagrams_Extensions_Authentication_OAuth_AccessTokenResponse_AccessToken
+  commentId: P:Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.AccessToken
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.AccessToken
+  nameWithType: AccessTokenResponse.AccessToken
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.AccessToken*
+  name: AccessToken
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.html#Hexagrams_Extensions_Authentication_OAuth_AccessTokenResponse_AccessToken_
+  commentId: Overload:Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.AccessToken
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.AccessToken
+  nameWithType: AccessTokenResponse.AccessToken
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.AdditionalProperties
+  name: AdditionalProperties
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.html#Hexagrams_Extensions_Authentication_OAuth_AccessTokenResponse_AdditionalProperties
+  commentId: P:Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.AdditionalProperties
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.AdditionalProperties
+  nameWithType: AccessTokenResponse.AdditionalProperties
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.AdditionalProperties*
+  name: AdditionalProperties
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.html#Hexagrams_Extensions_Authentication_OAuth_AccessTokenResponse_AdditionalProperties_
+  commentId: Overload:Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.AdditionalProperties
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.AdditionalProperties
+  nameWithType: AccessTokenResponse.AdditionalProperties
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.ExpiresIn
+  name: ExpiresIn
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.html#Hexagrams_Extensions_Authentication_OAuth_AccessTokenResponse_ExpiresIn
+  commentId: P:Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.ExpiresIn
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.ExpiresIn
+  nameWithType: AccessTokenResponse.ExpiresIn
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.ExpiresIn*
+  name: ExpiresIn
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.html#Hexagrams_Extensions_Authentication_OAuth_AccessTokenResponse_ExpiresIn_
+  commentId: Overload:Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.ExpiresIn
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.ExpiresIn
+  nameWithType: AccessTokenResponse.ExpiresIn
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.Scope
+  name: Scope
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.html#Hexagrams_Extensions_Authentication_OAuth_AccessTokenResponse_Scope
+  commentId: P:Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.Scope
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.Scope
+  nameWithType: AccessTokenResponse.Scope
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.Scope*
+  name: Scope
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.html#Hexagrams_Extensions_Authentication_OAuth_AccessTokenResponse_Scope_
+  commentId: Overload:Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.Scope
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.Scope
+  nameWithType: AccessTokenResponse.Scope
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.TokenType
+  name: TokenType
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.html#Hexagrams_Extensions_Authentication_OAuth_AccessTokenResponse_TokenType
+  commentId: P:Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.TokenType
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.TokenType
+  nameWithType: AccessTokenResponse.TokenType
+- uid: Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.TokenType*
+  name: TokenType
+  href: api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.html#Hexagrams_Extensions_Authentication_OAuth_AccessTokenResponse_TokenType_
+  commentId: Overload:Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.TokenType
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.TokenType
+  nameWithType: AccessTokenResponse.TokenType
+- uid: Hexagrams.Extensions.Authentication.OAuth.BearerTokenAuthenticationHandler
+  name: BearerTokenAuthenticationHandler
+  href: api/Hexagrams.Extensions.Authentication.OAuth.BearerTokenAuthenticationHandler.html
+  commentId: T:Hexagrams.Extensions.Authentication.OAuth.BearerTokenAuthenticationHandler
+  fullName: Hexagrams.Extensions.Authentication.OAuth.BearerTokenAuthenticationHandler
+  nameWithType: BearerTokenAuthenticationHandler
+- uid: Hexagrams.Extensions.Authentication.OAuth.BearerTokenAuthenticationHandler.#ctor(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProvider,System.String[])
+  name: BearerTokenAuthenticationHandler(IAccessTokenProvider, params string[])
+  href: api/Hexagrams.Extensions.Authentication.OAuth.BearerTokenAuthenticationHandler.html#Hexagrams_Extensions_Authentication_OAuth_BearerTokenAuthenticationHandler__ctor_Hexagrams_Extensions_Authentication_OAuth_IAccessTokenProvider_System_String___
+  commentId: M:Hexagrams.Extensions.Authentication.OAuth.BearerTokenAuthenticationHandler.#ctor(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProvider,System.String[])
+  name.vb: New(IAccessTokenProvider, ParamArray String())
+  fullName: Hexagrams.Extensions.Authentication.OAuth.BearerTokenAuthenticationHandler.BearerTokenAuthenticationHandler(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProvider, params string[])
+  fullName.vb: Hexagrams.Extensions.Authentication.OAuth.BearerTokenAuthenticationHandler.New(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProvider, ParamArray String())
+  nameWithType: BearerTokenAuthenticationHandler.BearerTokenAuthenticationHandler(IAccessTokenProvider, params string[])
+  nameWithType.vb: BearerTokenAuthenticationHandler.New(IAccessTokenProvider, ParamArray String())
+- uid: Hexagrams.Extensions.Authentication.OAuth.BearerTokenAuthenticationHandler.#ctor*
+  name: BearerTokenAuthenticationHandler
+  href: api/Hexagrams.Extensions.Authentication.OAuth.BearerTokenAuthenticationHandler.html#Hexagrams_Extensions_Authentication_OAuth_BearerTokenAuthenticationHandler__ctor_
+  commentId: Overload:Hexagrams.Extensions.Authentication.OAuth.BearerTokenAuthenticationHandler.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Hexagrams.Extensions.Authentication.OAuth.BearerTokenAuthenticationHandler.BearerTokenAuthenticationHandler
+  fullName.vb: Hexagrams.Extensions.Authentication.OAuth.BearerTokenAuthenticationHandler.New
+  nameWithType: BearerTokenAuthenticationHandler.BearerTokenAuthenticationHandler
+  nameWithType.vb: BearerTokenAuthenticationHandler.New
+- uid: Hexagrams.Extensions.Authentication.OAuth.BearerTokenAuthenticationHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+  name: SendAsync(HttpRequestMessage, CancellationToken)
+  href: api/Hexagrams.Extensions.Authentication.OAuth.BearerTokenAuthenticationHandler.html#Hexagrams_Extensions_Authentication_OAuth_BearerTokenAuthenticationHandler_SendAsync_System_Net_Http_HttpRequestMessage_System_Threading_CancellationToken_
+  commentId: M:Hexagrams.Extensions.Authentication.OAuth.BearerTokenAuthenticationHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+  fullName: Hexagrams.Extensions.Authentication.OAuth.BearerTokenAuthenticationHandler.SendAsync(System.Net.Http.HttpRequestMessage, System.Threading.CancellationToken)
+  nameWithType: BearerTokenAuthenticationHandler.SendAsync(HttpRequestMessage, CancellationToken)
+- uid: Hexagrams.Extensions.Authentication.OAuth.BearerTokenAuthenticationHandler.SendAsync*
+  name: SendAsync
+  href: api/Hexagrams.Extensions.Authentication.OAuth.BearerTokenAuthenticationHandler.html#Hexagrams_Extensions_Authentication_OAuth_BearerTokenAuthenticationHandler_SendAsync_
+  commentId: Overload:Hexagrams.Extensions.Authentication.OAuth.BearerTokenAuthenticationHandler.SendAsync
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Authentication.OAuth.BearerTokenAuthenticationHandler.SendAsync
+  nameWithType: BearerTokenAuthenticationHandler.SendAsync
+- uid: Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsAccessTokenProvider
+  name: ClientCredentialsAccessTokenProvider
+  href: api/Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsAccessTokenProvider.html
+  commentId: T:Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsAccessTokenProvider
+  fullName: Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsAccessTokenProvider
+  nameWithType: ClientCredentialsAccessTokenProvider
+- uid: Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsAccessTokenProvider.#ctor(System.Net.Http.HttpClient,Microsoft.Extensions.Options.IOptions{Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsProviderOptions})
+  name: ClientCredentialsAccessTokenProvider(HttpClient, IOptions<ClientCredentialsProviderOptions>)
+  href: api/Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsAccessTokenProvider.html#Hexagrams_Extensions_Authentication_OAuth_ClientCredentialsAccessTokenProvider__ctor_System_Net_Http_HttpClient_Microsoft_Extensions_Options_IOptions_Hexagrams_Extensions_Authentication_OAuth_ClientCredentialsProviderOptions__
+  commentId: M:Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsAccessTokenProvider.#ctor(System.Net.Http.HttpClient,Microsoft.Extensions.Options.IOptions{Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsProviderOptions})
+  name.vb: New(HttpClient, IOptions(Of ClientCredentialsProviderOptions))
+  fullName: Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsAccessTokenProvider.ClientCredentialsAccessTokenProvider(System.Net.Http.HttpClient, Microsoft.Extensions.Options.IOptions<Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsProviderOptions>)
+  fullName.vb: Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsAccessTokenProvider.New(System.Net.Http.HttpClient, Microsoft.Extensions.Options.IOptions(Of Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsProviderOptions))
+  nameWithType: ClientCredentialsAccessTokenProvider.ClientCredentialsAccessTokenProvider(HttpClient, IOptions<ClientCredentialsProviderOptions>)
+  nameWithType.vb: ClientCredentialsAccessTokenProvider.New(HttpClient, IOptions(Of ClientCredentialsProviderOptions))
+- uid: Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsAccessTokenProvider.#ctor*
+  name: ClientCredentialsAccessTokenProvider
+  href: api/Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsAccessTokenProvider.html#Hexagrams_Extensions_Authentication_OAuth_ClientCredentialsAccessTokenProvider__ctor_
+  commentId: Overload:Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsAccessTokenProvider.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsAccessTokenProvider.ClientCredentialsAccessTokenProvider
+  fullName.vb: Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsAccessTokenProvider.New
+  nameWithType: ClientCredentialsAccessTokenProvider.ClientCredentialsAccessTokenProvider
+  nameWithType.vb: ClientCredentialsAccessTokenProvider.New
+- uid: Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsAccessTokenProvider.GetAccessTokenAsync(System.String[])
+  name: GetAccessTokenAsync(params string[])
+  href: api/Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsAccessTokenProvider.html#Hexagrams_Extensions_Authentication_OAuth_ClientCredentialsAccessTokenProvider_GetAccessTokenAsync_System_String___
+  commentId: M:Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsAccessTokenProvider.GetAccessTokenAsync(System.String[])
+  name.vb: GetAccessTokenAsync(ParamArray String())
+  fullName: Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsAccessTokenProvider.GetAccessTokenAsync(params string[])
+  fullName.vb: Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsAccessTokenProvider.GetAccessTokenAsync(ParamArray String())
+  nameWithType: ClientCredentialsAccessTokenProvider.GetAccessTokenAsync(params string[])
+  nameWithType.vb: ClientCredentialsAccessTokenProvider.GetAccessTokenAsync(ParamArray String())
+- uid: Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsAccessTokenProvider.GetAccessTokenAsync*
+  name: GetAccessTokenAsync
+  href: api/Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsAccessTokenProvider.html#Hexagrams_Extensions_Authentication_OAuth_ClientCredentialsAccessTokenProvider_GetAccessTokenAsync_
+  commentId: Overload:Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsAccessTokenProvider.GetAccessTokenAsync
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsAccessTokenProvider.GetAccessTokenAsync
+  nameWithType: ClientCredentialsAccessTokenProvider.GetAccessTokenAsync
+- uid: Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsProviderOptions
+  name: ClientCredentialsProviderOptions
+  href: api/Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsProviderOptions.html
+  commentId: T:Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsProviderOptions
+  fullName: Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsProviderOptions
+  nameWithType: ClientCredentialsProviderOptions
+- uid: Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsProviderOptions.ClientSecret
+  name: ClientSecret
+  href: api/Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsProviderOptions.html#Hexagrams_Extensions_Authentication_OAuth_ClientCredentialsProviderOptions_ClientSecret
+  commentId: P:Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsProviderOptions.ClientSecret
+  fullName: Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsProviderOptions.ClientSecret
+  nameWithType: ClientCredentialsProviderOptions.ClientSecret
+- uid: Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsProviderOptions.ClientSecret*
+  name: ClientSecret
+  href: api/Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsProviderOptions.html#Hexagrams_Extensions_Authentication_OAuth_ClientCredentialsProviderOptions_ClientSecret_
+  commentId: Overload:Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsProviderOptions.ClientSecret
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsProviderOptions.ClientSecret
+  nameWithType: ClientCredentialsProviderOptions.ClientSecret
+- uid: Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsProviderOptions.Value
+  name: Value
+  href: api/Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsProviderOptions.html#Hexagrams_Extensions_Authentication_OAuth_ClientCredentialsProviderOptions_Value
+  commentId: P:Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsProviderOptions.Value
+  fullName: Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsProviderOptions.Value
+  nameWithType: ClientCredentialsProviderOptions.Value
+- uid: Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsProviderOptions.Value*
+  name: Value
+  href: api/Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsProviderOptions.html#Hexagrams_Extensions_Authentication_OAuth_ClientCredentialsProviderOptions_Value_
+  commentId: Overload:Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsProviderOptions.Value
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsProviderOptions.Value
+  nameWithType: ClientCredentialsProviderOptions.Value
+- uid: Hexagrams.Extensions.Authentication.OAuth.DistributedCachingAccessTokenProvider
+  name: DistributedCachingAccessTokenProvider
+  href: api/Hexagrams.Extensions.Authentication.OAuth.DistributedCachingAccessTokenProvider.html
+  commentId: T:Hexagrams.Extensions.Authentication.OAuth.DistributedCachingAccessTokenProvider
+  fullName: Hexagrams.Extensions.Authentication.OAuth.DistributedCachingAccessTokenProvider
+  nameWithType: DistributedCachingAccessTokenProvider
+- uid: Hexagrams.Extensions.Authentication.OAuth.DistributedCachingAccessTokenProvider.#ctor(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProvider,Microsoft.Extensions.Caching.Distributed.IDistributedCache,Microsoft.Extensions.Options.IOptions{Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions})
+  name: DistributedCachingAccessTokenProvider(IAccessTokenProvider, IDistributedCache, IOptions<AccessTokenCachingOptions>)
+  href: api/Hexagrams.Extensions.Authentication.OAuth.DistributedCachingAccessTokenProvider.html#Hexagrams_Extensions_Authentication_OAuth_DistributedCachingAccessTokenProvider__ctor_Hexagrams_Extensions_Authentication_OAuth_IAccessTokenProvider_Microsoft_Extensions_Caching_Distributed_IDistributedCache_Microsoft_Extensions_Options_IOptions_Hexagrams_Extensions_Authentication_OAuth_AccessTokenCachingOptions__
+  commentId: M:Hexagrams.Extensions.Authentication.OAuth.DistributedCachingAccessTokenProvider.#ctor(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProvider,Microsoft.Extensions.Caching.Distributed.IDistributedCache,Microsoft.Extensions.Options.IOptions{Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions})
+  name.vb: New(IAccessTokenProvider, IDistributedCache, IOptions(Of AccessTokenCachingOptions))
+  fullName: Hexagrams.Extensions.Authentication.OAuth.DistributedCachingAccessTokenProvider.DistributedCachingAccessTokenProvider(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProvider, Microsoft.Extensions.Caching.Distributed.IDistributedCache, Microsoft.Extensions.Options.IOptions<Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions>)
+  fullName.vb: Hexagrams.Extensions.Authentication.OAuth.DistributedCachingAccessTokenProvider.New(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProvider, Microsoft.Extensions.Caching.Distributed.IDistributedCache, Microsoft.Extensions.Options.IOptions(Of Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions))
+  nameWithType: DistributedCachingAccessTokenProvider.DistributedCachingAccessTokenProvider(IAccessTokenProvider, IDistributedCache, IOptions<AccessTokenCachingOptions>)
+  nameWithType.vb: DistributedCachingAccessTokenProvider.New(IAccessTokenProvider, IDistributedCache, IOptions(Of AccessTokenCachingOptions))
+- uid: Hexagrams.Extensions.Authentication.OAuth.DistributedCachingAccessTokenProvider.#ctor*
+  name: DistributedCachingAccessTokenProvider
+  href: api/Hexagrams.Extensions.Authentication.OAuth.DistributedCachingAccessTokenProvider.html#Hexagrams_Extensions_Authentication_OAuth_DistributedCachingAccessTokenProvider__ctor_
+  commentId: Overload:Hexagrams.Extensions.Authentication.OAuth.DistributedCachingAccessTokenProvider.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Hexagrams.Extensions.Authentication.OAuth.DistributedCachingAccessTokenProvider.DistributedCachingAccessTokenProvider
+  fullName.vb: Hexagrams.Extensions.Authentication.OAuth.DistributedCachingAccessTokenProvider.New
+  nameWithType: DistributedCachingAccessTokenProvider.DistributedCachingAccessTokenProvider
+  nameWithType.vb: DistributedCachingAccessTokenProvider.New
+- uid: Hexagrams.Extensions.Authentication.OAuth.DistributedCachingAccessTokenProvider.GetAccessTokenAsync(System.String[])
+  name: GetAccessTokenAsync(params string[])
+  href: api/Hexagrams.Extensions.Authentication.OAuth.DistributedCachingAccessTokenProvider.html#Hexagrams_Extensions_Authentication_OAuth_DistributedCachingAccessTokenProvider_GetAccessTokenAsync_System_String___
+  commentId: M:Hexagrams.Extensions.Authentication.OAuth.DistributedCachingAccessTokenProvider.GetAccessTokenAsync(System.String[])
+  name.vb: GetAccessTokenAsync(ParamArray String())
+  fullName: Hexagrams.Extensions.Authentication.OAuth.DistributedCachingAccessTokenProvider.GetAccessTokenAsync(params string[])
+  fullName.vb: Hexagrams.Extensions.Authentication.OAuth.DistributedCachingAccessTokenProvider.GetAccessTokenAsync(ParamArray String())
+  nameWithType: DistributedCachingAccessTokenProvider.GetAccessTokenAsync(params string[])
+  nameWithType.vb: DistributedCachingAccessTokenProvider.GetAccessTokenAsync(ParamArray String())
+- uid: Hexagrams.Extensions.Authentication.OAuth.DistributedCachingAccessTokenProvider.GetAccessTokenAsync*
+  name: GetAccessTokenAsync
+  href: api/Hexagrams.Extensions.Authentication.OAuth.DistributedCachingAccessTokenProvider.html#Hexagrams_Extensions_Authentication_OAuth_DistributedCachingAccessTokenProvider_GetAccessTokenAsync_
+  commentId: Overload:Hexagrams.Extensions.Authentication.OAuth.DistributedCachingAccessTokenProvider.GetAccessTokenAsync
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Authentication.OAuth.DistributedCachingAccessTokenProvider.GetAccessTokenAsync
+  nameWithType: DistributedCachingAccessTokenProvider.GetAccessTokenAsync
+- uid: Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProvider
+  name: IAccessTokenProvider
+  href: api/Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProvider.html
+  commentId: T:Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProvider
+  fullName: Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProvider
+  nameWithType: IAccessTokenProvider
+- uid: Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProvider.GetAccessTokenAsync(System.String[])
+  name: GetAccessTokenAsync(params string[])
+  href: api/Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProvider.html#Hexagrams_Extensions_Authentication_OAuth_IAccessTokenProvider_GetAccessTokenAsync_System_String___
+  commentId: M:Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProvider.GetAccessTokenAsync(System.String[])
+  name.vb: GetAccessTokenAsync(ParamArray String())
+  fullName: Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProvider.GetAccessTokenAsync(params string[])
+  fullName.vb: Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProvider.GetAccessTokenAsync(ParamArray String())
+  nameWithType: IAccessTokenProvider.GetAccessTokenAsync(params string[])
+  nameWithType.vb: IAccessTokenProvider.GetAccessTokenAsync(ParamArray String())
+- uid: Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProvider.GetAccessTokenAsync*
+  name: GetAccessTokenAsync
+  href: api/Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProvider.html#Hexagrams_Extensions_Authentication_OAuth_IAccessTokenProvider_GetAccessTokenAsync_
+  commentId: Overload:Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProvider.GetAccessTokenAsync
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProvider.GetAccessTokenAsync
+  nameWithType: IAccessTokenProvider.GetAccessTokenAsync
+- uid: Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder
+  name: IAccessTokenProviderBuilder
+  href: api/Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder.html
+  commentId: T:Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder
+  fullName: Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder
+  nameWithType: IAccessTokenProviderBuilder
+- uid: Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder.Services
+  name: Services
+  href: api/Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder.html#Hexagrams_Extensions_Authentication_OAuth_IAccessTokenProviderBuilder_Services
+  commentId: P:Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder.Services
+  fullName: Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder.Services
+  nameWithType: IAccessTokenProviderBuilder.Services
+- uid: Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder.Services*
+  name: Services
+  href: api/Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder.html#Hexagrams_Extensions_Authentication_OAuth_IAccessTokenProviderBuilder_Services_
+  commentId: Overload:Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder.Services
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder.Services
+  nameWithType: IAccessTokenProviderBuilder.Services
+- uid: Hexagrams.Extensions.Authentication.OAuth.InMemoryCachingAccessTokenProvider
+  name: InMemoryCachingAccessTokenProvider
+  href: api/Hexagrams.Extensions.Authentication.OAuth.InMemoryCachingAccessTokenProvider.html
+  commentId: T:Hexagrams.Extensions.Authentication.OAuth.InMemoryCachingAccessTokenProvider
+  fullName: Hexagrams.Extensions.Authentication.OAuth.InMemoryCachingAccessTokenProvider
+  nameWithType: InMemoryCachingAccessTokenProvider
+- uid: Hexagrams.Extensions.Authentication.OAuth.InMemoryCachingAccessTokenProvider.#ctor(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProvider,Microsoft.Extensions.Caching.Memory.IMemoryCache,Microsoft.Extensions.Options.IOptions{Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions})
+  name: InMemoryCachingAccessTokenProvider(IAccessTokenProvider, IMemoryCache, IOptions<AccessTokenCachingOptions>)
+  href: api/Hexagrams.Extensions.Authentication.OAuth.InMemoryCachingAccessTokenProvider.html#Hexagrams_Extensions_Authentication_OAuth_InMemoryCachingAccessTokenProvider__ctor_Hexagrams_Extensions_Authentication_OAuth_IAccessTokenProvider_Microsoft_Extensions_Caching_Memory_IMemoryCache_Microsoft_Extensions_Options_IOptions_Hexagrams_Extensions_Authentication_OAuth_AccessTokenCachingOptions__
+  commentId: M:Hexagrams.Extensions.Authentication.OAuth.InMemoryCachingAccessTokenProvider.#ctor(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProvider,Microsoft.Extensions.Caching.Memory.IMemoryCache,Microsoft.Extensions.Options.IOptions{Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions})
+  name.vb: New(IAccessTokenProvider, IMemoryCache, IOptions(Of AccessTokenCachingOptions))
+  fullName: Hexagrams.Extensions.Authentication.OAuth.InMemoryCachingAccessTokenProvider.InMemoryCachingAccessTokenProvider(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProvider, Microsoft.Extensions.Caching.Memory.IMemoryCache, Microsoft.Extensions.Options.IOptions<Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions>)
+  fullName.vb: Hexagrams.Extensions.Authentication.OAuth.InMemoryCachingAccessTokenProvider.New(Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProvider, Microsoft.Extensions.Caching.Memory.IMemoryCache, Microsoft.Extensions.Options.IOptions(Of Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions))
+  nameWithType: InMemoryCachingAccessTokenProvider.InMemoryCachingAccessTokenProvider(IAccessTokenProvider, IMemoryCache, IOptions<AccessTokenCachingOptions>)
+  nameWithType.vb: InMemoryCachingAccessTokenProvider.New(IAccessTokenProvider, IMemoryCache, IOptions(Of AccessTokenCachingOptions))
+- uid: Hexagrams.Extensions.Authentication.OAuth.InMemoryCachingAccessTokenProvider.#ctor*
+  name: InMemoryCachingAccessTokenProvider
+  href: api/Hexagrams.Extensions.Authentication.OAuth.InMemoryCachingAccessTokenProvider.html#Hexagrams_Extensions_Authentication_OAuth_InMemoryCachingAccessTokenProvider__ctor_
+  commentId: Overload:Hexagrams.Extensions.Authentication.OAuth.InMemoryCachingAccessTokenProvider.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Hexagrams.Extensions.Authentication.OAuth.InMemoryCachingAccessTokenProvider.InMemoryCachingAccessTokenProvider
+  fullName.vb: Hexagrams.Extensions.Authentication.OAuth.InMemoryCachingAccessTokenProvider.New
+  nameWithType: InMemoryCachingAccessTokenProvider.InMemoryCachingAccessTokenProvider
+  nameWithType.vb: InMemoryCachingAccessTokenProvider.New
+- uid: Hexagrams.Extensions.Authentication.OAuth.InMemoryCachingAccessTokenProvider.GetAccessTokenAsync(System.String[])
+  name: GetAccessTokenAsync(params string[])
+  href: api/Hexagrams.Extensions.Authentication.OAuth.InMemoryCachingAccessTokenProvider.html#Hexagrams_Extensions_Authentication_OAuth_InMemoryCachingAccessTokenProvider_GetAccessTokenAsync_System_String___
+  commentId: M:Hexagrams.Extensions.Authentication.OAuth.InMemoryCachingAccessTokenProvider.GetAccessTokenAsync(System.String[])
+  name.vb: GetAccessTokenAsync(ParamArray String())
+  fullName: Hexagrams.Extensions.Authentication.OAuth.InMemoryCachingAccessTokenProvider.GetAccessTokenAsync(params string[])
+  fullName.vb: Hexagrams.Extensions.Authentication.OAuth.InMemoryCachingAccessTokenProvider.GetAccessTokenAsync(ParamArray String())
+  nameWithType: InMemoryCachingAccessTokenProvider.GetAccessTokenAsync(params string[])
+  nameWithType.vb: InMemoryCachingAccessTokenProvider.GetAccessTokenAsync(ParamArray String())
+- uid: Hexagrams.Extensions.Authentication.OAuth.InMemoryCachingAccessTokenProvider.GetAccessTokenAsync*
+  name: GetAccessTokenAsync
+  href: api/Hexagrams.Extensions.Authentication.OAuth.InMemoryCachingAccessTokenProvider.html#Hexagrams_Extensions_Authentication_OAuth_InMemoryCachingAccessTokenProvider_GetAccessTokenAsync_
+  commentId: Overload:Hexagrams.Extensions.Authentication.OAuth.InMemoryCachingAccessTokenProvider.GetAccessTokenAsync
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Authentication.OAuth.InMemoryCachingAccessTokenProvider.GetAccessTokenAsync
+  nameWithType: InMemoryCachingAccessTokenProvider.GetAccessTokenAsync
+- uid: Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordAccessTokenProvider
+  name: ResourceOwnerPasswordAccessTokenProvider
+  href: api/Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordAccessTokenProvider.html
+  commentId: T:Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordAccessTokenProvider
+  fullName: Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordAccessTokenProvider
+  nameWithType: ResourceOwnerPasswordAccessTokenProvider
+- uid: Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordAccessTokenProvider.#ctor(System.Net.Http.HttpClient,Microsoft.Extensions.Options.IOptions{Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions})
+  name: ResourceOwnerPasswordAccessTokenProvider(HttpClient, IOptions<ResourceOwnerPasswordProviderOptions>)
+  href: api/Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordAccessTokenProvider.html#Hexagrams_Extensions_Authentication_OAuth_ResourceOwnerPasswordAccessTokenProvider__ctor_System_Net_Http_HttpClient_Microsoft_Extensions_Options_IOptions_Hexagrams_Extensions_Authentication_OAuth_ResourceOwnerPasswordProviderOptions__
+  commentId: M:Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordAccessTokenProvider.#ctor(System.Net.Http.HttpClient,Microsoft.Extensions.Options.IOptions{Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions})
+  name.vb: New(HttpClient, IOptions(Of ResourceOwnerPasswordProviderOptions))
+  fullName: Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordAccessTokenProvider.ResourceOwnerPasswordAccessTokenProvider(System.Net.Http.HttpClient, Microsoft.Extensions.Options.IOptions<Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions>)
+  fullName.vb: Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordAccessTokenProvider.New(System.Net.Http.HttpClient, Microsoft.Extensions.Options.IOptions(Of Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions))
+  nameWithType: ResourceOwnerPasswordAccessTokenProvider.ResourceOwnerPasswordAccessTokenProvider(HttpClient, IOptions<ResourceOwnerPasswordProviderOptions>)
+  nameWithType.vb: ResourceOwnerPasswordAccessTokenProvider.New(HttpClient, IOptions(Of ResourceOwnerPasswordProviderOptions))
+- uid: Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordAccessTokenProvider.#ctor*
+  name: ResourceOwnerPasswordAccessTokenProvider
+  href: api/Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordAccessTokenProvider.html#Hexagrams_Extensions_Authentication_OAuth_ResourceOwnerPasswordAccessTokenProvider__ctor_
+  commentId: Overload:Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordAccessTokenProvider.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordAccessTokenProvider.ResourceOwnerPasswordAccessTokenProvider
+  fullName.vb: Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordAccessTokenProvider.New
+  nameWithType: ResourceOwnerPasswordAccessTokenProvider.ResourceOwnerPasswordAccessTokenProvider
+  nameWithType.vb: ResourceOwnerPasswordAccessTokenProvider.New
+- uid: Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordAccessTokenProvider.GetAccessTokenAsync(System.String[])
+  name: GetAccessTokenAsync(params string[])
+  href: api/Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordAccessTokenProvider.html#Hexagrams_Extensions_Authentication_OAuth_ResourceOwnerPasswordAccessTokenProvider_GetAccessTokenAsync_System_String___
+  commentId: M:Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordAccessTokenProvider.GetAccessTokenAsync(System.String[])
+  name.vb: GetAccessTokenAsync(ParamArray String())
+  fullName: Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordAccessTokenProvider.GetAccessTokenAsync(params string[])
+  fullName.vb: Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordAccessTokenProvider.GetAccessTokenAsync(ParamArray String())
+  nameWithType: ResourceOwnerPasswordAccessTokenProvider.GetAccessTokenAsync(params string[])
+  nameWithType.vb: ResourceOwnerPasswordAccessTokenProvider.GetAccessTokenAsync(ParamArray String())
+- uid: Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordAccessTokenProvider.GetAccessTokenAsync*
+  name: GetAccessTokenAsync
+  href: api/Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordAccessTokenProvider.html#Hexagrams_Extensions_Authentication_OAuth_ResourceOwnerPasswordAccessTokenProvider_GetAccessTokenAsync_
+  commentId: Overload:Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordAccessTokenProvider.GetAccessTokenAsync
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordAccessTokenProvider.GetAccessTokenAsync
+  nameWithType: ResourceOwnerPasswordAccessTokenProvider.GetAccessTokenAsync
+- uid: Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions
+  name: ResourceOwnerPasswordProviderOptions
+  href: api/Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions.html
+  commentId: T:Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions
+  fullName: Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions
+  nameWithType: ResourceOwnerPasswordProviderOptions
+- uid: Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions.ClientSecret
+  name: ClientSecret
+  href: api/Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions.html#Hexagrams_Extensions_Authentication_OAuth_ResourceOwnerPasswordProviderOptions_ClientSecret
+  commentId: P:Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions.ClientSecret
+  fullName: Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions.ClientSecret
+  nameWithType: ResourceOwnerPasswordProviderOptions.ClientSecret
+- uid: Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions.ClientSecret*
+  name: ClientSecret
+  href: api/Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions.html#Hexagrams_Extensions_Authentication_OAuth_ResourceOwnerPasswordProviderOptions_ClientSecret_
+  commentId: Overload:Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions.ClientSecret
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions.ClientSecret
+  nameWithType: ResourceOwnerPasswordProviderOptions.ClientSecret
+- uid: Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions.Password
+  name: Password
+  href: api/Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions.html#Hexagrams_Extensions_Authentication_OAuth_ResourceOwnerPasswordProviderOptions_Password
+  commentId: P:Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions.Password
+  fullName: Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions.Password
+  nameWithType: ResourceOwnerPasswordProviderOptions.Password
+- uid: Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions.Password*
+  name: Password
+  href: api/Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions.html#Hexagrams_Extensions_Authentication_OAuth_ResourceOwnerPasswordProviderOptions_Password_
+  commentId: Overload:Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions.Password
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions.Password
+  nameWithType: ResourceOwnerPasswordProviderOptions.Password
+- uid: Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions.Username
+  name: Username
+  href: api/Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions.html#Hexagrams_Extensions_Authentication_OAuth_ResourceOwnerPasswordProviderOptions_Username
+  commentId: P:Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions.Username
+  fullName: Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions.Username
+  nameWithType: ResourceOwnerPasswordProviderOptions.Username
+- uid: Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions.Username*
+  name: Username
+  href: api/Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions.html#Hexagrams_Extensions_Authentication_OAuth_ResourceOwnerPasswordProviderOptions_Username_
+  commentId: Overload:Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions.Username
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions.Username
+  nameWithType: ResourceOwnerPasswordProviderOptions.Username
+- uid: Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions.Value
+  name: Value
+  href: api/Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions.html#Hexagrams_Extensions_Authentication_OAuth_ResourceOwnerPasswordProviderOptions_Value
+  commentId: P:Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions.Value
+  fullName: Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions.Value
+  nameWithType: ResourceOwnerPasswordProviderOptions.Value
+- uid: Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions.Value*
+  name: Value
+  href: api/Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions.html#Hexagrams_Extensions_Authentication_OAuth_ResourceOwnerPasswordProviderOptions_Value_
+  commentId: Overload:Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions.Value
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions.Value
+  nameWithType: ResourceOwnerPasswordProviderOptions.Value
+- uid: Hexagrams.Extensions.BackgroundTasks
+  name: Hexagrams.Extensions.BackgroundTasks
+  href: api/Hexagrams.Extensions.BackgroundTasks.html
+  commentId: N:Hexagrams.Extensions.BackgroundTasks
+  fullName: Hexagrams.Extensions.BackgroundTasks
+  nameWithType: Hexagrams.Extensions.BackgroundTasks
+- uid: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue
+  name: BackgroundTaskQueue
+  href: api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.html
+  commentId: T:Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue
+  fullName: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue
+  nameWithType: BackgroundTaskQueue
+- uid: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.#ctor(Microsoft.Extensions.Options.IOptions{Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions})
+  name: BackgroundTaskQueue(IOptions<BackgroundTaskQueueOptions>)
+  href: api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.html#Hexagrams_Extensions_BackgroundTasks_BackgroundTaskQueue__ctor_Microsoft_Extensions_Options_IOptions_Hexagrams_Extensions_BackgroundTasks_BackgroundTaskQueueOptions__
+  commentId: M:Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.#ctor(Microsoft.Extensions.Options.IOptions{Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions})
+  name.vb: New(IOptions(Of BackgroundTaskQueueOptions))
+  fullName: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.BackgroundTaskQueue(Microsoft.Extensions.Options.IOptions<Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions>)
+  fullName.vb: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.New(Microsoft.Extensions.Options.IOptions(Of Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions))
+  nameWithType: BackgroundTaskQueue.BackgroundTaskQueue(IOptions<BackgroundTaskQueueOptions>)
+  nameWithType.vb: BackgroundTaskQueue.New(IOptions(Of BackgroundTaskQueueOptions))
+- uid: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.#ctor*
+  name: BackgroundTaskQueue
+  href: api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.html#Hexagrams_Extensions_BackgroundTasks_BackgroundTaskQueue__ctor_
+  commentId: Overload:Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.BackgroundTaskQueue
+  fullName.vb: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.New
+  nameWithType: BackgroundTaskQueue.BackgroundTaskQueue
+  nameWithType.vb: BackgroundTaskQueue.New
+- uid: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.Count
+  name: Count
+  href: api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.html#Hexagrams_Extensions_BackgroundTasks_BackgroundTaskQueue_Count
+  commentId: P:Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.Count
+  fullName: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.Count
+  nameWithType: BackgroundTaskQueue.Count
+- uid: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.Count*
+  name: Count
+  href: api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.html#Hexagrams_Extensions_BackgroundTasks_BackgroundTaskQueue_Count_
+  commentId: Overload:Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.Count
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.Count
+  nameWithType: BackgroundTaskQueue.Count
+- uid: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.DequeueAsync(System.Threading.CancellationToken)
+  name: DequeueAsync(CancellationToken)
+  href: api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.html#Hexagrams_Extensions_BackgroundTasks_BackgroundTaskQueue_DequeueAsync_System_Threading_CancellationToken_
+  commentId: M:Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.DequeueAsync(System.Threading.CancellationToken)
+  fullName: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.DequeueAsync(System.Threading.CancellationToken)
+  nameWithType: BackgroundTaskQueue.DequeueAsync(CancellationToken)
+- uid: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.DequeueAsync*
+  name: DequeueAsync
+  href: api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.html#Hexagrams_Extensions_BackgroundTasks_BackgroundTaskQueue_DequeueAsync_
+  commentId: Overload:Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.DequeueAsync
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.DequeueAsync
+  nameWithType: BackgroundTaskQueue.DequeueAsync
+- uid: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.QueueBackgroundWorkItemAsync(Hexagrams.Extensions.BackgroundTasks.IBackgroundTask)
+  name: QueueBackgroundWorkItemAsync(IBackgroundTask)
+  href: api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.html#Hexagrams_Extensions_BackgroundTasks_BackgroundTaskQueue_QueueBackgroundWorkItemAsync_Hexagrams_Extensions_BackgroundTasks_IBackgroundTask_
+  commentId: M:Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.QueueBackgroundWorkItemAsync(Hexagrams.Extensions.BackgroundTasks.IBackgroundTask)
+  fullName: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.QueueBackgroundWorkItemAsync(Hexagrams.Extensions.BackgroundTasks.IBackgroundTask)
+  nameWithType: BackgroundTaskQueue.QueueBackgroundWorkItemAsync(IBackgroundTask)
+- uid: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.QueueBackgroundWorkItemAsync(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.ValueTask})
+  name: QueueBackgroundWorkItemAsync(Func<CancellationToken, ValueTask>)
+  href: api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.html#Hexagrams_Extensions_BackgroundTasks_BackgroundTaskQueue_QueueBackgroundWorkItemAsync_System_Func_System_Threading_CancellationToken_System_Threading_Tasks_ValueTask__
+  commentId: M:Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.QueueBackgroundWorkItemAsync(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.ValueTask})
+  name.vb: QueueBackgroundWorkItemAsync(Func(Of CancellationToken, ValueTask))
+  fullName: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.QueueBackgroundWorkItemAsync(System.Func<System.Threading.CancellationToken, System.Threading.Tasks.ValueTask>)
+  fullName.vb: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.QueueBackgroundWorkItemAsync(System.Func(Of System.Threading.CancellationToken, System.Threading.Tasks.ValueTask))
+  nameWithType: BackgroundTaskQueue.QueueBackgroundWorkItemAsync(Func<CancellationToken, ValueTask>)
+  nameWithType.vb: BackgroundTaskQueue.QueueBackgroundWorkItemAsync(Func(Of CancellationToken, ValueTask))
+- uid: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.QueueBackgroundWorkItemAsync*
+  name: QueueBackgroundWorkItemAsync
+  href: api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.html#Hexagrams_Extensions_BackgroundTasks_BackgroundTaskQueue_QueueBackgroundWorkItemAsync_
+  commentId: Overload:Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.QueueBackgroundWorkItemAsync
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.QueueBackgroundWorkItemAsync
+  nameWithType: BackgroundTaskQueue.QueueBackgroundWorkItemAsync
+- uid: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.TryPeek(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.ValueTask}@)
+  name: TryPeek(out Func<CancellationToken, ValueTask>?)
+  href: api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.html#Hexagrams_Extensions_BackgroundTasks_BackgroundTaskQueue_TryPeek_System_Func_System_Threading_CancellationToken_System_Threading_Tasks_ValueTask___
+  commentId: M:Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.TryPeek(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.ValueTask}@)
+  name.vb: TryPeek(Func(Of CancellationToken, ValueTask))
+  fullName: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.TryPeek(out System.Func<System.Threading.CancellationToken, System.Threading.Tasks.ValueTask>?)
+  fullName.vb: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.TryPeek(System.Func(Of System.Threading.CancellationToken, System.Threading.Tasks.ValueTask))
+  nameWithType: BackgroundTaskQueue.TryPeek(out Func<CancellationToken, ValueTask>?)
+  nameWithType.vb: BackgroundTaskQueue.TryPeek(Func(Of CancellationToken, ValueTask))
+- uid: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.TryPeek*
+  name: TryPeek
+  href: api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.html#Hexagrams_Extensions_BackgroundTasks_BackgroundTaskQueue_TryPeek_
+  commentId: Overload:Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.TryPeek
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.TryPeek
+  nameWithType: BackgroundTaskQueue.TryPeek
+- uid: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions
+  name: BackgroundTaskQueueOptions
+  href: api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions.html
+  commentId: T:Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions
+  fullName: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions
+  nameWithType: BackgroundTaskQueueOptions
+- uid: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions.#ctor(System.Int32,System.Int32)
+  name: BackgroundTaskQueueOptions(int, int)
+  href: api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions.html#Hexagrams_Extensions_BackgroundTasks_BackgroundTaskQueueOptions__ctor_System_Int32_System_Int32_
+  commentId: M:Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions.#ctor(System.Int32,System.Int32)
+  name.vb: New(Integer, Integer)
+  fullName: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions.BackgroundTaskQueueOptions(int, int)
+  fullName.vb: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions.New(Integer, Integer)
+  nameWithType: BackgroundTaskQueueOptions.BackgroundTaskQueueOptions(int, int)
+  nameWithType.vb: BackgroundTaskQueueOptions.New(Integer, Integer)
+- uid: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions.#ctor*
+  name: BackgroundTaskQueueOptions
+  href: api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions.html#Hexagrams_Extensions_BackgroundTasks_BackgroundTaskQueueOptions__ctor_
+  commentId: Overload:Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions.BackgroundTaskQueueOptions
+  fullName.vb: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions.New
+  nameWithType: BackgroundTaskQueueOptions.BackgroundTaskQueueOptions
+  nameWithType.vb: BackgroundTaskQueueOptions.New
+- uid: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions.QueueCapacity
+  name: QueueCapacity
+  href: api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions.html#Hexagrams_Extensions_BackgroundTasks_BackgroundTaskQueueOptions_QueueCapacity
+  commentId: P:Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions.QueueCapacity
+  fullName: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions.QueueCapacity
+  nameWithType: BackgroundTaskQueueOptions.QueueCapacity
+- uid: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions.QueueCapacity*
+  name: QueueCapacity
+  href: api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions.html#Hexagrams_Extensions_BackgroundTasks_BackgroundTaskQueueOptions_QueueCapacity_
+  commentId: Overload:Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions.QueueCapacity
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions.QueueCapacity
+  nameWithType: BackgroundTaskQueueOptions.QueueCapacity
+- uid: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions.Value
+  name: Value
+  href: api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions.html#Hexagrams_Extensions_BackgroundTasks_BackgroundTaskQueueOptions_Value
+  commentId: P:Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions.Value
+  fullName: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions.Value
+  nameWithType: BackgroundTaskQueueOptions.Value
+- uid: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions.Value*
+  name: Value
+  href: api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions.html#Hexagrams_Extensions_BackgroundTasks_BackgroundTaskQueueOptions_Value_
+  commentId: Overload:Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions.Value
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions.Value
+  nameWithType: BackgroundTaskQueueOptions.Value
+- uid: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions.WorkerCount
+  name: WorkerCount
+  href: api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions.html#Hexagrams_Extensions_BackgroundTasks_BackgroundTaskQueueOptions_WorkerCount
+  commentId: P:Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions.WorkerCount
+  fullName: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions.WorkerCount
+  nameWithType: BackgroundTaskQueueOptions.WorkerCount
+- uid: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions.WorkerCount*
+  name: WorkerCount
+  href: api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions.html#Hexagrams_Extensions_BackgroundTasks_BackgroundTaskQueueOptions_WorkerCount_
+  commentId: Overload:Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions.WorkerCount
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions.WorkerCount
+  nameWithType: BackgroundTaskQueueOptions.WorkerCount
+- uid: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueProcessor
+  name: BackgroundTaskQueueProcessor
+  href: api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueProcessor.html
+  commentId: T:Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueProcessor
+  fullName: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueProcessor
+  nameWithType: BackgroundTaskQueueProcessor
+- uid: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueProcessor.#ctor(Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue,Microsoft.Extensions.Options.IOptions{Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions},Microsoft.Extensions.Logging.ILogger{Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueProcessor})
+  name: BackgroundTaskQueueProcessor(IBackgroundTaskQueue, IOptions<BackgroundTaskQueueOptions>, ILogger<BackgroundTaskQueueProcessor>)
+  href: api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueProcessor.html#Hexagrams_Extensions_BackgroundTasks_BackgroundTaskQueueProcessor__ctor_Hexagrams_Extensions_BackgroundTasks_IBackgroundTaskQueue_Microsoft_Extensions_Options_IOptions_Hexagrams_Extensions_BackgroundTasks_BackgroundTaskQueueOptions__Microsoft_Extensions_Logging_ILogger_Hexagrams_Extensions_BackgroundTasks_BackgroundTaskQueueProcessor__
+  commentId: M:Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueProcessor.#ctor(Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue,Microsoft.Extensions.Options.IOptions{Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions},Microsoft.Extensions.Logging.ILogger{Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueProcessor})
+  name.vb: New(IBackgroundTaskQueue, IOptions(Of BackgroundTaskQueueOptions), ILogger(Of BackgroundTaskQueueProcessor))
+  fullName: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueProcessor.BackgroundTaskQueueProcessor(Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue, Microsoft.Extensions.Options.IOptions<Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions>, Microsoft.Extensions.Logging.ILogger<Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueProcessor>)
+  fullName.vb: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueProcessor.New(Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue, Microsoft.Extensions.Options.IOptions(Of Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions), Microsoft.Extensions.Logging.ILogger(Of Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueProcessor))
+  nameWithType: BackgroundTaskQueueProcessor.BackgroundTaskQueueProcessor(IBackgroundTaskQueue, IOptions<BackgroundTaskQueueOptions>, ILogger<BackgroundTaskQueueProcessor>)
+  nameWithType.vb: BackgroundTaskQueueProcessor.New(IBackgroundTaskQueue, IOptions(Of BackgroundTaskQueueOptions), ILogger(Of BackgroundTaskQueueProcessor))
+- uid: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueProcessor.#ctor*
+  name: BackgroundTaskQueueProcessor
+  href: api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueProcessor.html#Hexagrams_Extensions_BackgroundTasks_BackgroundTaskQueueProcessor__ctor_
+  commentId: Overload:Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueProcessor.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueProcessor.BackgroundTaskQueueProcessor
+  fullName.vb: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueProcessor.New
+  nameWithType: BackgroundTaskQueueProcessor.BackgroundTaskQueueProcessor
+  nameWithType.vb: BackgroundTaskQueueProcessor.New
+- uid: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueProcessor.ExecuteAsync(System.Threading.CancellationToken)
+  name: ExecuteAsync(CancellationToken)
+  href: api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueProcessor.html#Hexagrams_Extensions_BackgroundTasks_BackgroundTaskQueueProcessor_ExecuteAsync_System_Threading_CancellationToken_
+  commentId: M:Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueProcessor.ExecuteAsync(System.Threading.CancellationToken)
+  fullName: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueProcessor.ExecuteAsync(System.Threading.CancellationToken)
+  nameWithType: BackgroundTaskQueueProcessor.ExecuteAsync(CancellationToken)
+- uid: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueProcessor.ExecuteAsync*
+  name: ExecuteAsync
+  href: api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueProcessor.html#Hexagrams_Extensions_BackgroundTasks_BackgroundTaskQueueProcessor_ExecuteAsync_
+  commentId: Overload:Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueProcessor.ExecuteAsync
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueProcessor.ExecuteAsync
+  nameWithType: BackgroundTaskQueueProcessor.ExecuteAsync
+- uid: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueProcessor.StopAsync(System.Threading.CancellationToken)
+  name: StopAsync(CancellationToken)
+  href: api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueProcessor.html#Hexagrams_Extensions_BackgroundTasks_BackgroundTaskQueueProcessor_StopAsync_System_Threading_CancellationToken_
+  commentId: M:Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueProcessor.StopAsync(System.Threading.CancellationToken)
+  fullName: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueProcessor.StopAsync(System.Threading.CancellationToken)
+  nameWithType: BackgroundTaskQueueProcessor.StopAsync(CancellationToken)
+- uid: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueProcessor.StopAsync*
+  name: StopAsync
+  href: api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueProcessor.html#Hexagrams_Extensions_BackgroundTasks_BackgroundTaskQueueProcessor_StopAsync_
+  commentId: Overload:Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueProcessor.StopAsync
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueProcessor.StopAsync
+  nameWithType: BackgroundTaskQueueProcessor.StopAsync
+- uid: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskServiceCollectionExtensions
+  name: BackgroundTaskServiceCollectionExtensions
+  href: api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskServiceCollectionExtensions.html
+  commentId: T:Hexagrams.Extensions.BackgroundTasks.BackgroundTaskServiceCollectionExtensions
+  fullName: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskServiceCollectionExtensions
+  nameWithType: BackgroundTaskServiceCollectionExtensions
+- uid: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskServiceCollectionExtensions.AddBackgroundTaskProcessing(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions})
+  name: AddBackgroundTaskProcessing(IServiceCollection, Action<BackgroundTaskQueueOptions>)
+  href: api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskServiceCollectionExtensions.html#Hexagrams_Extensions_BackgroundTasks_BackgroundTaskServiceCollectionExtensions_AddBackgroundTaskProcessing_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_Hexagrams_Extensions_BackgroundTasks_BackgroundTaskQueueOptions__
+  commentId: M:Hexagrams.Extensions.BackgroundTasks.BackgroundTaskServiceCollectionExtensions.AddBackgroundTaskProcessing(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions})
+  name.vb: AddBackgroundTaskProcessing(IServiceCollection, Action(Of BackgroundTaskQueueOptions))
+  fullName: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskServiceCollectionExtensions.AddBackgroundTaskProcessing(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions>)
+  fullName.vb: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskServiceCollectionExtensions.AddBackgroundTaskProcessing(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions))
+  nameWithType: BackgroundTaskServiceCollectionExtensions.AddBackgroundTaskProcessing(IServiceCollection, Action<BackgroundTaskQueueOptions>)
+  nameWithType.vb: BackgroundTaskServiceCollectionExtensions.AddBackgroundTaskProcessing(IServiceCollection, Action(Of BackgroundTaskQueueOptions))
+- uid: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskServiceCollectionExtensions.AddBackgroundTaskProcessing*
+  name: AddBackgroundTaskProcessing
+  href: api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskServiceCollectionExtensions.html#Hexagrams_Extensions_BackgroundTasks_BackgroundTaskServiceCollectionExtensions_AddBackgroundTaskProcessing_
+  commentId: Overload:Hexagrams.Extensions.BackgroundTasks.BackgroundTaskServiceCollectionExtensions.AddBackgroundTaskProcessing
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.BackgroundTasks.BackgroundTaskServiceCollectionExtensions.AddBackgroundTaskProcessing
+  nameWithType: BackgroundTaskServiceCollectionExtensions.AddBackgroundTaskProcessing
+- uid: Hexagrams.Extensions.BackgroundTasks.IBackgroundTask
+  name: IBackgroundTask
+  href: api/Hexagrams.Extensions.BackgroundTasks.IBackgroundTask.html
+  commentId: T:Hexagrams.Extensions.BackgroundTasks.IBackgroundTask
+  fullName: Hexagrams.Extensions.BackgroundTasks.IBackgroundTask
+  nameWithType: IBackgroundTask
+- uid: Hexagrams.Extensions.BackgroundTasks.IBackgroundTask.DoWorkAsync(System.Threading.CancellationToken)
+  name: DoWorkAsync(CancellationToken)
+  href: api/Hexagrams.Extensions.BackgroundTasks.IBackgroundTask.html#Hexagrams_Extensions_BackgroundTasks_IBackgroundTask_DoWorkAsync_System_Threading_CancellationToken_
+  commentId: M:Hexagrams.Extensions.BackgroundTasks.IBackgroundTask.DoWorkAsync(System.Threading.CancellationToken)
+  fullName: Hexagrams.Extensions.BackgroundTasks.IBackgroundTask.DoWorkAsync(System.Threading.CancellationToken)
+  nameWithType: IBackgroundTask.DoWorkAsync(CancellationToken)
+- uid: Hexagrams.Extensions.BackgroundTasks.IBackgroundTask.DoWorkAsync*
+  name: DoWorkAsync
+  href: api/Hexagrams.Extensions.BackgroundTasks.IBackgroundTask.html#Hexagrams_Extensions_BackgroundTasks_IBackgroundTask_DoWorkAsync_
+  commentId: Overload:Hexagrams.Extensions.BackgroundTasks.IBackgroundTask.DoWorkAsync
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.BackgroundTasks.IBackgroundTask.DoWorkAsync
+  nameWithType: IBackgroundTask.DoWorkAsync
+- uid: Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue
+  name: IBackgroundTaskQueue
+  href: api/Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.html
+  commentId: T:Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue
+  fullName: Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue
+  nameWithType: IBackgroundTaskQueue
+- uid: Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.Count
+  name: Count
+  href: api/Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.html#Hexagrams_Extensions_BackgroundTasks_IBackgroundTaskQueue_Count
+  commentId: P:Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.Count
+  fullName: Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.Count
+  nameWithType: IBackgroundTaskQueue.Count
+- uid: Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.Count*
+  name: Count
+  href: api/Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.html#Hexagrams_Extensions_BackgroundTasks_IBackgroundTaskQueue_Count_
+  commentId: Overload:Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.Count
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.Count
+  nameWithType: IBackgroundTaskQueue.Count
+- uid: Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.DequeueAsync(System.Threading.CancellationToken)
+  name: DequeueAsync(CancellationToken)
+  href: api/Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.html#Hexagrams_Extensions_BackgroundTasks_IBackgroundTaskQueue_DequeueAsync_System_Threading_CancellationToken_
+  commentId: M:Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.DequeueAsync(System.Threading.CancellationToken)
+  fullName: Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.DequeueAsync(System.Threading.CancellationToken)
+  nameWithType: IBackgroundTaskQueue.DequeueAsync(CancellationToken)
+- uid: Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.DequeueAsync*
+  name: DequeueAsync
+  href: api/Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.html#Hexagrams_Extensions_BackgroundTasks_IBackgroundTaskQueue_DequeueAsync_
+  commentId: Overload:Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.DequeueAsync
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.DequeueAsync
+  nameWithType: IBackgroundTaskQueue.DequeueAsync
+- uid: Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.QueueBackgroundWorkItemAsync(Hexagrams.Extensions.BackgroundTasks.IBackgroundTask)
+  name: QueueBackgroundWorkItemAsync(IBackgroundTask)
+  href: api/Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.html#Hexagrams_Extensions_BackgroundTasks_IBackgroundTaskQueue_QueueBackgroundWorkItemAsync_Hexagrams_Extensions_BackgroundTasks_IBackgroundTask_
+  commentId: M:Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.QueueBackgroundWorkItemAsync(Hexagrams.Extensions.BackgroundTasks.IBackgroundTask)
+  fullName: Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.QueueBackgroundWorkItemAsync(Hexagrams.Extensions.BackgroundTasks.IBackgroundTask)
+  nameWithType: IBackgroundTaskQueue.QueueBackgroundWorkItemAsync(IBackgroundTask)
+- uid: Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.QueueBackgroundWorkItemAsync(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.ValueTask})
+  name: QueueBackgroundWorkItemAsync(Func<CancellationToken, ValueTask>)
+  href: api/Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.html#Hexagrams_Extensions_BackgroundTasks_IBackgroundTaskQueue_QueueBackgroundWorkItemAsync_System_Func_System_Threading_CancellationToken_System_Threading_Tasks_ValueTask__
+  commentId: M:Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.QueueBackgroundWorkItemAsync(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.ValueTask})
+  name.vb: QueueBackgroundWorkItemAsync(Func(Of CancellationToken, ValueTask))
+  fullName: Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.QueueBackgroundWorkItemAsync(System.Func<System.Threading.CancellationToken, System.Threading.Tasks.ValueTask>)
+  fullName.vb: Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.QueueBackgroundWorkItemAsync(System.Func(Of System.Threading.CancellationToken, System.Threading.Tasks.ValueTask))
+  nameWithType: IBackgroundTaskQueue.QueueBackgroundWorkItemAsync(Func<CancellationToken, ValueTask>)
+  nameWithType.vb: IBackgroundTaskQueue.QueueBackgroundWorkItemAsync(Func(Of CancellationToken, ValueTask))
+- uid: Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.QueueBackgroundWorkItemAsync*
+  name: QueueBackgroundWorkItemAsync
+  href: api/Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.html#Hexagrams_Extensions_BackgroundTasks_IBackgroundTaskQueue_QueueBackgroundWorkItemAsync_
+  commentId: Overload:Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.QueueBackgroundWorkItemAsync
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.QueueBackgroundWorkItemAsync
+  nameWithType: IBackgroundTaskQueue.QueueBackgroundWorkItemAsync
+- uid: Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.TryPeek(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.ValueTask}@)
+  name: TryPeek(out Func<CancellationToken, ValueTask>?)
+  href: api/Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.html#Hexagrams_Extensions_BackgroundTasks_IBackgroundTaskQueue_TryPeek_System_Func_System_Threading_CancellationToken_System_Threading_Tasks_ValueTask___
+  commentId: M:Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.TryPeek(System.Func{System.Threading.CancellationToken,System.Threading.Tasks.ValueTask}@)
+  name.vb: TryPeek(Func(Of CancellationToken, ValueTask))
+  fullName: Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.TryPeek(out System.Func<System.Threading.CancellationToken, System.Threading.Tasks.ValueTask>?)
+  fullName.vb: Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.TryPeek(System.Func(Of System.Threading.CancellationToken, System.Threading.Tasks.ValueTask))
+  nameWithType: IBackgroundTaskQueue.TryPeek(out Func<CancellationToken, ValueTask>?)
+  nameWithType.vb: IBackgroundTaskQueue.TryPeek(Func(Of CancellationToken, ValueTask))
+- uid: Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.TryPeek*
+  name: TryPeek
+  href: api/Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.html#Hexagrams_Extensions_BackgroundTasks_IBackgroundTaskQueue_TryPeek_
+  commentId: Overload:Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.TryPeek
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.TryPeek
+  nameWithType: IBackgroundTaskQueue.TryPeek
+- uid: Hexagrams.Extensions.Common
+  name: Hexagrams.Extensions.Common
+  href: api/Hexagrams.Extensions.Common.html
+  commentId: N:Hexagrams.Extensions.Common
+  fullName: Hexagrams.Extensions.Common
+  nameWithType: Hexagrams.Extensions.Common
+- uid: Hexagrams.Extensions.Common.AsyncEnumerableExtensions
+  name: AsyncEnumerableExtensions
+  href: api/Hexagrams.Extensions.Common.AsyncEnumerableExtensions.html
+  commentId: T:Hexagrams.Extensions.Common.AsyncEnumerableExtensions
+  fullName: Hexagrams.Extensions.Common.AsyncEnumerableExtensions
+  nameWithType: AsyncEnumerableExtensions
+- uid: Hexagrams.Extensions.Common.AsyncEnumerableExtensions.ToArrayAsync*
+  name: ToArrayAsync
+  href: api/Hexagrams.Extensions.Common.AsyncEnumerableExtensions.html#Hexagrams_Extensions_Common_AsyncEnumerableExtensions_ToArrayAsync_
+  commentId: Overload:Hexagrams.Extensions.Common.AsyncEnumerableExtensions.ToArrayAsync
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Common.AsyncEnumerableExtensions.ToArrayAsync
+  nameWithType: AsyncEnumerableExtensions.ToArrayAsync
+- uid: Hexagrams.Extensions.Common.AsyncEnumerableExtensions.ToArrayAsync``1(System.Collections.Generic.IAsyncEnumerable{``0})
+  name: ToArrayAsync<T>(IAsyncEnumerable<T>)
+  href: api/Hexagrams.Extensions.Common.AsyncEnumerableExtensions.html#Hexagrams_Extensions_Common_AsyncEnumerableExtensions_ToArrayAsync__1_System_Collections_Generic_IAsyncEnumerable___0__
+  commentId: M:Hexagrams.Extensions.Common.AsyncEnumerableExtensions.ToArrayAsync``1(System.Collections.Generic.IAsyncEnumerable{``0})
+  name.vb: ToArrayAsync(Of T)(IAsyncEnumerable(Of T))
+  fullName: Hexagrams.Extensions.Common.AsyncEnumerableExtensions.ToArrayAsync<T>(System.Collections.Generic.IAsyncEnumerable<T>)
+  fullName.vb: Hexagrams.Extensions.Common.AsyncEnumerableExtensions.ToArrayAsync(Of T)(System.Collections.Generic.IAsyncEnumerable(Of T))
+  nameWithType: AsyncEnumerableExtensions.ToArrayAsync<T>(IAsyncEnumerable<T>)
+  nameWithType.vb: AsyncEnumerableExtensions.ToArrayAsync(Of T)(IAsyncEnumerable(Of T))
+- uid: Hexagrams.Extensions.Common.AsyncEnumerableExtensions.ToListAsync*
+  name: ToListAsync
+  href: api/Hexagrams.Extensions.Common.AsyncEnumerableExtensions.html#Hexagrams_Extensions_Common_AsyncEnumerableExtensions_ToListAsync_
+  commentId: Overload:Hexagrams.Extensions.Common.AsyncEnumerableExtensions.ToListAsync
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Common.AsyncEnumerableExtensions.ToListAsync
+  nameWithType: AsyncEnumerableExtensions.ToListAsync
+- uid: Hexagrams.Extensions.Common.AsyncEnumerableExtensions.ToListAsync``1(System.Collections.Generic.IAsyncEnumerable{``0})
+  name: ToListAsync<T>(IAsyncEnumerable<T>)
+  href: api/Hexagrams.Extensions.Common.AsyncEnumerableExtensions.html#Hexagrams_Extensions_Common_AsyncEnumerableExtensions_ToListAsync__1_System_Collections_Generic_IAsyncEnumerable___0__
+  commentId: M:Hexagrams.Extensions.Common.AsyncEnumerableExtensions.ToListAsync``1(System.Collections.Generic.IAsyncEnumerable{``0})
+  name.vb: ToListAsync(Of T)(IAsyncEnumerable(Of T))
+  fullName: Hexagrams.Extensions.Common.AsyncEnumerableExtensions.ToListAsync<T>(System.Collections.Generic.IAsyncEnumerable<T>)
+  fullName.vb: Hexagrams.Extensions.Common.AsyncEnumerableExtensions.ToListAsync(Of T)(System.Collections.Generic.IAsyncEnumerable(Of T))
+  nameWithType: AsyncEnumerableExtensions.ToListAsync<T>(IAsyncEnumerable<T>)
+  nameWithType.vb: AsyncEnumerableExtensions.ToListAsync(Of T)(IAsyncEnumerable(Of T))
+- uid: Hexagrams.Extensions.Common.EnumerableExtensions
+  name: EnumerableExtensions
+  href: api/Hexagrams.Extensions.Common.EnumerableExtensions.html
+  commentId: T:Hexagrams.Extensions.Common.EnumerableExtensions
+  fullName: Hexagrams.Extensions.Common.EnumerableExtensions
+  nameWithType: EnumerableExtensions
+- uid: Hexagrams.Extensions.Common.EnumerableExtensions.Replace*
+  name: Replace
+  href: api/Hexagrams.Extensions.Common.EnumerableExtensions.html#Hexagrams_Extensions_Common_EnumerableExtensions_Replace_
+  commentId: Overload:Hexagrams.Extensions.Common.EnumerableExtensions.Replace
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Common.EnumerableExtensions.Replace
+  nameWithType: EnumerableExtensions.Replace
+- uid: Hexagrams.Extensions.Common.EnumerableExtensions.Replace``1(System.Collections.Generic.IEnumerable{``0},``0,``0,System.Collections.Generic.IEqualityComparer{``0})
+  name: Replace<TItem>(IEnumerable<TItem>, TItem, TItem, IEqualityComparer<TItem>?)
+  href: api/Hexagrams.Extensions.Common.EnumerableExtensions.html#Hexagrams_Extensions_Common_EnumerableExtensions_Replace__1_System_Collections_Generic_IEnumerable___0____0___0_System_Collections_Generic_IEqualityComparer___0__
+  commentId: M:Hexagrams.Extensions.Common.EnumerableExtensions.Replace``1(System.Collections.Generic.IEnumerable{``0},``0,``0,System.Collections.Generic.IEqualityComparer{``0})
+  name.vb: Replace(Of TItem)(IEnumerable(Of TItem), TItem, TItem, IEqualityComparer(Of TItem))
+  fullName: Hexagrams.Extensions.Common.EnumerableExtensions.Replace<TItem>(System.Collections.Generic.IEnumerable<TItem>, TItem, TItem, System.Collections.Generic.IEqualityComparer<TItem>?)
+  fullName.vb: Hexagrams.Extensions.Common.EnumerableExtensions.Replace(Of TItem)(System.Collections.Generic.IEnumerable(Of TItem), TItem, TItem, System.Collections.Generic.IEqualityComparer(Of TItem))
+  nameWithType: EnumerableExtensions.Replace<TItem>(IEnumerable<TItem>, TItem, TItem, IEqualityComparer<TItem>?)
+  nameWithType.vb: EnumerableExtensions.Replace(Of TItem)(IEnumerable(Of TItem), TItem, TItem, IEqualityComparer(Of TItem))
+- uid: Hexagrams.Extensions.Common.Http
+  name: Hexagrams.Extensions.Common.Http
+  href: api/Hexagrams.Extensions.Common.Http.html
+  commentId: N:Hexagrams.Extensions.Common.Http
+  fullName: Hexagrams.Extensions.Common.Http
+  nameWithType: Hexagrams.Extensions.Common.Http
+- uid: Hexagrams.Extensions.Common.Http.DelayingHttpHandler
+  name: DelayingHttpHandler
+  href: api/Hexagrams.Extensions.Common.Http.DelayingHttpHandler.html
+  commentId: T:Hexagrams.Extensions.Common.Http.DelayingHttpHandler
+  fullName: Hexagrams.Extensions.Common.Http.DelayingHttpHandler
+  nameWithType: DelayingHttpHandler
+- uid: Hexagrams.Extensions.Common.Http.DelayingHttpHandler.#ctor(System.TimeSpan)
+  name: DelayingHttpHandler(TimeSpan)
+  href: api/Hexagrams.Extensions.Common.Http.DelayingHttpHandler.html#Hexagrams_Extensions_Common_Http_DelayingHttpHandler__ctor_System_TimeSpan_
+  commentId: M:Hexagrams.Extensions.Common.Http.DelayingHttpHandler.#ctor(System.TimeSpan)
+  name.vb: New(TimeSpan)
+  fullName: Hexagrams.Extensions.Common.Http.DelayingHttpHandler.DelayingHttpHandler(System.TimeSpan)
+  fullName.vb: Hexagrams.Extensions.Common.Http.DelayingHttpHandler.New(System.TimeSpan)
+  nameWithType: DelayingHttpHandler.DelayingHttpHandler(TimeSpan)
+  nameWithType.vb: DelayingHttpHandler.New(TimeSpan)
+- uid: Hexagrams.Extensions.Common.Http.DelayingHttpHandler.#ctor*
+  name: DelayingHttpHandler
+  href: api/Hexagrams.Extensions.Common.Http.DelayingHttpHandler.html#Hexagrams_Extensions_Common_Http_DelayingHttpHandler__ctor_
+  commentId: Overload:Hexagrams.Extensions.Common.Http.DelayingHttpHandler.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Hexagrams.Extensions.Common.Http.DelayingHttpHandler.DelayingHttpHandler
+  fullName.vb: Hexagrams.Extensions.Common.Http.DelayingHttpHandler.New
+  nameWithType: DelayingHttpHandler.DelayingHttpHandler
+  nameWithType.vb: DelayingHttpHandler.New
+- uid: Hexagrams.Extensions.Common.Http.DelayingHttpHandler.Send(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+  name: Send(HttpRequestMessage, CancellationToken)
+  href: api/Hexagrams.Extensions.Common.Http.DelayingHttpHandler.html#Hexagrams_Extensions_Common_Http_DelayingHttpHandler_Send_System_Net_Http_HttpRequestMessage_System_Threading_CancellationToken_
+  commentId: M:Hexagrams.Extensions.Common.Http.DelayingHttpHandler.Send(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+  fullName: Hexagrams.Extensions.Common.Http.DelayingHttpHandler.Send(System.Net.Http.HttpRequestMessage, System.Threading.CancellationToken)
+  nameWithType: DelayingHttpHandler.Send(HttpRequestMessage, CancellationToken)
+- uid: Hexagrams.Extensions.Common.Http.DelayingHttpHandler.Send*
+  name: Send
+  href: api/Hexagrams.Extensions.Common.Http.DelayingHttpHandler.html#Hexagrams_Extensions_Common_Http_DelayingHttpHandler_Send_
+  commentId: Overload:Hexagrams.Extensions.Common.Http.DelayingHttpHandler.Send
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Common.Http.DelayingHttpHandler.Send
+  nameWithType: DelayingHttpHandler.Send
+- uid: Hexagrams.Extensions.Common.Http.DelayingHttpHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+  name: SendAsync(HttpRequestMessage, CancellationToken)
+  href: api/Hexagrams.Extensions.Common.Http.DelayingHttpHandler.html#Hexagrams_Extensions_Common_Http_DelayingHttpHandler_SendAsync_System_Net_Http_HttpRequestMessage_System_Threading_CancellationToken_
+  commentId: M:Hexagrams.Extensions.Common.Http.DelayingHttpHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+  fullName: Hexagrams.Extensions.Common.Http.DelayingHttpHandler.SendAsync(System.Net.Http.HttpRequestMessage, System.Threading.CancellationToken)
+  nameWithType: DelayingHttpHandler.SendAsync(HttpRequestMessage, CancellationToken)
+- uid: Hexagrams.Extensions.Common.Http.DelayingHttpHandler.SendAsync*
+  name: SendAsync
+  href: api/Hexagrams.Extensions.Common.Http.DelayingHttpHandler.html#Hexagrams_Extensions_Common_Http_DelayingHttpHandler_SendAsync_
+  commentId: Overload:Hexagrams.Extensions.Common.Http.DelayingHttpHandler.SendAsync
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Common.Http.DelayingHttpHandler.SendAsync
+  nameWithType: DelayingHttpHandler.SendAsync
+- uid: Hexagrams.Extensions.Common.Http.HttpClientExtensions
+  name: HttpClientExtensions
+  href: api/Hexagrams.Extensions.Common.Http.HttpClientExtensions.html
+  commentId: T:Hexagrams.Extensions.Common.Http.HttpClientExtensions
+  fullName: Hexagrams.Extensions.Common.Http.HttpClientExtensions
+  nameWithType: HttpClientExtensions
+- uid: Hexagrams.Extensions.Common.Http.HttpClientExtensions.DeleteAsJsonAsync*
+  name: DeleteAsJsonAsync
+  href: api/Hexagrams.Extensions.Common.Http.HttpClientExtensions.html#Hexagrams_Extensions_Common_Http_HttpClientExtensions_DeleteAsJsonAsync_
+  commentId: Overload:Hexagrams.Extensions.Common.Http.HttpClientExtensions.DeleteAsJsonAsync
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Common.Http.HttpClientExtensions.DeleteAsJsonAsync
+  nameWithType: HttpClientExtensions.DeleteAsJsonAsync
+- uid: Hexagrams.Extensions.Common.Http.HttpClientExtensions.DeleteAsJsonAsync``1(System.Net.Http.HttpClient,System.String,``0,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)
+  name: DeleteAsJsonAsync<TRequest>(HttpClient, string?, TRequest, JsonSerializerOptions?, CancellationToken)
+  href: api/Hexagrams.Extensions.Common.Http.HttpClientExtensions.html#Hexagrams_Extensions_Common_Http_HttpClientExtensions_DeleteAsJsonAsync__1_System_Net_Http_HttpClient_System_String___0_System_Text_Json_JsonSerializerOptions_System_Threading_CancellationToken_
+  commentId: M:Hexagrams.Extensions.Common.Http.HttpClientExtensions.DeleteAsJsonAsync``1(System.Net.Http.HttpClient,System.String,``0,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)
+  name.vb: DeleteAsJsonAsync(Of TRequest)(HttpClient, String, TRequest, JsonSerializerOptions, CancellationToken)
+  fullName: Hexagrams.Extensions.Common.Http.HttpClientExtensions.DeleteAsJsonAsync<TRequest>(System.Net.Http.HttpClient, string?, TRequest, System.Text.Json.JsonSerializerOptions?, System.Threading.CancellationToken)
+  fullName.vb: Hexagrams.Extensions.Common.Http.HttpClientExtensions.DeleteAsJsonAsync(Of TRequest)(System.Net.Http.HttpClient, String, TRequest, System.Text.Json.JsonSerializerOptions, System.Threading.CancellationToken)
+  nameWithType: HttpClientExtensions.DeleteAsJsonAsync<TRequest>(HttpClient, string?, TRequest, JsonSerializerOptions?, CancellationToken)
+  nameWithType.vb: HttpClientExtensions.DeleteAsJsonAsync(Of TRequest)(HttpClient, String, TRequest, JsonSerializerOptions, CancellationToken)
+- uid: Hexagrams.Extensions.Common.Http.HttpClientExtensions.DeleteAsJsonAsync``1(System.Net.Http.HttpClient,System.Uri,``0,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)
+  name: DeleteAsJsonAsync<TRequest>(HttpClient, Uri?, TRequest, JsonSerializerOptions?, CancellationToken)
+  href: api/Hexagrams.Extensions.Common.Http.HttpClientExtensions.html#Hexagrams_Extensions_Common_Http_HttpClientExtensions_DeleteAsJsonAsync__1_System_Net_Http_HttpClient_System_Uri___0_System_Text_Json_JsonSerializerOptions_System_Threading_CancellationToken_
+  commentId: M:Hexagrams.Extensions.Common.Http.HttpClientExtensions.DeleteAsJsonAsync``1(System.Net.Http.HttpClient,System.Uri,``0,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)
+  name.vb: DeleteAsJsonAsync(Of TRequest)(HttpClient, Uri, TRequest, JsonSerializerOptions, CancellationToken)
+  fullName: Hexagrams.Extensions.Common.Http.HttpClientExtensions.DeleteAsJsonAsync<TRequest>(System.Net.Http.HttpClient, System.Uri?, TRequest, System.Text.Json.JsonSerializerOptions?, System.Threading.CancellationToken)
+  fullName.vb: Hexagrams.Extensions.Common.Http.HttpClientExtensions.DeleteAsJsonAsync(Of TRequest)(System.Net.Http.HttpClient, System.Uri, TRequest, System.Text.Json.JsonSerializerOptions, System.Threading.CancellationToken)
+  nameWithType: HttpClientExtensions.DeleteAsJsonAsync<TRequest>(HttpClient, Uri?, TRequest, JsonSerializerOptions?, CancellationToken)
+  nameWithType.vb: HttpClientExtensions.DeleteAsJsonAsync(Of TRequest)(HttpClient, Uri, TRequest, JsonSerializerOptions, CancellationToken)
+- uid: Hexagrams.Extensions.Common.Http.HttpClientExtensions.PostAsJsonAsync*
+  name: PostAsJsonAsync
+  href: api/Hexagrams.Extensions.Common.Http.HttpClientExtensions.html#Hexagrams_Extensions_Common_Http_HttpClientExtensions_PostAsJsonAsync_
+  commentId: Overload:Hexagrams.Extensions.Common.Http.HttpClientExtensions.PostAsJsonAsync
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Common.Http.HttpClientExtensions.PostAsJsonAsync
+  nameWithType: HttpClientExtensions.PostAsJsonAsync
+- uid: Hexagrams.Extensions.Common.Http.HttpClientExtensions.PostAsJsonAsync``2(System.Net.Http.HttpClient,System.String,``0,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)
+  name: PostAsJsonAsync<TRequest, TResponse>(HttpClient, string?, TRequest, JsonSerializerOptions?, CancellationToken)
+  href: api/Hexagrams.Extensions.Common.Http.HttpClientExtensions.html#Hexagrams_Extensions_Common_Http_HttpClientExtensions_PostAsJsonAsync__2_System_Net_Http_HttpClient_System_String___0_System_Text_Json_JsonSerializerOptions_System_Threading_CancellationToken_
+  commentId: M:Hexagrams.Extensions.Common.Http.HttpClientExtensions.PostAsJsonAsync``2(System.Net.Http.HttpClient,System.String,``0,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)
+  name.vb: PostAsJsonAsync(Of TRequest, TResponse)(HttpClient, String, TRequest, JsonSerializerOptions, CancellationToken)
+  fullName: Hexagrams.Extensions.Common.Http.HttpClientExtensions.PostAsJsonAsync<TRequest, TResponse>(System.Net.Http.HttpClient, string?, TRequest, System.Text.Json.JsonSerializerOptions?, System.Threading.CancellationToken)
+  fullName.vb: Hexagrams.Extensions.Common.Http.HttpClientExtensions.PostAsJsonAsync(Of TRequest, TResponse)(System.Net.Http.HttpClient, String, TRequest, System.Text.Json.JsonSerializerOptions, System.Threading.CancellationToken)
+  nameWithType: HttpClientExtensions.PostAsJsonAsync<TRequest, TResponse>(HttpClient, string?, TRequest, JsonSerializerOptions?, CancellationToken)
+  nameWithType.vb: HttpClientExtensions.PostAsJsonAsync(Of TRequest, TResponse)(HttpClient, String, TRequest, JsonSerializerOptions, CancellationToken)
+- uid: Hexagrams.Extensions.Common.Http.HttpClientExtensions.PostAsJsonAsync``2(System.Net.Http.HttpClient,System.Uri,``0,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)
+  name: PostAsJsonAsync<TRequest, TResponse>(HttpClient, Uri?, TRequest, JsonSerializerOptions?, CancellationToken)
+  href: api/Hexagrams.Extensions.Common.Http.HttpClientExtensions.html#Hexagrams_Extensions_Common_Http_HttpClientExtensions_PostAsJsonAsync__2_System_Net_Http_HttpClient_System_Uri___0_System_Text_Json_JsonSerializerOptions_System_Threading_CancellationToken_
+  commentId: M:Hexagrams.Extensions.Common.Http.HttpClientExtensions.PostAsJsonAsync``2(System.Net.Http.HttpClient,System.Uri,``0,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)
+  name.vb: PostAsJsonAsync(Of TRequest, TResponse)(HttpClient, Uri, TRequest, JsonSerializerOptions, CancellationToken)
+  fullName: Hexagrams.Extensions.Common.Http.HttpClientExtensions.PostAsJsonAsync<TRequest, TResponse>(System.Net.Http.HttpClient, System.Uri?, TRequest, System.Text.Json.JsonSerializerOptions?, System.Threading.CancellationToken)
+  fullName.vb: Hexagrams.Extensions.Common.Http.HttpClientExtensions.PostAsJsonAsync(Of TRequest, TResponse)(System.Net.Http.HttpClient, System.Uri, TRequest, System.Text.Json.JsonSerializerOptions, System.Threading.CancellationToken)
+  nameWithType: HttpClientExtensions.PostAsJsonAsync<TRequest, TResponse>(HttpClient, Uri?, TRequest, JsonSerializerOptions?, CancellationToken)
+  nameWithType.vb: HttpClientExtensions.PostAsJsonAsync(Of TRequest, TResponse)(HttpClient, Uri, TRequest, JsonSerializerOptions, CancellationToken)
+- uid: Hexagrams.Extensions.Common.Http.HttpClientExtensions.PutAsJsonAsync*
+  name: PutAsJsonAsync
+  href: api/Hexagrams.Extensions.Common.Http.HttpClientExtensions.html#Hexagrams_Extensions_Common_Http_HttpClientExtensions_PutAsJsonAsync_
+  commentId: Overload:Hexagrams.Extensions.Common.Http.HttpClientExtensions.PutAsJsonAsync
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Common.Http.HttpClientExtensions.PutAsJsonAsync
+  nameWithType: HttpClientExtensions.PutAsJsonAsync
+- uid: Hexagrams.Extensions.Common.Http.HttpClientExtensions.PutAsJsonAsync``2(System.Net.Http.HttpClient,System.String,``0,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)
+  name: PutAsJsonAsync<TRequest, TResponse>(HttpClient, string?, TRequest, JsonSerializerOptions?, CancellationToken)
+  href: api/Hexagrams.Extensions.Common.Http.HttpClientExtensions.html#Hexagrams_Extensions_Common_Http_HttpClientExtensions_PutAsJsonAsync__2_System_Net_Http_HttpClient_System_String___0_System_Text_Json_JsonSerializerOptions_System_Threading_CancellationToken_
+  commentId: M:Hexagrams.Extensions.Common.Http.HttpClientExtensions.PutAsJsonAsync``2(System.Net.Http.HttpClient,System.String,``0,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)
+  name.vb: PutAsJsonAsync(Of TRequest, TResponse)(HttpClient, String, TRequest, JsonSerializerOptions, CancellationToken)
+  fullName: Hexagrams.Extensions.Common.Http.HttpClientExtensions.PutAsJsonAsync<TRequest, TResponse>(System.Net.Http.HttpClient, string?, TRequest, System.Text.Json.JsonSerializerOptions?, System.Threading.CancellationToken)
+  fullName.vb: Hexagrams.Extensions.Common.Http.HttpClientExtensions.PutAsJsonAsync(Of TRequest, TResponse)(System.Net.Http.HttpClient, String, TRequest, System.Text.Json.JsonSerializerOptions, System.Threading.CancellationToken)
+  nameWithType: HttpClientExtensions.PutAsJsonAsync<TRequest, TResponse>(HttpClient, string?, TRequest, JsonSerializerOptions?, CancellationToken)
+  nameWithType.vb: HttpClientExtensions.PutAsJsonAsync(Of TRequest, TResponse)(HttpClient, String, TRequest, JsonSerializerOptions, CancellationToken)
+- uid: Hexagrams.Extensions.Common.Http.HttpClientExtensions.PutAsJsonAsync``2(System.Net.Http.HttpClient,System.Uri,``0,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)
+  name: PutAsJsonAsync<TRequest, TResponse>(HttpClient, Uri?, TRequest, JsonSerializerOptions?, CancellationToken)
+  href: api/Hexagrams.Extensions.Common.Http.HttpClientExtensions.html#Hexagrams_Extensions_Common_Http_HttpClientExtensions_PutAsJsonAsync__2_System_Net_Http_HttpClient_System_Uri___0_System_Text_Json_JsonSerializerOptions_System_Threading_CancellationToken_
+  commentId: M:Hexagrams.Extensions.Common.Http.HttpClientExtensions.PutAsJsonAsync``2(System.Net.Http.HttpClient,System.Uri,``0,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)
+  name.vb: PutAsJsonAsync(Of TRequest, TResponse)(HttpClient, Uri, TRequest, JsonSerializerOptions, CancellationToken)
+  fullName: Hexagrams.Extensions.Common.Http.HttpClientExtensions.PutAsJsonAsync<TRequest, TResponse>(System.Net.Http.HttpClient, System.Uri?, TRequest, System.Text.Json.JsonSerializerOptions?, System.Threading.CancellationToken)
+  fullName.vb: Hexagrams.Extensions.Common.Http.HttpClientExtensions.PutAsJsonAsync(Of TRequest, TResponse)(System.Net.Http.HttpClient, System.Uri, TRequest, System.Text.Json.JsonSerializerOptions, System.Threading.CancellationToken)
+  nameWithType: HttpClientExtensions.PutAsJsonAsync<TRequest, TResponse>(HttpClient, Uri?, TRequest, JsonSerializerOptions?, CancellationToken)
+  nameWithType.vb: HttpClientExtensions.PutAsJsonAsync(Of TRequest, TResponse)(HttpClient, Uri, TRequest, JsonSerializerOptions, CancellationToken)
+- uid: Hexagrams.Extensions.Common.Http.HttpExtensions
+  name: HttpExtensions
+  href: api/Hexagrams.Extensions.Common.Http.HttpExtensions.html
+  commentId: T:Hexagrams.Extensions.Common.Http.HttpExtensions
+  fullName: Hexagrams.Extensions.Common.Http.HttpExtensions
+  nameWithType: HttpExtensions
+- uid: Hexagrams.Extensions.Common.Http.HttpExtensions.ToQueryString*
+  name: ToQueryString
+  href: api/Hexagrams.Extensions.Common.Http.HttpExtensions.html#Hexagrams_Extensions_Common_Http_HttpExtensions_ToQueryString_
+  commentId: Overload:Hexagrams.Extensions.Common.Http.HttpExtensions.ToQueryString
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Common.Http.HttpExtensions.ToQueryString
+  nameWithType: HttpExtensions.ToQueryString
+- uid: Hexagrams.Extensions.Common.Http.HttpExtensions.ToQueryString``1(``0)
+  name: ToQueryString<T>(T)
+  href: api/Hexagrams.Extensions.Common.Http.HttpExtensions.html#Hexagrams_Extensions_Common_Http_HttpExtensions_ToQueryString__1___0_
+  commentId: M:Hexagrams.Extensions.Common.Http.HttpExtensions.ToQueryString``1(``0)
+  name.vb: ToQueryString(Of T)(T)
+  fullName: Hexagrams.Extensions.Common.Http.HttpExtensions.ToQueryString<T>(T)
+  fullName.vb: Hexagrams.Extensions.Common.Http.HttpExtensions.ToQueryString(Of T)(T)
+  nameWithType: HttpExtensions.ToQueryString<T>(T)
+  nameWithType.vb: HttpExtensions.ToQueryString(Of T)(T)
+- uid: Hexagrams.Extensions.Common.ObjectExtensions
+  name: ObjectExtensions
+  href: api/Hexagrams.Extensions.Common.ObjectExtensions.html
+  commentId: T:Hexagrams.Extensions.Common.ObjectExtensions
+  fullName: Hexagrams.Extensions.Common.ObjectExtensions
+  nameWithType: ObjectExtensions
+- uid: Hexagrams.Extensions.Common.ObjectExtensions.ValueOrDefault*
+  name: ValueOrDefault
+  href: api/Hexagrams.Extensions.Common.ObjectExtensions.html#Hexagrams_Extensions_Common_ObjectExtensions_ValueOrDefault_
+  commentId: Overload:Hexagrams.Extensions.Common.ObjectExtensions.ValueOrDefault
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Common.ObjectExtensions.ValueOrDefault
+  nameWithType: ObjectExtensions.ValueOrDefault
+- uid: Hexagrams.Extensions.Common.ObjectExtensions.ValueOrDefault``2(``0,System.Func{``0,``1})
+  name: ValueOrDefault<T, TMember>(T?, Func<T?, TMember?>)
+  href: api/Hexagrams.Extensions.Common.ObjectExtensions.html#Hexagrams_Extensions_Common_ObjectExtensions_ValueOrDefault__2___0_System_Func___0___1__
+  commentId: M:Hexagrams.Extensions.Common.ObjectExtensions.ValueOrDefault``2(``0,System.Func{``0,``1})
+  name.vb: ValueOrDefault(Of T, TMember)(T, Func(Of T, TMember))
+  fullName: Hexagrams.Extensions.Common.ObjectExtensions.ValueOrDefault<T, TMember>(T?, System.Func<T?, TMember?>)
+  fullName.vb: Hexagrams.Extensions.Common.ObjectExtensions.ValueOrDefault(Of T, TMember)(T, System.Func(Of T, TMember))
+  nameWithType: ObjectExtensions.ValueOrDefault<T, TMember>(T?, Func<T?, TMember?>)
+  nameWithType.vb: ObjectExtensions.ValueOrDefault(Of T, TMember)(T, Func(Of T, TMember))
+- uid: Hexagrams.Extensions.Common.ObjectExtensions.Yield*
+  name: Yield
+  href: api/Hexagrams.Extensions.Common.ObjectExtensions.html#Hexagrams_Extensions_Common_ObjectExtensions_Yield_
+  commentId: Overload:Hexagrams.Extensions.Common.ObjectExtensions.Yield
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Common.ObjectExtensions.Yield
+  nameWithType: ObjectExtensions.Yield
+- uid: Hexagrams.Extensions.Common.ObjectExtensions.Yield``1(``0)
+  name: Yield<T>(T?)
+  href: api/Hexagrams.Extensions.Common.ObjectExtensions.html#Hexagrams_Extensions_Common_ObjectExtensions_Yield__1___0_
+  commentId: M:Hexagrams.Extensions.Common.ObjectExtensions.Yield``1(``0)
+  name.vb: Yield(Of T)(T)
+  fullName: Hexagrams.Extensions.Common.ObjectExtensions.Yield<T>(T?)
+  fullName.vb: Hexagrams.Extensions.Common.ObjectExtensions.Yield(Of T)(T)
+  nameWithType: ObjectExtensions.Yield<T>(T?)
+  nameWithType.vb: ObjectExtensions.Yield(Of T)(T)
+- uid: Hexagrams.Extensions.Common.RandomExtensions
+  name: RandomExtensions
+  href: api/Hexagrams.Extensions.Common.RandomExtensions.html
+  commentId: T:Hexagrams.Extensions.Common.RandomExtensions
+  fullName: Hexagrams.Extensions.Common.RandomExtensions
+  nameWithType: RandomExtensions
+- uid: Hexagrams.Extensions.Common.RandomExtensions.NextDecimal(System.Random,System.Int32,System.Int32,System.Byte)
+  name: NextDecimal(Random, int, int, byte)
+  href: api/Hexagrams.Extensions.Common.RandomExtensions.html#Hexagrams_Extensions_Common_RandomExtensions_NextDecimal_System_Random_System_Int32_System_Int32_System_Byte_
+  commentId: M:Hexagrams.Extensions.Common.RandomExtensions.NextDecimal(System.Random,System.Int32,System.Int32,System.Byte)
+  name.vb: NextDecimal(Random, Integer, Integer, Byte)
+  fullName: Hexagrams.Extensions.Common.RandomExtensions.NextDecimal(System.Random, int, int, byte)
+  fullName.vb: Hexagrams.Extensions.Common.RandomExtensions.NextDecimal(System.Random, Integer, Integer, Byte)
+  nameWithType: RandomExtensions.NextDecimal(Random, int, int, byte)
+  nameWithType.vb: RandomExtensions.NextDecimal(Random, Integer, Integer, Byte)
+- uid: Hexagrams.Extensions.Common.RandomExtensions.NextDecimal*
+  name: NextDecimal
+  href: api/Hexagrams.Extensions.Common.RandomExtensions.html#Hexagrams_Extensions_Common_RandomExtensions_NextDecimal_
+  commentId: Overload:Hexagrams.Extensions.Common.RandomExtensions.NextDecimal
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Common.RandomExtensions.NextDecimal
+  nameWithType: RandomExtensions.NextDecimal
+- uid: Hexagrams.Extensions.Common.RandomExtensions.NextItem*
+  name: NextItem
+  href: api/Hexagrams.Extensions.Common.RandomExtensions.html#Hexagrams_Extensions_Common_RandomExtensions_NextItem_
+  commentId: Overload:Hexagrams.Extensions.Common.RandomExtensions.NextItem
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Common.RandomExtensions.NextItem
+  nameWithType: RandomExtensions.NextItem
+- uid: Hexagrams.Extensions.Common.RandomExtensions.NextItem``1(System.Random,System.Collections.Generic.IEnumerable{``0})
+  name: NextItem<T>(Random, IEnumerable<T>)
+  href: api/Hexagrams.Extensions.Common.RandomExtensions.html#Hexagrams_Extensions_Common_RandomExtensions_NextItem__1_System_Random_System_Collections_Generic_IEnumerable___0__
+  commentId: M:Hexagrams.Extensions.Common.RandomExtensions.NextItem``1(System.Random,System.Collections.Generic.IEnumerable{``0})
+  name.vb: NextItem(Of T)(Random, IEnumerable(Of T))
+  fullName: Hexagrams.Extensions.Common.RandomExtensions.NextItem<T>(System.Random, System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: Hexagrams.Extensions.Common.RandomExtensions.NextItem(Of T)(System.Random, System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: RandomExtensions.NextItem<T>(Random, IEnumerable<T>)
+  nameWithType.vb: RandomExtensions.NextItem(Of T)(Random, IEnumerable(Of T))
+- uid: Hexagrams.Extensions.Common.Serialization
+  name: Hexagrams.Extensions.Common.Serialization
+  href: api/Hexagrams.Extensions.Common.Serialization.html
+  commentId: N:Hexagrams.Extensions.Common.Serialization
+  fullName: Hexagrams.Extensions.Common.Serialization
+  nameWithType: Hexagrams.Extensions.Common.Serialization
+- uid: Hexagrams.Extensions.Common.Serialization.DateOnlyJsonConverter
+  name: DateOnlyJsonConverter
+  href: api/Hexagrams.Extensions.Common.Serialization.DateOnlyJsonConverter.html
+  commentId: T:Hexagrams.Extensions.Common.Serialization.DateOnlyJsonConverter
+  fullName: Hexagrams.Extensions.Common.Serialization.DateOnlyJsonConverter
+  nameWithType: DateOnlyJsonConverter
+- uid: Hexagrams.Extensions.Common.Serialization.DateOnlyJsonConverter.Read(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions)
+  name: Read(ref Utf8JsonReader, Type, JsonSerializerOptions)
+  href: api/Hexagrams.Extensions.Common.Serialization.DateOnlyJsonConverter.html#Hexagrams_Extensions_Common_Serialization_DateOnlyJsonConverter_Read_System_Text_Json_Utf8JsonReader__System_Type_System_Text_Json_JsonSerializerOptions_
+  commentId: M:Hexagrams.Extensions.Common.Serialization.DateOnlyJsonConverter.Read(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions)
+  name.vb: Read(Utf8JsonReader, Type, JsonSerializerOptions)
+  fullName: Hexagrams.Extensions.Common.Serialization.DateOnlyJsonConverter.Read(ref System.Text.Json.Utf8JsonReader, System.Type, System.Text.Json.JsonSerializerOptions)
+  fullName.vb: Hexagrams.Extensions.Common.Serialization.DateOnlyJsonConverter.Read(System.Text.Json.Utf8JsonReader, System.Type, System.Text.Json.JsonSerializerOptions)
+  nameWithType: DateOnlyJsonConverter.Read(ref Utf8JsonReader, Type, JsonSerializerOptions)
+  nameWithType.vb: DateOnlyJsonConverter.Read(Utf8JsonReader, Type, JsonSerializerOptions)
+- uid: Hexagrams.Extensions.Common.Serialization.DateOnlyJsonConverter.Read*
+  name: Read
+  href: api/Hexagrams.Extensions.Common.Serialization.DateOnlyJsonConverter.html#Hexagrams_Extensions_Common_Serialization_DateOnlyJsonConverter_Read_
+  commentId: Overload:Hexagrams.Extensions.Common.Serialization.DateOnlyJsonConverter.Read
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Common.Serialization.DateOnlyJsonConverter.Read
+  nameWithType: DateOnlyJsonConverter.Read
+- uid: Hexagrams.Extensions.Common.Serialization.DateOnlyJsonConverter.Write(System.Text.Json.Utf8JsonWriter,System.DateOnly,System.Text.Json.JsonSerializerOptions)
+  name: Write(Utf8JsonWriter, DateOnly, JsonSerializerOptions)
+  href: api/Hexagrams.Extensions.Common.Serialization.DateOnlyJsonConverter.html#Hexagrams_Extensions_Common_Serialization_DateOnlyJsonConverter_Write_System_Text_Json_Utf8JsonWriter_System_DateOnly_System_Text_Json_JsonSerializerOptions_
+  commentId: M:Hexagrams.Extensions.Common.Serialization.DateOnlyJsonConverter.Write(System.Text.Json.Utf8JsonWriter,System.DateOnly,System.Text.Json.JsonSerializerOptions)
+  fullName: Hexagrams.Extensions.Common.Serialization.DateOnlyJsonConverter.Write(System.Text.Json.Utf8JsonWriter, System.DateOnly, System.Text.Json.JsonSerializerOptions)
+  nameWithType: DateOnlyJsonConverter.Write(Utf8JsonWriter, DateOnly, JsonSerializerOptions)
+- uid: Hexagrams.Extensions.Common.Serialization.DateOnlyJsonConverter.Write*
+  name: Write
+  href: api/Hexagrams.Extensions.Common.Serialization.DateOnlyJsonConverter.html#Hexagrams_Extensions_Common_Serialization_DateOnlyJsonConverter_Write_
+  commentId: Overload:Hexagrams.Extensions.Common.Serialization.DateOnlyJsonConverter.Write
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Common.Serialization.DateOnlyJsonConverter.Write
+  nameWithType: DateOnlyJsonConverter.Write
+- uid: Hexagrams.Extensions.Common.Serialization.JsonExtensions
+  name: JsonExtensions
+  href: api/Hexagrams.Extensions.Common.Serialization.JsonExtensions.html
+  commentId: T:Hexagrams.Extensions.Common.Serialization.JsonExtensions
+  fullName: Hexagrams.Extensions.Common.Serialization.JsonExtensions
+  nameWithType: JsonExtensions
+- uid: Hexagrams.Extensions.Common.Serialization.JsonExtensions.DefaultJsonSerializerOptions
+  name: DefaultJsonSerializerOptions
+  href: api/Hexagrams.Extensions.Common.Serialization.JsonExtensions.html#Hexagrams_Extensions_Common_Serialization_JsonExtensions_DefaultJsonSerializerOptions
+  commentId: P:Hexagrams.Extensions.Common.Serialization.JsonExtensions.DefaultJsonSerializerOptions
+  fullName: Hexagrams.Extensions.Common.Serialization.JsonExtensions.DefaultJsonSerializerOptions
+  nameWithType: JsonExtensions.DefaultJsonSerializerOptions
+- uid: Hexagrams.Extensions.Common.Serialization.JsonExtensions.DefaultJsonSerializerOptions*
+  name: DefaultJsonSerializerOptions
+  href: api/Hexagrams.Extensions.Common.Serialization.JsonExtensions.html#Hexagrams_Extensions_Common_Serialization_JsonExtensions_DefaultJsonSerializerOptions_
+  commentId: Overload:Hexagrams.Extensions.Common.Serialization.JsonExtensions.DefaultJsonSerializerOptions
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Common.Serialization.JsonExtensions.DefaultJsonSerializerOptions
+  nameWithType: JsonExtensions.DefaultJsonSerializerOptions
+- uid: Hexagrams.Extensions.Common.Serialization.JsonExtensions.FromJson*
+  name: FromJson
+  href: api/Hexagrams.Extensions.Common.Serialization.JsonExtensions.html#Hexagrams_Extensions_Common_Serialization_JsonExtensions_FromJson_
+  commentId: Overload:Hexagrams.Extensions.Common.Serialization.JsonExtensions.FromJson
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Common.Serialization.JsonExtensions.FromJson
+  nameWithType: JsonExtensions.FromJson
+- uid: Hexagrams.Extensions.Common.Serialization.JsonExtensions.FromJson``1(System.String,System.Text.Json.JsonSerializerOptions)
+  name: FromJson<TValue>(string, JsonSerializerOptions?)
+  href: api/Hexagrams.Extensions.Common.Serialization.JsonExtensions.html#Hexagrams_Extensions_Common_Serialization_JsonExtensions_FromJson__1_System_String_System_Text_Json_JsonSerializerOptions_
+  commentId: M:Hexagrams.Extensions.Common.Serialization.JsonExtensions.FromJson``1(System.String,System.Text.Json.JsonSerializerOptions)
+  name.vb: FromJson(Of TValue)(String, JsonSerializerOptions)
+  fullName: Hexagrams.Extensions.Common.Serialization.JsonExtensions.FromJson<TValue>(string, System.Text.Json.JsonSerializerOptions?)
+  fullName.vb: Hexagrams.Extensions.Common.Serialization.JsonExtensions.FromJson(Of TValue)(String, System.Text.Json.JsonSerializerOptions)
+  nameWithType: JsonExtensions.FromJson<TValue>(string, JsonSerializerOptions?)
+  nameWithType.vb: JsonExtensions.FromJson(Of TValue)(String, JsonSerializerOptions)
+- uid: Hexagrams.Extensions.Common.Serialization.JsonExtensions.FromJson``1(System.String,``0,System.Text.Json.JsonSerializerOptions)
+  name: FromJson<TValue>(string, TValue, JsonSerializerOptions?)
+  href: api/Hexagrams.Extensions.Common.Serialization.JsonExtensions.html#Hexagrams_Extensions_Common_Serialization_JsonExtensions_FromJson__1_System_String___0_System_Text_Json_JsonSerializerOptions_
+  commentId: M:Hexagrams.Extensions.Common.Serialization.JsonExtensions.FromJson``1(System.String,``0,System.Text.Json.JsonSerializerOptions)
+  name.vb: FromJson(Of TValue)(String, TValue, JsonSerializerOptions)
+  fullName: Hexagrams.Extensions.Common.Serialization.JsonExtensions.FromJson<TValue>(string, TValue, System.Text.Json.JsonSerializerOptions?)
+  fullName.vb: Hexagrams.Extensions.Common.Serialization.JsonExtensions.FromJson(Of TValue)(String, TValue, System.Text.Json.JsonSerializerOptions)
+  nameWithType: JsonExtensions.FromJson<TValue>(string, TValue, JsonSerializerOptions?)
+  nameWithType.vb: JsonExtensions.FromJson(Of TValue)(String, TValue, JsonSerializerOptions)
+- uid: Hexagrams.Extensions.Common.Serialization.JsonExtensions.ToJson(System.Object,System.Boolean)
+  name: ToJson(object, bool)
+  href: api/Hexagrams.Extensions.Common.Serialization.JsonExtensions.html#Hexagrams_Extensions_Common_Serialization_JsonExtensions_ToJson_System_Object_System_Boolean_
+  commentId: M:Hexagrams.Extensions.Common.Serialization.JsonExtensions.ToJson(System.Object,System.Boolean)
+  name.vb: ToJson(Object, Boolean)
+  fullName: Hexagrams.Extensions.Common.Serialization.JsonExtensions.ToJson(object, bool)
+  fullName.vb: Hexagrams.Extensions.Common.Serialization.JsonExtensions.ToJson(Object, Boolean)
+  nameWithType: JsonExtensions.ToJson(object, bool)
+  nameWithType.vb: JsonExtensions.ToJson(Object, Boolean)
+- uid: Hexagrams.Extensions.Common.Serialization.JsonExtensions.ToJson(System.Object,System.Text.Json.JsonSerializerOptions)
+  name: ToJson(object, JsonSerializerOptions)
+  href: api/Hexagrams.Extensions.Common.Serialization.JsonExtensions.html#Hexagrams_Extensions_Common_Serialization_JsonExtensions_ToJson_System_Object_System_Text_Json_JsonSerializerOptions_
+  commentId: M:Hexagrams.Extensions.Common.Serialization.JsonExtensions.ToJson(System.Object,System.Text.Json.JsonSerializerOptions)
+  name.vb: ToJson(Object, JsonSerializerOptions)
+  fullName: Hexagrams.Extensions.Common.Serialization.JsonExtensions.ToJson(object, System.Text.Json.JsonSerializerOptions)
+  fullName.vb: Hexagrams.Extensions.Common.Serialization.JsonExtensions.ToJson(Object, System.Text.Json.JsonSerializerOptions)
+  nameWithType: JsonExtensions.ToJson(object, JsonSerializerOptions)
+  nameWithType.vb: JsonExtensions.ToJson(Object, JsonSerializerOptions)
+- uid: Hexagrams.Extensions.Common.Serialization.JsonExtensions.ToJson*
+  name: ToJson
+  href: api/Hexagrams.Extensions.Common.Serialization.JsonExtensions.html#Hexagrams_Extensions_Common_Serialization_JsonExtensions_ToJson_
+  commentId: Overload:Hexagrams.Extensions.Common.Serialization.JsonExtensions.ToJson
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Common.Serialization.JsonExtensions.ToJson
+  nameWithType: JsonExtensions.ToJson
+- uid: Hexagrams.Extensions.Common.Serialization.TrimmingJsonConverter
+  name: TrimmingJsonConverter
+  href: api/Hexagrams.Extensions.Common.Serialization.TrimmingJsonConverter.html
+  commentId: T:Hexagrams.Extensions.Common.Serialization.TrimmingJsonConverter
+  fullName: Hexagrams.Extensions.Common.Serialization.TrimmingJsonConverter
+  nameWithType: TrimmingJsonConverter
+- uid: Hexagrams.Extensions.Common.Serialization.TrimmingJsonConverter.Read(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions)
+  name: Read(ref Utf8JsonReader, Type, JsonSerializerOptions)
+  href: api/Hexagrams.Extensions.Common.Serialization.TrimmingJsonConverter.html#Hexagrams_Extensions_Common_Serialization_TrimmingJsonConverter_Read_System_Text_Json_Utf8JsonReader__System_Type_System_Text_Json_JsonSerializerOptions_
+  commentId: M:Hexagrams.Extensions.Common.Serialization.TrimmingJsonConverter.Read(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions)
+  name.vb: Read(Utf8JsonReader, Type, JsonSerializerOptions)
+  fullName: Hexagrams.Extensions.Common.Serialization.TrimmingJsonConverter.Read(ref System.Text.Json.Utf8JsonReader, System.Type, System.Text.Json.JsonSerializerOptions)
+  fullName.vb: Hexagrams.Extensions.Common.Serialization.TrimmingJsonConverter.Read(System.Text.Json.Utf8JsonReader, System.Type, System.Text.Json.JsonSerializerOptions)
+  nameWithType: TrimmingJsonConverter.Read(ref Utf8JsonReader, Type, JsonSerializerOptions)
+  nameWithType.vb: TrimmingJsonConverter.Read(Utf8JsonReader, Type, JsonSerializerOptions)
+- uid: Hexagrams.Extensions.Common.Serialization.TrimmingJsonConverter.Read*
+  name: Read
+  href: api/Hexagrams.Extensions.Common.Serialization.TrimmingJsonConverter.html#Hexagrams_Extensions_Common_Serialization_TrimmingJsonConverter_Read_
+  commentId: Overload:Hexagrams.Extensions.Common.Serialization.TrimmingJsonConverter.Read
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Common.Serialization.TrimmingJsonConverter.Read
+  nameWithType: TrimmingJsonConverter.Read
+- uid: Hexagrams.Extensions.Common.Serialization.TrimmingJsonConverter.Write(System.Text.Json.Utf8JsonWriter,System.String,System.Text.Json.JsonSerializerOptions)
+  name: Write(Utf8JsonWriter, string, JsonSerializerOptions)
+  href: api/Hexagrams.Extensions.Common.Serialization.TrimmingJsonConverter.html#Hexagrams_Extensions_Common_Serialization_TrimmingJsonConverter_Write_System_Text_Json_Utf8JsonWriter_System_String_System_Text_Json_JsonSerializerOptions_
+  commentId: M:Hexagrams.Extensions.Common.Serialization.TrimmingJsonConverter.Write(System.Text.Json.Utf8JsonWriter,System.String,System.Text.Json.JsonSerializerOptions)
+  name.vb: Write(Utf8JsonWriter, String, JsonSerializerOptions)
+  fullName: Hexagrams.Extensions.Common.Serialization.TrimmingJsonConverter.Write(System.Text.Json.Utf8JsonWriter, string, System.Text.Json.JsonSerializerOptions)
+  fullName.vb: Hexagrams.Extensions.Common.Serialization.TrimmingJsonConverter.Write(System.Text.Json.Utf8JsonWriter, String, System.Text.Json.JsonSerializerOptions)
+  nameWithType: TrimmingJsonConverter.Write(Utf8JsonWriter, string, JsonSerializerOptions)
+  nameWithType.vb: TrimmingJsonConverter.Write(Utf8JsonWriter, String, JsonSerializerOptions)
+- uid: Hexagrams.Extensions.Common.Serialization.TrimmingJsonConverter.Write*
+  name: Write
+  href: api/Hexagrams.Extensions.Common.Serialization.TrimmingJsonConverter.html#Hexagrams_Extensions_Common_Serialization_TrimmingJsonConverter_Write_
+  commentId: Overload:Hexagrams.Extensions.Common.Serialization.TrimmingJsonConverter.Write
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Common.Serialization.TrimmingJsonConverter.Write
+  nameWithType: TrimmingJsonConverter.Write
+- uid: Hexagrams.Extensions.Common.StringExtensions
+  name: StringExtensions
+  href: api/Hexagrams.Extensions.Common.StringExtensions.html
+  commentId: T:Hexagrams.Extensions.Common.StringExtensions
+  fullName: Hexagrams.Extensions.Common.StringExtensions
+  nameWithType: StringExtensions
+- uid: Hexagrams.Extensions.Common.StringExtensions.StripDiacritics(System.String)
+  name: StripDiacritics(string)
+  href: api/Hexagrams.Extensions.Common.StringExtensions.html#Hexagrams_Extensions_Common_StringExtensions_StripDiacritics_System_String_
+  commentId: M:Hexagrams.Extensions.Common.StringExtensions.StripDiacritics(System.String)
+  name.vb: StripDiacritics(String)
+  fullName: Hexagrams.Extensions.Common.StringExtensions.StripDiacritics(string)
+  fullName.vb: Hexagrams.Extensions.Common.StringExtensions.StripDiacritics(String)
+  nameWithType: StringExtensions.StripDiacritics(string)
+  nameWithType.vb: StringExtensions.StripDiacritics(String)
+- uid: Hexagrams.Extensions.Common.StringExtensions.StripDiacritics*
+  name: StripDiacritics
+  href: api/Hexagrams.Extensions.Common.StringExtensions.html#Hexagrams_Extensions_Common_StringExtensions_StripDiacritics_
+  commentId: Overload:Hexagrams.Extensions.Common.StringExtensions.StripDiacritics
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Common.StringExtensions.StripDiacritics
+  nameWithType: StringExtensions.StripDiacritics
+- uid: Hexagrams.Extensions.Common.StringExtensions.ToKebabCase(System.String)
+  name: ToKebabCase(string)
+  href: api/Hexagrams.Extensions.Common.StringExtensions.html#Hexagrams_Extensions_Common_StringExtensions_ToKebabCase_System_String_
+  commentId: M:Hexagrams.Extensions.Common.StringExtensions.ToKebabCase(System.String)
+  name.vb: ToKebabCase(String)
+  fullName: Hexagrams.Extensions.Common.StringExtensions.ToKebabCase(string)
+  fullName.vb: Hexagrams.Extensions.Common.StringExtensions.ToKebabCase(String)
+  nameWithType: StringExtensions.ToKebabCase(string)
+  nameWithType.vb: StringExtensions.ToKebabCase(String)
+- uid: Hexagrams.Extensions.Common.StringExtensions.ToKebabCase*
+  name: ToKebabCase
+  href: api/Hexagrams.Extensions.Common.StringExtensions.html#Hexagrams_Extensions_Common_StringExtensions_ToKebabCase_
+  commentId: Overload:Hexagrams.Extensions.Common.StringExtensions.ToKebabCase
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Common.StringExtensions.ToKebabCase
+  nameWithType: StringExtensions.ToKebabCase
+- uid: Hexagrams.Extensions.Common.StringExtensions.ToLowerCamelCase(System.String)
+  name: ToLowerCamelCase(string)
+  href: api/Hexagrams.Extensions.Common.StringExtensions.html#Hexagrams_Extensions_Common_StringExtensions_ToLowerCamelCase_System_String_
+  commentId: M:Hexagrams.Extensions.Common.StringExtensions.ToLowerCamelCase(System.String)
+  name.vb: ToLowerCamelCase(String)
+  fullName: Hexagrams.Extensions.Common.StringExtensions.ToLowerCamelCase(string)
+  fullName.vb: Hexagrams.Extensions.Common.StringExtensions.ToLowerCamelCase(String)
+  nameWithType: StringExtensions.ToLowerCamelCase(string)
+  nameWithType.vb: StringExtensions.ToLowerCamelCase(String)
+- uid: Hexagrams.Extensions.Common.StringExtensions.ToLowerCamelCase*
+  name: ToLowerCamelCase
+  href: api/Hexagrams.Extensions.Common.StringExtensions.html#Hexagrams_Extensions_Common_StringExtensions_ToLowerCamelCase_
+  commentId: Overload:Hexagrams.Extensions.Common.StringExtensions.ToLowerCamelCase
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Common.StringExtensions.ToLowerCamelCase
+  nameWithType: StringExtensions.ToLowerCamelCase
+- uid: Hexagrams.Extensions.Common.StringExtensions.ToLowerSnakeCase(System.String)
+  name: ToLowerSnakeCase(string)
+  href: api/Hexagrams.Extensions.Common.StringExtensions.html#Hexagrams_Extensions_Common_StringExtensions_ToLowerSnakeCase_System_String_
+  commentId: M:Hexagrams.Extensions.Common.StringExtensions.ToLowerSnakeCase(System.String)
+  name.vb: ToLowerSnakeCase(String)
+  fullName: Hexagrams.Extensions.Common.StringExtensions.ToLowerSnakeCase(string)
+  fullName.vb: Hexagrams.Extensions.Common.StringExtensions.ToLowerSnakeCase(String)
+  nameWithType: StringExtensions.ToLowerSnakeCase(string)
+  nameWithType.vb: StringExtensions.ToLowerSnakeCase(String)
+- uid: Hexagrams.Extensions.Common.StringExtensions.ToLowerSnakeCase*
+  name: ToLowerSnakeCase
+  href: api/Hexagrams.Extensions.Common.StringExtensions.html#Hexagrams_Extensions_Common_StringExtensions_ToLowerSnakeCase_
+  commentId: Overload:Hexagrams.Extensions.Common.StringExtensions.ToLowerSnakeCase
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Common.StringExtensions.ToLowerSnakeCase
+  nameWithType: StringExtensions.ToLowerSnakeCase
+- uid: Hexagrams.Extensions.Common.StringExtensions.ToUpperCamelCase(System.String)
+  name: ToUpperCamelCase(string)
+  href: api/Hexagrams.Extensions.Common.StringExtensions.html#Hexagrams_Extensions_Common_StringExtensions_ToUpperCamelCase_System_String_
+  commentId: M:Hexagrams.Extensions.Common.StringExtensions.ToUpperCamelCase(System.String)
+  name.vb: ToUpperCamelCase(String)
+  fullName: Hexagrams.Extensions.Common.StringExtensions.ToUpperCamelCase(string)
+  fullName.vb: Hexagrams.Extensions.Common.StringExtensions.ToUpperCamelCase(String)
+  nameWithType: StringExtensions.ToUpperCamelCase(string)
+  nameWithType.vb: StringExtensions.ToUpperCamelCase(String)
+- uid: Hexagrams.Extensions.Common.StringExtensions.ToUpperCamelCase*
+  name: ToUpperCamelCase
+  href: api/Hexagrams.Extensions.Common.StringExtensions.html#Hexagrams_Extensions_Common_StringExtensions_ToUpperCamelCase_
+  commentId: Overload:Hexagrams.Extensions.Common.StringExtensions.ToUpperCamelCase
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Common.StringExtensions.ToUpperCamelCase
+  nameWithType: StringExtensions.ToUpperCamelCase
+- uid: Hexagrams.Extensions.Common.StringExtensions.ToUpperSnakeCase(System.String)
+  name: ToUpperSnakeCase(string)
+  href: api/Hexagrams.Extensions.Common.StringExtensions.html#Hexagrams_Extensions_Common_StringExtensions_ToUpperSnakeCase_System_String_
+  commentId: M:Hexagrams.Extensions.Common.StringExtensions.ToUpperSnakeCase(System.String)
+  name.vb: ToUpperSnakeCase(String)
+  fullName: Hexagrams.Extensions.Common.StringExtensions.ToUpperSnakeCase(string)
+  fullName.vb: Hexagrams.Extensions.Common.StringExtensions.ToUpperSnakeCase(String)
+  nameWithType: StringExtensions.ToUpperSnakeCase(string)
+  nameWithType.vb: StringExtensions.ToUpperSnakeCase(String)
+- uid: Hexagrams.Extensions.Common.StringExtensions.ToUpperSnakeCase*
+  name: ToUpperSnakeCase
+  href: api/Hexagrams.Extensions.Common.StringExtensions.html#Hexagrams_Extensions_Common_StringExtensions_ToUpperSnakeCase_
+  commentId: Overload:Hexagrams.Extensions.Common.StringExtensions.ToUpperSnakeCase
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Common.StringExtensions.ToUpperSnakeCase
+  nameWithType: StringExtensions.ToUpperSnakeCase
+- uid: Hexagrams.Extensions.Common.StringExtensions.ToValidFileName(System.String,System.String)
+  name: ToValidFileName(string, string)
+  href: api/Hexagrams.Extensions.Common.StringExtensions.html#Hexagrams_Extensions_Common_StringExtensions_ToValidFileName_System_String_System_String_
+  commentId: M:Hexagrams.Extensions.Common.StringExtensions.ToValidFileName(System.String,System.String)
+  name.vb: ToValidFileName(String, String)
+  fullName: Hexagrams.Extensions.Common.StringExtensions.ToValidFileName(string, string)
+  fullName.vb: Hexagrams.Extensions.Common.StringExtensions.ToValidFileName(String, String)
+  nameWithType: StringExtensions.ToValidFileName(string, string)
+  nameWithType.vb: StringExtensions.ToValidFileName(String, String)
+- uid: Hexagrams.Extensions.Common.StringExtensions.ToValidFileName*
+  name: ToValidFileName
+  href: api/Hexagrams.Extensions.Common.StringExtensions.html#Hexagrams_Extensions_Common_StringExtensions_ToValidFileName_
+  commentId: Overload:Hexagrams.Extensions.Common.StringExtensions.ToValidFileName
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Common.StringExtensions.ToValidFileName
+  nameWithType: StringExtensions.ToValidFileName
+- uid: Hexagrams.Extensions.Configuration
+  name: Hexagrams.Extensions.Configuration
+  href: api/Hexagrams.Extensions.Configuration.html
+  commentId: N:Hexagrams.Extensions.Configuration
+  fullName: Hexagrams.Extensions.Configuration
+  nameWithType: Hexagrams.Extensions.Configuration
+- uid: Hexagrams.Extensions.Configuration.ConfigurationBuilderExtensions
+  name: ConfigurationBuilderExtensions
+  href: api/Hexagrams.Extensions.Configuration.ConfigurationBuilderExtensions.html
+  commentId: T:Hexagrams.Extensions.Configuration.ConfigurationBuilderExtensions
+  fullName: Hexagrams.Extensions.Configuration.ConfigurationBuilderExtensions
+  nameWithType: ConfigurationBuilderExtensions
+- uid: Hexagrams.Extensions.Configuration.ConfigurationBuilderExtensions.SetKeyDelimiters(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String[])
+  name: SetKeyDelimiters(IConfigurationBuilder, params string[])
+  href: api/Hexagrams.Extensions.Configuration.ConfigurationBuilderExtensions.html#Hexagrams_Extensions_Configuration_ConfigurationBuilderExtensions_SetKeyDelimiters_Microsoft_Extensions_Configuration_IConfigurationBuilder_System_String___
+  commentId: M:Hexagrams.Extensions.Configuration.ConfigurationBuilderExtensions.SetKeyDelimiters(Microsoft.Extensions.Configuration.IConfigurationBuilder,System.String[])
+  name.vb: SetKeyDelimiters(IConfigurationBuilder, ParamArray String())
+  fullName: Hexagrams.Extensions.Configuration.ConfigurationBuilderExtensions.SetKeyDelimiters(Microsoft.Extensions.Configuration.IConfigurationBuilder, params string[])
+  fullName.vb: Hexagrams.Extensions.Configuration.ConfigurationBuilderExtensions.SetKeyDelimiters(Microsoft.Extensions.Configuration.IConfigurationBuilder, ParamArray String())
+  nameWithType: ConfigurationBuilderExtensions.SetKeyDelimiters(IConfigurationBuilder, params string[])
+  nameWithType.vb: ConfigurationBuilderExtensions.SetKeyDelimiters(IConfigurationBuilder, ParamArray String())
+- uid: Hexagrams.Extensions.Configuration.ConfigurationBuilderExtensions.SetKeyDelimiters*
+  name: SetKeyDelimiters
+  href: api/Hexagrams.Extensions.Configuration.ConfigurationBuilderExtensions.html#Hexagrams_Extensions_Configuration_ConfigurationBuilderExtensions_SetKeyDelimiters_
+  commentId: Overload:Hexagrams.Extensions.Configuration.ConfigurationBuilderExtensions.SetKeyDelimiters
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Configuration.ConfigurationBuilderExtensions.SetKeyDelimiters
+  nameWithType: ConfigurationBuilderExtensions.SetKeyDelimiters
+- uid: Hexagrams.Extensions.Configuration.ConfigurationException
+  name: ConfigurationException
+  href: api/Hexagrams.Extensions.Configuration.ConfigurationException.html
+  commentId: T:Hexagrams.Extensions.Configuration.ConfigurationException
+  fullName: Hexagrams.Extensions.Configuration.ConfigurationException
+  nameWithType: ConfigurationException
+- uid: Hexagrams.Extensions.Configuration.ConfigurationException.#ctor(System.String)
+  name: ConfigurationException(string)
+  href: api/Hexagrams.Extensions.Configuration.ConfigurationException.html#Hexagrams_Extensions_Configuration_ConfigurationException__ctor_System_String_
+  commentId: M:Hexagrams.Extensions.Configuration.ConfigurationException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Hexagrams.Extensions.Configuration.ConfigurationException.ConfigurationException(string)
+  fullName.vb: Hexagrams.Extensions.Configuration.ConfigurationException.New(String)
+  nameWithType: ConfigurationException.ConfigurationException(string)
+  nameWithType.vb: ConfigurationException.New(String)
+- uid: Hexagrams.Extensions.Configuration.ConfigurationException.#ctor*
+  name: ConfigurationException
+  href: api/Hexagrams.Extensions.Configuration.ConfigurationException.html#Hexagrams_Extensions_Configuration_ConfigurationException__ctor_
+  commentId: Overload:Hexagrams.Extensions.Configuration.ConfigurationException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Hexagrams.Extensions.Configuration.ConfigurationException.ConfigurationException
+  fullName.vb: Hexagrams.Extensions.Configuration.ConfigurationException.New
+  nameWithType: ConfigurationException.ConfigurationException
+  nameWithType.vb: ConfigurationException.New
+- uid: Hexagrams.Extensions.Configuration.ConfigurationExtensions
+  name: ConfigurationExtensions
+  href: api/Hexagrams.Extensions.Configuration.ConfigurationExtensions.html
+  commentId: T:Hexagrams.Extensions.Configuration.ConfigurationExtensions
+  fullName: Hexagrams.Extensions.Configuration.ConfigurationExtensions
+  nameWithType: ConfigurationExtensions
+- uid: Hexagrams.Extensions.Configuration.ConfigurationExtensions.Collection(Microsoft.Extensions.Configuration.IConfiguration,System.String)
+  name: Collection(IConfiguration, string)
+  href: api/Hexagrams.Extensions.Configuration.ConfigurationExtensions.html#Hexagrams_Extensions_Configuration_ConfigurationExtensions_Collection_Microsoft_Extensions_Configuration_IConfiguration_System_String_
+  commentId: M:Hexagrams.Extensions.Configuration.ConfigurationExtensions.Collection(Microsoft.Extensions.Configuration.IConfiguration,System.String)
+  name.vb: Collection(IConfiguration, String)
+  fullName: Hexagrams.Extensions.Configuration.ConfigurationExtensions.Collection(Microsoft.Extensions.Configuration.IConfiguration, string)
+  fullName.vb: Hexagrams.Extensions.Configuration.ConfigurationExtensions.Collection(Microsoft.Extensions.Configuration.IConfiguration, String)
+  nameWithType: ConfigurationExtensions.Collection(IConfiguration, string)
+  nameWithType.vb: ConfigurationExtensions.Collection(IConfiguration, String)
+- uid: Hexagrams.Extensions.Configuration.ConfigurationExtensions.Collection*
+  name: Collection
+  href: api/Hexagrams.Extensions.Configuration.ConfigurationExtensions.html#Hexagrams_Extensions_Configuration_ConfigurationExtensions_Collection_
+  commentId: Overload:Hexagrams.Extensions.Configuration.ConfigurationExtensions.Collection
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Configuration.ConfigurationExtensions.Collection
+  nameWithType: ConfigurationExtensions.Collection
+- uid: Hexagrams.Extensions.Configuration.ConfigurationExtensions.Require(Microsoft.Extensions.Configuration.IConfiguration,System.String,System.String)
+  name: Require(IConfiguration, string, string?)
+  href: api/Hexagrams.Extensions.Configuration.ConfigurationExtensions.html#Hexagrams_Extensions_Configuration_ConfigurationExtensions_Require_Microsoft_Extensions_Configuration_IConfiguration_System_String_System_String_
+  commentId: M:Hexagrams.Extensions.Configuration.ConfigurationExtensions.Require(Microsoft.Extensions.Configuration.IConfiguration,System.String,System.String)
+  name.vb: Require(IConfiguration, String, String)
+  fullName: Hexagrams.Extensions.Configuration.ConfigurationExtensions.Require(Microsoft.Extensions.Configuration.IConfiguration, string, string?)
+  fullName.vb: Hexagrams.Extensions.Configuration.ConfigurationExtensions.Require(Microsoft.Extensions.Configuration.IConfiguration, String, String)
+  nameWithType: ConfigurationExtensions.Require(IConfiguration, string, string?)
+  nameWithType.vb: ConfigurationExtensions.Require(IConfiguration, String, String)
+- uid: Hexagrams.Extensions.Configuration.ConfigurationExtensions.Require*
+  name: Require
+  href: api/Hexagrams.Extensions.Configuration.ConfigurationExtensions.html#Hexagrams_Extensions_Configuration_ConfigurationExtensions_Require_
+  commentId: Overload:Hexagrams.Extensions.Configuration.ConfigurationExtensions.Require
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Configuration.ConfigurationExtensions.Require
+  nameWithType: ConfigurationExtensions.Require
+- uid: Hexagrams.Extensions.Configuration.ConfigurationExtensions.Require``1(Microsoft.Extensions.Configuration.IConfiguration,System.String,System.String)
+  name: Require<TValue>(IConfiguration, string, string?)
+  href: api/Hexagrams.Extensions.Configuration.ConfigurationExtensions.html#Hexagrams_Extensions_Configuration_ConfigurationExtensions_Require__1_Microsoft_Extensions_Configuration_IConfiguration_System_String_System_String_
+  commentId: M:Hexagrams.Extensions.Configuration.ConfigurationExtensions.Require``1(Microsoft.Extensions.Configuration.IConfiguration,System.String,System.String)
+  name.vb: Require(Of TValue)(IConfiguration, String, String)
+  fullName: Hexagrams.Extensions.Configuration.ConfigurationExtensions.Require<TValue>(Microsoft.Extensions.Configuration.IConfiguration, string, string?)
+  fullName.vb: Hexagrams.Extensions.Configuration.ConfigurationExtensions.Require(Of TValue)(Microsoft.Extensions.Configuration.IConfiguration, String, String)
+  nameWithType: ConfigurationExtensions.Require<TValue>(IConfiguration, string, string?)
+  nameWithType.vb: ConfigurationExtensions.Require(Of TValue)(IConfiguration, String, String)
+- uid: Hexagrams.Extensions.Testing
+  name: Hexagrams.Extensions.Testing
+  href: api/Hexagrams.Extensions.Testing.html
+  commentId: N:Hexagrams.Extensions.Testing
+  fullName: Hexagrams.Extensions.Testing
+  nameWithType: Hexagrams.Extensions.Testing
+- uid: Hexagrams.Extensions.Testing.Http
+  name: Hexagrams.Extensions.Testing.Http
+  href: api/Hexagrams.Extensions.Testing.Http.html
+  commentId: N:Hexagrams.Extensions.Testing.Http
+  fullName: Hexagrams.Extensions.Testing.Http
+  nameWithType: Hexagrams.Extensions.Testing.Http
+- uid: Hexagrams.Extensions.Testing.Http.HttpTestUtilities
+  name: HttpTestUtilities
+  href: api/Hexagrams.Extensions.Testing.Http.HttpTestUtilities.html
+  commentId: T:Hexagrams.Extensions.Testing.Http.HttpTestUtilities
+  fullName: Hexagrams.Extensions.Testing.Http.HttpTestUtilities
+  nameWithType: HttpTestUtilities
+- uid: Hexagrams.Extensions.Testing.Http.HttpTestUtilities.DelegatingHandlerStub
+  name: HttpTestUtilities.DelegatingHandlerStub
+  href: api/Hexagrams.Extensions.Testing.Http.HttpTestUtilities.DelegatingHandlerStub.html
+  commentId: T:Hexagrams.Extensions.Testing.Http.HttpTestUtilities.DelegatingHandlerStub
+  fullName: Hexagrams.Extensions.Testing.Http.HttpTestUtilities.DelegatingHandlerStub
+  nameWithType: HttpTestUtilities.DelegatingHandlerStub
+- uid: Hexagrams.Extensions.Testing.Http.HttpTestUtilities.DelegatingHandlerStub.#ctor(System.Func{System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken,System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}})
+  name: DelegatingHandlerStub(Func<HttpRequestMessage, CancellationToken, Task<HttpResponseMessage>>)
+  href: api/Hexagrams.Extensions.Testing.Http.HttpTestUtilities.DelegatingHandlerStub.html#Hexagrams_Extensions_Testing_Http_HttpTestUtilities_DelegatingHandlerStub__ctor_System_Func_System_Net_Http_HttpRequestMessage_System_Threading_CancellationToken_System_Threading_Tasks_Task_System_Net_Http_HttpResponseMessage___
+  commentId: M:Hexagrams.Extensions.Testing.Http.HttpTestUtilities.DelegatingHandlerStub.#ctor(System.Func{System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken,System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}})
+  name.vb: New(Func(Of HttpRequestMessage, CancellationToken, Task(Of HttpResponseMessage)))
+  fullName: Hexagrams.Extensions.Testing.Http.HttpTestUtilities.DelegatingHandlerStub.DelegatingHandlerStub(System.Func<System.Net.Http.HttpRequestMessage, System.Threading.CancellationToken, System.Threading.Tasks.Task<System.Net.Http.HttpResponseMessage>>)
+  fullName.vb: Hexagrams.Extensions.Testing.Http.HttpTestUtilities.DelegatingHandlerStub.New(System.Func(Of System.Net.Http.HttpRequestMessage, System.Threading.CancellationToken, System.Threading.Tasks.Task(Of System.Net.Http.HttpResponseMessage)))
+  nameWithType: HttpTestUtilities.DelegatingHandlerStub.DelegatingHandlerStub(Func<HttpRequestMessage, CancellationToken, Task<HttpResponseMessage>>)
+  nameWithType.vb: HttpTestUtilities.DelegatingHandlerStub.New(Func(Of HttpRequestMessage, CancellationToken, Task(Of HttpResponseMessage)))
+- uid: Hexagrams.Extensions.Testing.Http.HttpTestUtilities.DelegatingHandlerStub.#ctor*
+  name: DelegatingHandlerStub
+  href: api/Hexagrams.Extensions.Testing.Http.HttpTestUtilities.DelegatingHandlerStub.html#Hexagrams_Extensions_Testing_Http_HttpTestUtilities_DelegatingHandlerStub__ctor_
+  commentId: Overload:Hexagrams.Extensions.Testing.Http.HttpTestUtilities.DelegatingHandlerStub.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Hexagrams.Extensions.Testing.Http.HttpTestUtilities.DelegatingHandlerStub.DelegatingHandlerStub
+  fullName.vb: Hexagrams.Extensions.Testing.Http.HttpTestUtilities.DelegatingHandlerStub.New
+  nameWithType: HttpTestUtilities.DelegatingHandlerStub.DelegatingHandlerStub
+  nameWithType.vb: HttpTestUtilities.DelegatingHandlerStub.New
+- uid: Hexagrams.Extensions.Testing.Http.HttpTestUtilities.DelegatingHandlerStub.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+  name: SendAsync(HttpRequestMessage, CancellationToken)
+  href: api/Hexagrams.Extensions.Testing.Http.HttpTestUtilities.DelegatingHandlerStub.html#Hexagrams_Extensions_Testing_Http_HttpTestUtilities_DelegatingHandlerStub_SendAsync_System_Net_Http_HttpRequestMessage_System_Threading_CancellationToken_
+  commentId: M:Hexagrams.Extensions.Testing.Http.HttpTestUtilities.DelegatingHandlerStub.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)
+  fullName: Hexagrams.Extensions.Testing.Http.HttpTestUtilities.DelegatingHandlerStub.SendAsync(System.Net.Http.HttpRequestMessage, System.Threading.CancellationToken)
+  nameWithType: HttpTestUtilities.DelegatingHandlerStub.SendAsync(HttpRequestMessage, CancellationToken)
+- uid: Hexagrams.Extensions.Testing.Http.HttpTestUtilities.DelegatingHandlerStub.SendAsync*
+  name: SendAsync
+  href: api/Hexagrams.Extensions.Testing.Http.HttpTestUtilities.DelegatingHandlerStub.html#Hexagrams_Extensions_Testing_Http_HttpTestUtilities_DelegatingHandlerStub_SendAsync_
+  commentId: Overload:Hexagrams.Extensions.Testing.Http.HttpTestUtilities.DelegatingHandlerStub.SendAsync
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Testing.Http.HttpTestUtilities.DelegatingHandlerStub.SendAsync
+  nameWithType: HttpTestUtilities.DelegatingHandlerStub.SendAsync
+- uid: Hexagrams.Extensions.Testing.Http.HttpTestUtilities.GetFakeHttpMessageHandler(System.Net.Http.HttpResponseMessage,System.Action{System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken})
+  name: GetFakeHttpMessageHandler(HttpResponseMessage, Action<HttpRequestMessage, CancellationToken>?)
+  href: api/Hexagrams.Extensions.Testing.Http.HttpTestUtilities.html#Hexagrams_Extensions_Testing_Http_HttpTestUtilities_GetFakeHttpMessageHandler_System_Net_Http_HttpResponseMessage_System_Action_System_Net_Http_HttpRequestMessage_System_Threading_CancellationToken__
+  commentId: M:Hexagrams.Extensions.Testing.Http.HttpTestUtilities.GetFakeHttpMessageHandler(System.Net.Http.HttpResponseMessage,System.Action{System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken})
+  name.vb: GetFakeHttpMessageHandler(HttpResponseMessage, Action(Of HttpRequestMessage, CancellationToken))
+  fullName: Hexagrams.Extensions.Testing.Http.HttpTestUtilities.GetFakeHttpMessageHandler(System.Net.Http.HttpResponseMessage, System.Action<System.Net.Http.HttpRequestMessage, System.Threading.CancellationToken>?)
+  fullName.vb: Hexagrams.Extensions.Testing.Http.HttpTestUtilities.GetFakeHttpMessageHandler(System.Net.Http.HttpResponseMessage, System.Action(Of System.Net.Http.HttpRequestMessage, System.Threading.CancellationToken))
+  nameWithType: HttpTestUtilities.GetFakeHttpMessageHandler(HttpResponseMessage, Action<HttpRequestMessage, CancellationToken>?)
+  nameWithType.vb: HttpTestUtilities.GetFakeHttpMessageHandler(HttpResponseMessage, Action(Of HttpRequestMessage, CancellationToken))
+- uid: Hexagrams.Extensions.Testing.Http.HttpTestUtilities.GetFakeHttpMessageHandler*
+  name: GetFakeHttpMessageHandler
+  href: api/Hexagrams.Extensions.Testing.Http.HttpTestUtilities.html#Hexagrams_Extensions_Testing_Http_HttpTestUtilities_GetFakeHttpMessageHandler_
+  commentId: Overload:Hexagrams.Extensions.Testing.Http.HttpTestUtilities.GetFakeHttpMessageHandler
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Testing.Http.HttpTestUtilities.GetFakeHttpMessageHandler
+  nameWithType: HttpTestUtilities.GetFakeHttpMessageHandler
+- uid: Hexagrams.Extensions.Testing.ServiceTestHarness`1
+  name: ServiceTestHarness<TService>
+  href: api/Hexagrams.Extensions.Testing.ServiceTestHarness-1.html
+  commentId: T:Hexagrams.Extensions.Testing.ServiceTestHarness`1
+  name.vb: ServiceTestHarness(Of TService)
+  fullName: Hexagrams.Extensions.Testing.ServiceTestHarness<TService>
+  fullName.vb: Hexagrams.Extensions.Testing.ServiceTestHarness(Of TService)
+  nameWithType: ServiceTestHarness<TService>
+  nameWithType.vb: ServiceTestHarness(Of TService)
+- uid: Hexagrams.Extensions.Testing.ServiceTestHarness`1.Create(System.Func{`0,System.Threading.Tasks.Task})
+  name: Create(Func<TService, Task>)
+  href: api/Hexagrams.Extensions.Testing.ServiceTestHarness-1.html#Hexagrams_Extensions_Testing_ServiceTestHarness_1_Create_System_Func__0_System_Threading_Tasks_Task__
+  commentId: M:Hexagrams.Extensions.Testing.ServiceTestHarness`1.Create(System.Func{`0,System.Threading.Tasks.Task})
+  name.vb: Create(Func(Of TService, Task))
+  fullName: Hexagrams.Extensions.Testing.ServiceTestHarness<TService>.Create(System.Func<TService, System.Threading.Tasks.Task>)
+  fullName.vb: Hexagrams.Extensions.Testing.ServiceTestHarness(Of TService).Create(System.Func(Of TService, System.Threading.Tasks.Task))
+  nameWithType: ServiceTestHarness<TService>.Create(Func<TService, Task>)
+  nameWithType.vb: ServiceTestHarness(Of TService).Create(Func(Of TService, Task))
+- uid: Hexagrams.Extensions.Testing.ServiceTestHarness`1.Create*
+  name: Create
+  href: api/Hexagrams.Extensions.Testing.ServiceTestHarness-1.html#Hexagrams_Extensions_Testing_ServiceTestHarness_1_Create_
+  commentId: Overload:Hexagrams.Extensions.Testing.ServiceTestHarness`1.Create
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Testing.ServiceTestHarness<TService>.Create
+  fullName.vb: Hexagrams.Extensions.Testing.ServiceTestHarness(Of TService).Create
+  nameWithType: ServiceTestHarness<TService>.Create
+  nameWithType.vb: ServiceTestHarness(Of TService).Create
+- uid: Hexagrams.Extensions.Testing.ServiceTestHarness`1.TestAsync
+  name: TestAsync()
+  href: api/Hexagrams.Extensions.Testing.ServiceTestHarness-1.html#Hexagrams_Extensions_Testing_ServiceTestHarness_1_TestAsync
+  commentId: M:Hexagrams.Extensions.Testing.ServiceTestHarness`1.TestAsync
+  fullName: Hexagrams.Extensions.Testing.ServiceTestHarness<TService>.TestAsync()
+  fullName.vb: Hexagrams.Extensions.Testing.ServiceTestHarness(Of TService).TestAsync()
+  nameWithType: ServiceTestHarness<TService>.TestAsync()
+  nameWithType.vb: ServiceTestHarness(Of TService).TestAsync()
+- uid: Hexagrams.Extensions.Testing.ServiceTestHarness`1.TestAsync*
+  name: TestAsync
+  href: api/Hexagrams.Extensions.Testing.ServiceTestHarness-1.html#Hexagrams_Extensions_Testing_ServiceTestHarness_1_TestAsync_
+  commentId: Overload:Hexagrams.Extensions.Testing.ServiceTestHarness`1.TestAsync
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Testing.ServiceTestHarness<TService>.TestAsync
+  fullName.vb: Hexagrams.Extensions.Testing.ServiceTestHarness(Of TService).TestAsync
+  nameWithType: ServiceTestHarness<TService>.TestAsync
+  nameWithType.vb: ServiceTestHarness(Of TService).TestAsync
+- uid: Hexagrams.Extensions.Testing.ServiceTestHarness`1.WithDependency*
+  name: WithDependency
+  href: api/Hexagrams.Extensions.Testing.ServiceTestHarness-1.html#Hexagrams_Extensions_Testing_ServiceTestHarness_1_WithDependency_
+  commentId: Overload:Hexagrams.Extensions.Testing.ServiceTestHarness`1.WithDependency
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Testing.ServiceTestHarness<TService>.WithDependency
+  fullName.vb: Hexagrams.Extensions.Testing.ServiceTestHarness(Of TService).WithDependency
+  nameWithType: ServiceTestHarness<TService>.WithDependency
+  nameWithType.vb: ServiceTestHarness(Of TService).WithDependency
+- uid: Hexagrams.Extensions.Testing.ServiceTestHarness`1.WithDependency``1
+  name: WithDependency<TDependency>()
+  href: api/Hexagrams.Extensions.Testing.ServiceTestHarness-1.html#Hexagrams_Extensions_Testing_ServiceTestHarness_1_WithDependency__1
+  commentId: M:Hexagrams.Extensions.Testing.ServiceTestHarness`1.WithDependency``1
+  name.vb: WithDependency(Of TDependency)()
+  fullName: Hexagrams.Extensions.Testing.ServiceTestHarness<TService>.WithDependency<TDependency>()
+  fullName.vb: Hexagrams.Extensions.Testing.ServiceTestHarness(Of TService).WithDependency(Of TDependency)()
+  nameWithType: ServiceTestHarness<TService>.WithDependency<TDependency>()
+  nameWithType.vb: ServiceTestHarness(Of TService).WithDependency(Of TDependency)()
+- uid: Hexagrams.Extensions.Testing.ServiceTestHarness`1.WithDependency``1(FakeItEasy.Fake{``0})
+  name: WithDependency<TDependency>(Fake<TDependency>)
+  href: api/Hexagrams.Extensions.Testing.ServiceTestHarness-1.html#Hexagrams_Extensions_Testing_ServiceTestHarness_1_WithDependency__1_FakeItEasy_Fake___0__
+  commentId: M:Hexagrams.Extensions.Testing.ServiceTestHarness`1.WithDependency``1(FakeItEasy.Fake{``0})
+  name.vb: WithDependency(Of TDependency)(Fake(Of TDependency))
+  fullName: Hexagrams.Extensions.Testing.ServiceTestHarness<TService>.WithDependency<TDependency>(FakeItEasy.Fake<TDependency>)
+  fullName.vb: Hexagrams.Extensions.Testing.ServiceTestHarness(Of TService).WithDependency(Of TDependency)(FakeItEasy.Fake(Of TDependency))
+  nameWithType: ServiceTestHarness<TService>.WithDependency<TDependency>(Fake<TDependency>)
+  nameWithType.vb: ServiceTestHarness(Of TService).WithDependency(Of TDependency)(Fake(Of TDependency))
+- uid: Hexagrams.Extensions.Testing.ServiceTestHarness`1.WithDependency``1(``0)
+  name: WithDependency<TDependency>(TDependency)
+  href: api/Hexagrams.Extensions.Testing.ServiceTestHarness-1.html#Hexagrams_Extensions_Testing_ServiceTestHarness_1_WithDependency__1___0_
+  commentId: M:Hexagrams.Extensions.Testing.ServiceTestHarness`1.WithDependency``1(``0)
+  name.vb: WithDependency(Of TDependency)(TDependency)
+  fullName: Hexagrams.Extensions.Testing.ServiceTestHarness<TService>.WithDependency<TDependency>(TDependency)
+  fullName.vb: Hexagrams.Extensions.Testing.ServiceTestHarness(Of TService).WithDependency(Of TDependency)(TDependency)
+  nameWithType: ServiceTestHarness<TService>.WithDependency<TDependency>(TDependency)
+  nameWithType.vb: ServiceTestHarness(Of TService).WithDependency(Of TDependency)(TDependency)
+- uid: Hexagrams.Extensions.Testing.ServiceTestHarness`1.WithServices(System.Action{Microsoft.Extensions.DependencyInjection.IServiceCollection})
+  name: WithServices(Action<IServiceCollection>)
+  href: api/Hexagrams.Extensions.Testing.ServiceTestHarness-1.html#Hexagrams_Extensions_Testing_ServiceTestHarness_1_WithServices_System_Action_Microsoft_Extensions_DependencyInjection_IServiceCollection__
+  commentId: M:Hexagrams.Extensions.Testing.ServiceTestHarness`1.WithServices(System.Action{Microsoft.Extensions.DependencyInjection.IServiceCollection})
+  name.vb: WithServices(Action(Of IServiceCollection))
+  fullName: Hexagrams.Extensions.Testing.ServiceTestHarness<TService>.WithServices(System.Action<Microsoft.Extensions.DependencyInjection.IServiceCollection>)
+  fullName.vb: Hexagrams.Extensions.Testing.ServiceTestHarness(Of TService).WithServices(System.Action(Of Microsoft.Extensions.DependencyInjection.IServiceCollection))
+  nameWithType: ServiceTestHarness<TService>.WithServices(Action<IServiceCollection>)
+  nameWithType.vb: ServiceTestHarness(Of TService).WithServices(Action(Of IServiceCollection))
+- uid: Hexagrams.Extensions.Testing.ServiceTestHarness`1.WithServices*
+  name: WithServices
+  href: api/Hexagrams.Extensions.Testing.ServiceTestHarness-1.html#Hexagrams_Extensions_Testing_ServiceTestHarness_1_WithServices_
+  commentId: Overload:Hexagrams.Extensions.Testing.ServiceTestHarness`1.WithServices
+  isSpec: "True"
+  fullName: Hexagrams.Extensions.Testing.ServiceTestHarness<TService>.WithServices
+  fullName.vb: Hexagrams.Extensions.Testing.ServiceTestHarness(Of TService).WithServices
+  nameWithType: ServiceTestHarness<TService>.WithServices
+  nameWithType.vb: ServiceTestHarness(Of TService).WithServices

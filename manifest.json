@@ -1,0 +1,530 @@
+{
+  "source_base_path": "/home/runner/work/dotnet-extensions/dotnet-extensions/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenCachingOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderBuilderExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenProviderServiceCollectionExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Authentication.OAuth.AccessTokenResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Authentication.OAuth.BearerTokenAuthenticationHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Authentication.OAuth.BearerTokenAuthenticationHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsAccessTokenProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsAccessTokenProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsProviderOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Authentication.OAuth.ClientCredentialsProviderOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Authentication.OAuth.DistributedCachingAccessTokenProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Authentication.OAuth.DistributedCachingAccessTokenProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Authentication.OAuth.IAccessTokenProviderBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Authentication.OAuth.InMemoryCachingAccessTokenProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Authentication.OAuth.InMemoryCachingAccessTokenProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordAccessTokenProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordAccessTokenProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Authentication.OAuth.ResourceOwnerPasswordProviderOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Authentication.OAuth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Authentication.OAuth.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskQueueProcessor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.BackgroundTasks.BackgroundTaskServiceCollectionExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.BackgroundTasks.IBackgroundTask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.BackgroundTasks.IBackgroundTask.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.BackgroundTasks.IBackgroundTaskQueue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.BackgroundTasks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.BackgroundTasks.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Common.AsyncEnumerableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Common.AsyncEnumerableExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Common.EnumerableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Common.EnumerableExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Common.Http.DelayingHttpHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Common.Http.DelayingHttpHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Common.Http.HttpClientExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Common.Http.HttpClientExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Common.Http.HttpExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Common.Http.HttpExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Common.Http.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Common.Http.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Common.ObjectExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Common.ObjectExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Common.RandomExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Common.RandomExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Common.Serialization.DateOnlyJsonConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Common.Serialization.DateOnlyJsonConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Common.Serialization.JsonExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Common.Serialization.JsonExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Common.Serialization.TrimmingJsonConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Common.Serialization.TrimmingJsonConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Common.Serialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Common.Serialization.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Common.StringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Common.StringExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Common.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Configuration.ConfigurationBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Configuration.ConfigurationBuilderExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Configuration.ConfigurationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Configuration.ConfigurationException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Configuration.ConfigurationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Configuration.ConfigurationExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Configuration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Testing.Http.HttpTestUtilities.DelegatingHandlerStub.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Testing.Http.HttpTestUtilities.DelegatingHandlerStub.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Testing.Http.HttpTestUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Testing.Http.HttpTestUtilities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Testing.Http.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Testing.Http.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Testing.ServiceTestHarness-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Testing.ServiceTestHarness-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hexagrams.Extensions.Testing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hexagrams.Extensions.Testing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "articles/toc.json"
+        },
+        ".html": {
+          "relative_path": "articles/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
