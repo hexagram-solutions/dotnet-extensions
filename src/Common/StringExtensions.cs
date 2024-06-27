@@ -1,98 +1,159 @@
 using System.Globalization;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace Hexagrams.Extensions.Common;
 
 /// <summary>
-/// Extension methods for working with <see cref="string"/>s.
+/// Extension methods for working with <see cref="string" />s.
 /// </summary>
 public static class StringExtensions
 {
     /// <summary>
-    /// Converts a string to lowerCamelCase.
+    /// Converts a <see cref="string" /> to lowerCamelCase.
     /// </summary>
-    /// <param name="s">The string.</param>
-    /// <returns>The converted string.</returns>
-    public static string ToLowerCamelCase(this string s)
+    /// <param name="value">The <see cref="string" /> to convert.</param>
+    /// <returns>The converted <see cref="string" />.</returns>
+    public static string ToLowerCamelCase(this string value)
     {
-        return s.ToCamelCase();
+        return value.ToCamelCase();
     }
 
     /// <summary>
-    /// Converts a string to UpperCamelCase.
+    /// Converts a <see cref="string" /> to UpperCamelCase.
     /// </summary>
-    /// <param name="s">The string.</param>
-    /// <returns>The converted string.</returns>
-    public static string ToUpperCamelCase(this string s)
+    /// <param name="value">The <see cref="string" /> to convert.</param>
+    /// <returns>The converted <see cref="string" />.</returns>
+    public static string ToUpperCamelCase(this string value)
     {
-        return s.ToCamelCase(true);
+        return value.ToCamelCase(true);
     }
 
-    /// <summary>
-    /// Converts a string to camelCase or UpperCamelCase, stripping any diacritics.
-    /// </summary>
-    /// <param name="s">The string.</param>
-    /// <param name="upperCamelCase">True to convert to UpperCamelCase, otherwise convert to lowerCamelCase.</param>
-    /// <returns>The converted string.</returns>
-    private static string ToCamelCase(this string s, bool upperCamelCase = false)
+    private static string ToCamelCase(this string value, bool upperCamelCase = false)
     {
-        if (string.IsNullOrEmpty(s))
-            return s;
+        if (string.IsNullOrEmpty(value))
+            return value;
 
         // Split letters with diacritics into separate characters so that we can strip them away
-        s = s.Normalize(NormalizationForm.FormD);
+        value = value.Normalize(NormalizationForm.FormD);
 
-        int i = 0, j = 0;
+        var i = 0;
+        var j = 0;
 
         var isStartOfWord = upperCamelCase;
 
-        var result = new char[s.Length];
+        var result = new char[value.Length];
 
         // Skip any whitespace, punctuation, etc. in front of the first word...
-        while (i < s.Length && !char.IsLetterOrDigit(s[i]))
+        while (i < value.Length && !char.IsLetterOrDigit(value[i]))
             i++;
 
-        for (; i < s.Length; i++)
+        for (; i < value.Length; i++)
         {
             // Anything that isn't a letter is the start of a new word...
-            if (!char.IsLetter(s[i]))
+            if (!char.IsLetter(value[i]))
             {
                 // ... except in the edge case of the apostrophe in a contraction
-                if ((s[i] == '\'' || s[i] == '\u2019') && 0 < i && i < s.Length - 1 && char.IsLetter(s[i - 1]) &&
-                    char.IsLetter(s[i + 1]))
+                if ((value[i] == '\'' || value[i] == '\u2019') && 0 < i && i < value.Length - 1 &&
+                    char.IsLetter(value[i - 1]) &&
+                    char.IsLetter(value[i + 1]))
+                {
                     continue;
+                }
 
                 // ... or a diacritic to be applied to another letter
-                if (CharUnicodeInfo.GetUnicodeCategory(s[i]) == UnicodeCategory.NonSpacingMark)
+                if (CharUnicodeInfo.GetUnicodeCategory(value[i]) == UnicodeCategory.NonSpacingMark)
                     continue;
 
                 isStartOfWord = true;
 
                 // We'll keep digits in the string...
-                if (char.IsDigit(s[i]))
-                    result[j++] = s[i];
+                if (char.IsDigit(value[i]))
+                    result[j++] = value[i];
 
                 // But anything else that's both a non-letter and a non-digit gets skipped
                 continue;
             }
 
-            // We treat a translation from a uppercase to lowercase as the start of a new word. This handles the case
+            // We treat a translation from an uppercase to lowercase as the start of a new word. This handles the case
             // of applying ToCamelCase to a string that is already camel-cased.
-            if (i > 0 && char.IsLower(s[i - 1]) && char.IsUpper(s[i]))
+            if (i > 0 && char.IsLower(value[i - 1]) && char.IsUpper(value[i]))
                 isStartOfWord = true;
 
             if (isStartOfWord)
             {
-                result[j++] = char.ToUpperInvariant(s[i]);
+                // start a new word
+                result[j++] = char.ToUpperInvariant(value[i]);
                 isStartOfWord = false;
             }
             else
             {
-                result[j++] = char.ToLowerInvariant(s[i]);
+                // continue appending
+                result[j++] = char.ToLowerInvariant(value[i]);
             }
         }
 
         return new string(result, 0, j);
+    }
+
+    /// <summary>
+    /// Converts a <see cref="string" /> to kebab-case.
+    /// </summary>
+    /// <param name="value">The <see cref="string" /> to convert.</param>
+    /// <returns>The converted <see cref="string" />.</returns>
+    public static string ToKebabCase(this string value)
+    {
+        if (string.IsNullOrEmpty(value))
+            return value;
+
+        // ToCamelCase normalizes strings for us, making them easier to split up
+        var normalized = value.ToCamelCase();
+
+        // Insert hyphens before uppercase letters, digits, and after digits
+        var result = Regex.Replace(normalized, "(?<=[a-zA-Z])(?=[A-Z0-9])|(?<=[0-9])(?=[a-zA-Z])", "-");
+
+        return result.ToLowerInvariant();
+    }
+
+    /// <summary>
+    /// Converts a string to UPPER_SNAKE_CASE.
+    /// </summary>
+    /// <param name="value">The <see cref="string" /> to convert.</param>
+    /// <returns>The converted <see cref="string" />.</returns>
+    public static string ToUpperSnakeCase(this string value)
+    {
+        if (string.IsNullOrEmpty(value))
+            return value;
+
+        var result = ToSnakeCase(value);
+
+        return result.ToUpperInvariant();
+    }
+
+    /// <summary>
+    /// Converts a string to lower_snake_case.
+    /// </summary>
+    /// <param name="value">The <see cref="string" /> to convert.</param>
+    /// <returns>The converted <see cref="string" />.</returns>
+    public static string ToLowerSnakeCase(this string value)
+    {
+        if (string.IsNullOrEmpty(value))
+            return value;
+
+        var result = ToSnakeCase(value);
+
+        return result.ToLowerInvariant();
+    }
+
+    private static string ToSnakeCase(string value)
+    {
+        // ToCamelCase normalizes strings for us, making them easier to split up
+        var normalized = value.ToCamelCase();
+
+        // Insert underscores before uppercase letters, digits, and after digits
+        var result = Regex.Replace(normalized, "(?<=[a-zA-Z])(?=[A-Z0-9])|(?<=[0-9])(?=[a-zA-Z])", "_");
+
+        return result;
     }
 
     /// <summary>
